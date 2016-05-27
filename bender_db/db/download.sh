@@ -1,3 +1,4 @@
+#!/bin/sh
 ##ALL
 #https://mega.nz/#F!6gFRCbTJ!hOOIHldRbA0LzjhZoCQrww
 
