@@ -2,40 +2,38 @@
 ##ALL
 #https://mega.nz/#F!6gFRCbTJ!hOOIHldRbA0LzjhZoCQrww
 
-#!/bin/bash
-
 # Download bender_db Emotion
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!Tx0zFKIQ!AB-fAXmORZKt2pyXQIe72Y04VdGwCGn1FM38i0DnCms'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!Tx0zFKIQ!AB-fAXmORZKt2pyXQIe72Y04VdGwCGn1FM38i0DnCms'
 
 # Download bender_db Face
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!PwU00D7A!vz-tV60YdWJeJu3hzwH75y6TF2b0WKSuZbcfOam5wXI'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!PwU00D7A!vz-tV60YdWJeJu3hzwH75y6TF2b0WKSuZbcfOam5wXI'
 
 # Download bender_db Fun
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!7lkQQKKR!FfSKOCLo0jiFutwg4H5-oOnepmWszlbLDJAQWcmua3o'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!7lkQQKKR!FfSKOCLo0jiFutwg4H5-oOnepmWszlbLDJAQWcmua3o'
 
 # Download bender_db Gender
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!70NSSYIb!03EYoqqeu7whTVrU_J2l1ZY31XiiVd5WvYuVCJTxvUk'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!70NSSYIb!03EYoqqeu7whTVrU_J2l1ZY31XiiVd5WvYuVCJTxvUk'
 
 # Download bender_db Hand Gesture
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!K8tEDRjZ!eONgpZz0XWghyNeB-HfGseU71ZMlYvqLFVFDoPx2fdQ'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!K8tEDRjZ!eONgpZz0XWghyNeB-HfGseU71ZMlYvqLFVFDoPx2fdQ'
 
 # Download bender_db Maps
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!uo1T1D5R!PdV1SgMHMnEHRqzjOaHnFaz8UrDYpcPVPIrZCsk5RoE'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!uo1T1D5R!PdV1SgMHMnEHRqzjOaHnFaz8UrDYpcPVPIrZCsk5RoE'
 
 # Download bender_db SIFT Search
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!O09zFCLL!2AHjxXGVx6G6R2MorhIh-83Ww6FJNOd-cN3vBu4XIcE'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!O09zFCLL!2AHjxXGVx6G6R2MorhIh-83Ww6FJNOd-cN3vBu4XIcE'
 
 # Download bender_db SIFT
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!i5sARZQI!pf3fCLv_ajP7NsLUdJS1_GboxFPI2TmenVB_Ovlz18E'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!i5sARZQI!pf3fCLv_ajP7NsLUdJS1_GboxFPI2TmenVB_Ovlz18E'
 
 # Download bender_db State
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!O80iVRBY!FJ8e47vlg09d2JSHNYL2rC8bYdKN_MfJD25bUF_wP9M'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!O80iVRBY!FJ8e47vlg09d2JSHNYL2rC8bYdKN_MfJD25bUF_wP9M'
 
 # Download bender_db VFH
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!nsNXUaIB!xzUfxutRe6J_WGObw8Yd5IDZ8bee3CBIlK6W9TPLMzU'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!nsNXUaIB!xzUfxutRe6J_WGObw8Yd5IDZ8bee3CBIlK6W9TPLMzU'
 
 # Download bender_db Speech files
-$BENDER_SYSTEM/bash/megadown/megadown 'https://mega.nz/#!vltxCDoB!ZncFt39E9QMfCNW8-we7O7veBjlmKaAezcqrhbdYUDM'
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!vltxCDoB!ZncFt39E9QMfCNW8-we7O7veBjlmKaAezcqrhbdYUDM'
 
 # Extract files
 #unzip bender_description.zip -d $BENDER_WS/base_ws/src/bender_common/
