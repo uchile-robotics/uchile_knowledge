@@ -32,8 +32,5 @@
 # Download bender_db VFH
 "$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!nsNXUaIB!xzUfxutRe6J_WGObw8Yd5IDZ8bee3CBIlK6W9TPLMzU'
 
-# Download bender_db Speech files
-"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!vltxCDoB!ZncFt39E9QMfCNW8-we7O7veBjlmKaAezcqrhbdYUDM'
-
 # Extract files
 #unzip bender_description.zip -d $BENDER_WS/base_ws/src/bender_common/
