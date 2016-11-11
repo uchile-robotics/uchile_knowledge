@@ -34,15 +34,7 @@ B.- Archivo map.yaml
 Ésta carpeta contiene los mapas usados para navegación.
 
 - Es necesario que en la raiz (ésta carpeta) se encuentren los archivos usados
-actalmente para la navegación:
+actalmente:
   - map.yaml
   - map.pgm
   - map.sem_map
-
-
-- Los archivos para cada escenario deben ser almacenados en una carpeta con el formato: 
-    - ./lugar_día-mes-año
-
-- IMPORTANTE: Para disminuir la carga sobre el sistema de control de versiones, procurar almacenar en ésta carpeta sólo mapas relevantes en la actualidad. Los mapas antiguos deberán ser almacenados en el directorio: 
-
-   ./OldMaps
