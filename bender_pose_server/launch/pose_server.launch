@@ -1,6 +1,6 @@
 <launch>
 
-	<arg name="load_default_map" default="true"/>
+	<arg name="load_default_map" default="false"/>
 
 	<!-- Pose Server -->
 	<node pkg="bender_pose_server" type="pose_server" name="pose_server" respawn="true" ns="/bender/knowledge/" output="screen">
