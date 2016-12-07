@@ -156,38 +156,38 @@ void make_object_marker_control( visualization_msgs::InteractiveMarker &msg )
 	msg.controls.push_back( object_control );
 
 	visualization_msgs::InteractiveMarkerControl control;
-    control.orientation.w = 1;
-    control.orientation.x = 1;
-    control.orientation.y = 0;
-    control.orientation.z = 0;
-    control.name = "rotate_x";
-    control.interaction_mode = visualization_msgs::InteractiveMarkerControl::ROTATE_AXIS;
-    msg.controls.push_back(control);
-    control.name = "move_x";
-    control.interaction_mode = visualization_msgs::InteractiveMarkerControl::MOVE_AXIS;
-    msg.controls.push_back(control);
-
-    control.orientation.w = 1;
-    control.orientation.x = 0;
-    control.orientation.y = 1;
-    control.orientation.z = 0;
-    control.name = "rotate_z";
-    control.interaction_mode = visualization_msgs::InteractiveMarkerControl::ROTATE_AXIS;
-    msg.controls.push_back(control);
-    control.name = "move_z";
-    control.interaction_mode = visualization_msgs::InteractiveMarkerControl::MOVE_AXIS;
+	control.orientation.w = 1;
+	control.orientation.x = 1;
+	control.orientation.y = 0;
+	control.orientation.z = 0;
+	control.name = "rotate_x";
+	control.interaction_mode = visualization_msgs::InteractiveMarkerControl::ROTATE_AXIS;
+	msg.controls.push_back(control);
+	control.name = "move_x";
+	control.interaction_mode = visualization_msgs::InteractiveMarkerControl::MOVE_AXIS;
 	msg.controls.push_back(control);
 
-    control.orientation.w = 1;
-    control.orientation.x = 0;
-    control.orientation.y = 0;
-    control.orientation.z = 1;
-    control.name = "rotate_y";
-    control.interaction_mode = visualization_msgs::InteractiveMarkerControl::ROTATE_AXIS;
-    msg.controls.push_back(control);
-    control.name = "move_y";
-    control.interaction_mode = visualization_msgs::InteractiveMarkerControl::MOVE_AXIS;
-    msg.controls.push_back(control);
+	control.orientation.w = 1;
+	control.orientation.x = 0;
+	control.orientation.y = 1;
+	control.orientation.z = 0;
+	control.name = "rotate_z";
+	control.interaction_mode = visualization_msgs::InteractiveMarkerControl::ROTATE_AXIS;
+	msg.controls.push_back(control);
+	control.name = "move_z";
+	control.interaction_mode = visualization_msgs::InteractiveMarkerControl::MOVE_AXIS;
+	msg.controls.push_back(control);
+
+	control.orientation.w = 1;
+	control.orientation.x = 0;
+	control.orientation.y = 0;
+	control.orientation.z = 1;
+	control.name = "rotate_y";
+	control.interaction_mode = visualization_msgs::InteractiveMarkerControl::ROTATE_AXIS;
+	msg.controls.push_back(control);
+	control.name = "move_y";
+	control.interaction_mode = visualization_msgs::InteractiveMarkerControl::MOVE_AXIS;
+	msg.controls.push_back(control);
 
 }
 
@@ -219,8 +219,6 @@ class PoseServerMarkerHandler {
 
 private:
 
-	std::string _current_map_name;
-
 	// map clients
 	ros::ServiceClient _which_map_client;
 	ros::ServiceClient _set_client;
@@ -250,10 +248,6 @@ public:
 		while ( ros::ok() && !_get_all_client.waitForExistence(ros::Duration(3.0)) );
 		while ( ros::ok() && !_get_client.waitForExistence(ros::Duration(3.0)) );
 		while ( ros::ok() && !_save_client.waitForExistence(ros::Duration(3.0)) );
-
-		if (ros::ok()) {
-			_current_map_name = getMapName();
-		}
 
 		return ros::ok() ? true : false;
 	};
@@ -299,13 +293,14 @@ public:
 		}
 
 		bender_srvs::String str_srv;
-		str_srv.request.data = _current_map_name;
+		std::string map_name = getMapName();
+		str_srv.request.data = map_name;
 		if (!_save_client.call(str_srv)) {
 
-			ROS_ERROR_STREAM("Failed to save map '" << _current_map_name << "'");
+			ROS_ERROR_STREAM("Failed to save map '" << map_name << "'");
 			return true;
 		}
-		ROS_INFO_STREAM("Map file saved: " << _current_map_name);
+		ROS_INFO_STREAM("Map file saved: " << map_name);
 
 		return true;
 	};
@@ -442,11 +437,13 @@ private:
 
 	// marker names publisher
 	ros::Publisher _marker_names_pub;
+	ros::Time _last_update;
 
 public:
 
 	PoseServerMarkerPlugin();
 	virtual ~PoseServerMarkerPlugin();
+	void spin();
 
 private:
 
@@ -479,11 +476,21 @@ PoseServerMarkerPlugin::PoseServerMarkerPlugin() {
 	// -- new marker subscription --
 	_new_marker_sub = priv.subscribe("set",10, &PoseServerMarkerPlugin::newMarker_callback, this);
 
+	_last_update = ros::Time::now();
+
 	ROS_INFO("Ready to Work");
 }
 
 PoseServerMarkerPlugin::~PoseServerMarkerPlugin() {
 	_server.reset();
+}
+
+void PoseServerMarkerPlugin::spin() {
+	ros::Time now = ros::Time::now();
+	if (now - _last_update > ros::Duration(5, 0)) {
+		loadMarkers();
+		_last_update = now;
+	}
 }
 
 void PoseServerMarkerPlugin::loadMarkers() {
@@ -601,8 +608,12 @@ int main(int argc, char **argv)
 		new bender_nav::PoseServerMarkerPlugin()
 	);
 
-	ros::spin();
-
+	ros::Rate loop_rate(10);
+	while (ros::ok()) {
+		node->spin();
+		ros::spinOnce();
+		loop_rate.sleep();
+	}
 	printf("\nQuitting... \n\n");
 
 	return 0;
