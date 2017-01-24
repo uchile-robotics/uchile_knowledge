@@ -33,13 +33,13 @@
 ###Deep Codes 
 
 # Download bender_db face_detector
-"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!Sh82VaLY!92B99P8G4KKr9Rz6sb4zmj4YLGNWflqs5Ni_Z8IYb48'
+"$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!Sh82VaLY!92B99P8G4KKr9Rz6sb4zmj4YLGNWflqs5Ni_Z8IYb48'
 
 # Download bender_db face_person_caracteristic
-"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!Ph1z1YJR!uYCjgY8wpMT1WsE6qxVXuPV84tpBhT_wH-abppQLQl8'
+"$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!Ph1z1YJR!uYCjgY8wpMT1WsE6qxVXuPV84tpBhT_wH-abppQLQl8'
 
 # Download bender_db face_recognition
-"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!7l130Q6Q!4zOzDcrODzLX07TmSp4EgjKb0rTFLRps9N9L-FwOfZU'
+"$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!7l130Q6Q!4zOzDcrODzLX07TmSp4EgjKb0rTFLRps9N9L-FwOfZU'
 
 
 # Extract files
