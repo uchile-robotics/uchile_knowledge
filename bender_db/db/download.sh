@@ -11,9 +11,6 @@
 # Download bender_db Fun
 "$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!7lkQQKKR!FfSKOCLo0jiFutwg4H5-oOnepmWszlbLDJAQWcmua3o'
 
-# Download bender_db Gender
-"$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!70NSSYIb!03EYoqqeu7whTVrU_J2l1ZY31XiiVd5WvYuVCJTxvUk'
-
 # Download bender_db Hand Gesture
 "$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!K8tEDRjZ!eONgpZz0XWghyNeB-HfGseU71ZMlYvqLFVFDoPx2fdQ'
 
@@ -31,6 +28,19 @@
 
 # Download bender_db VFH
 "$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!nsNXUaIB!xzUfxutRe6J_WGObw8Yd5IDZ8bee3CBIlK6W9TPLMzU'
+
+
+###Deep Codes 
+
+# Download bender_db face_detector
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!Sh82VaLY!92B99P8G4KKr9Rz6sb4zmj4YLGNWflqs5Ni_Z8IYb48'
+
+# Download bender_db face_person_caracteristic
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!Ph1z1YJR!uYCjgY8wpMT1WsE6qxVXuPV84tpBhT_wH-abppQLQl8'
+
+# Download bender_db face_recognition
+"$BENDER_SYSTEM"/bash/megadown/megadown 'https://mega.nz/#!7l130Q6Q!4zOzDcrODzLX07TmSp4EgjKb0rTFLRps9N9L-FwOfZU'
+
 
 # Extract files
 #unzip bender_description.zip -d $BENDER_WS/base_ws/src/bender_common/
