@@ -2,19 +2,19 @@ cmake_minimum_required(VERSION 2.8.3)
 project(bender_maps)
 
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  roslib
-  rospy
-  std_msgs
-  std_srvs
   bender_msgs
   bender_srvs
   bender_utils
   geometry_msgs
-  sensor_msgs
-  tf
-  pcl_ros
   pcl_conversions
+  pcl_ros
+  roscpp
+  roslib
+  rospy
+  sensor_msgs
+  std_msgs
+  std_srvs
+  tf
 )
 
 find_package(PCL 1.7 REQUIRED COMPONENTS common)
@@ -28,7 +28,20 @@ catkin_python_setup()
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES bender_nav
-  CATKIN_DEPENDS roscpp roslib rospy std_msgs std_srvs bender_msgs bender_srvs bender_utils geometry_msgs sensor_msgs tf pcl_ros
+  CATKIN_DEPENDS 
+    bender_msgs
+    bender_srvs
+    bender_utils
+    geometry_msgs
+    pcl_ros
+    roscpp
+    roslib
+    rospy
+    sensor_msgs
+    std_msgs
+    std_srvs
+    tf
+
   DEPENDS pcl
 )
 
@@ -39,7 +52,6 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
-  ${bender_utils_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
 )
 

@@ -4,14 +4,14 @@ project(bender_pose_server)
 find_package(catkin REQUIRED COMPONENTS
   bender_msgs
   bender_srvs
+  bender_utils
   geometry_msgs
+  interactive_markers
   roscpp
   roslib
   rospy
   std_msgs
   std_srvs
-  bender_utils
-  interactive_markers
 )
 
 
@@ -20,7 +20,7 @@ find_package(PkgConfig)
 pkg_search_module(yaml-cpp REQUIRED yaml-cpp)
 
 if(NOT ${yaml-cpp_VERSION} VERSION_LESS "0.5")
-add_definitions(-DHAVE_NEW_YAMLCPP)
+  add_definitions(-DHAVE_NEW_YAMLCPP)
 endif()
 
 ###################################
@@ -30,7 +30,18 @@ endif()
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES bender_pose_server
-  CATKIN_DEPENDS bender_msgs bender_srvs geometry_msgs roscpp roslib rospy std_msgs std_srvs bender_utils interactive_markers
+  CATKIN_DEPENDS
+    bender_msgs
+    bender_srvs
+    bender_utils
+    geometry_msgs
+    interactive_markers
+    roscpp
+    roslib
+    rospy
+    std_msgs
+    std_srvs
+
   DEPENDS yaml-cpp
 )
 
@@ -41,7 +52,6 @@ catkin_package(
 include_directories(include
   ${catkin_INCLUDE_DIRS}
   ${yaml-cpp_INCLUDE_DIRS}
-  ${bender_utils_INCLUDE_DIRS}
 )
 
 # Pose Server
