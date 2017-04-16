@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# But not basic audio files and gitignore
+!.gitignore
+!robot_blip.wav
+!tone.wav
