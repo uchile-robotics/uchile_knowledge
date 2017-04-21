@@ -1,5 +1,6 @@
 <aiml version="1.0.1" encoding="UTF-8">
 
+    <!-- QUESTION - ANSWER -->
 	<!-- GREETING -->
     <category>
         <pattern>MY NAME IS *</pattern>
@@ -75,17 +76,6 @@
         <template><srai>ROBOCUP</srai></template>
     </category>
 
-    <!-- WHAT TIME IS IT -->
-
-    <category>
-        <pattern>WHAT TIME</pattern>
-        <template>time</template>
-    </category>
-
-    <category>
-        <pattern>* IS IT</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
 
     <!-- HOW MANY RINGS HAS THE OLYMPIC FLAG -->
 
@@ -873,6 +863,92 @@
         <pattern>* TEAMS *</pattern>
         <template><srai>TEAM</srai></template>
     </category>
+
+    <!-- QUESTION - KEYWORD -->
+
+
+    <!-- WHAT TIME/DAY WEEK/DAY MONTH IS IT -->
+    <category>
+        <pattern>WHAT TIME *</pattern>
+        <template>The time is <bot name="date_hour"/> with <bot name="date_minute"/> minutes</template>
+    </category>
+
+    <category>
+        <pattern>WHAT DAY OF THE WEEK *</pattern>
+        <template>Today is <bot name="date_today_dayWeek"/> </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DAY OF THE MONTH *</pattern>
+        <template>Today is <bot name="date_today_dayMonth"/>  </template>
+    </category>
+
+    <category>
+        <pattern>* IS IT</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+
+    <!-- WHAT DAY IS TODAY/TOMORROW -->
+    <category>
+        <pattern>WHAT DAY IS *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>TODAY</pattern>
+        <template>Today is <bot name="date_today_day"/> </template>
+    </category>
+
+    <category>
+        <pattern>TOMORROW</pattern>
+        <template>Tomorrow is <bot name="date_tomorrow_day"/> </template>
+    </category>
+
+
+    <!-- WHAT IS THE SIZE OF THE CROWD -->
+
+    <category>
+        <pattern>WHAT IS THE SIZE OF THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_size"/> people</template>
+    </category>
+
+
+    <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+
+   <!-- WHAT IS THE NUMBER OF MALE  PEOPLE -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF MALE PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men</template>
+    </category>
+
+   <!-- WHAT IS THE NUMBER OF WOMEN PEOPLE -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_woman"/> woman</template>
+    </category>
+
+    <!-- WHAT IS THE NUMBER OF CHILDREN IN THE CROWD -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF CHILDREN IN THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_children"/> children</template>
+    </category>
+
+    <!-- WHAT IS THE NUMBER OF ADULTS IN THE CROWD -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF ADULTS IN THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_adults"/> adults</template>
+    </category>
+
 
     <!-- CONECTORES COMUNES -->
 
