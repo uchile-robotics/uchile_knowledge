@@ -954,8 +954,28 @@
     <!-- PREGUNTAS SOBRE OBJETOS-->
 
     <category>
-        <pattern>WHERE CAN I FIND THE <set>object</set> </pattern>
-        <template>The  <star /> is in the <map name="object2place"><star /></map> </template>
+        <pattern>WHAT IS THE * FOOD </pattern>
+        <template>object <star /> food </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE * DRINK </pattern>
+        <template>object <star /> drink </template>
+    </category>
+
+    <category>
+        <pattern>WHERE CAN I FIND THE * </pattern>
+        <template>object where <star /> </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE COLOR OF THE * </pattern>
+        <template>object color <star /> </template>
+    </category>
+
+    <category>
+        <pattern>WHAT OBJECTS ARE IN THE * </pattern>
+        <template>object in <star /> </template>
     </category>
 
 
