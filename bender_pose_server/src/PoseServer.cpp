@@ -63,8 +63,11 @@ PoseServer::~PoseServer(){
 
 bool PoseServer::which(bender_srvs::String::Request  &req, bender_srvs::String::Response &res) {
 
-	res.data = this->_last_loaded_map;
-
+	if (_last_loaded_map == "") {
+		// avoid attempts to load or save "[EMPTY] map names."
+		this->_last_loaded_map = "default.sem_map";
+	}
+	res.data = this->_last_loaded_map;	
 	return true;
 }
 

@@ -19,16 +19,24 @@ MapAnalyzer::MapAnalyzer(std::string) {
 	// - - - - parameters - - - -
 	bender_utils::ParameterServerWrapper psw;
 	psw.getParameter("tf_map_frame", _map_frame, "/map");
-	psw.getParameter("map_polygon", _map_polygon, _map_polygon);
-	psw.getParameter("map_bounding_box", _map_bounding_box, _map_bounding_box);
+	if (!psw.getParameter("map_polygon", _map_polygon, _map_polygon)) {
+		ROS_ERROR_STREAM("map_polygon parameter is not defined. Please," 
+			<< " make sure it defined on the current map.yaml file. Bye!.");
+		exit(0); // exit cleanly
+	}
+	if(!psw.getParameter("map_bounding_box", _map_bounding_box, _map_bounding_box)) {
+		ROS_ERROR_STREAM("map_bounding_box parameter is not defined. Please," 
+			<< " make sure it defined on the current map.yaml file. Bye!.");
+		exit(0); // exit cleanly
+	}
 
 	if (_map_bounding_box.points.size() != 4 ) {
 		ROS_ERROR_STREAM("Bounding box must have 4 points!... Bye!");
-		exit(1);
+		exit(1); // exit with error, as the parameter is defined but is wrong
 	}
 	if (_map_polygon.points.size() < 4 ) {
 		ROS_WARN_STREAM("Map polygon must have at least 4 points!... Bye!");
-		exit(1);
+		exit(1); // exit with error, as the parameter is defined but is wrong
 	}
 
 	// rooms
