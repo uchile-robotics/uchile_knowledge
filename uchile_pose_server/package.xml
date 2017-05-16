@@ -60,7 +60,7 @@
     <depend>std_msgs</depend>
     <depend>std_srvs</depend>
     <depend>yaml-cpp</depend>
-    <depend>bender_utils</depend>
+    <depend>uchile_util</depend>
     <depend>interactive_markers</depend>
     
     <!-- build dependencies -->

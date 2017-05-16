@@ -4,7 +4,7 @@ project(uchile_db)
 find_package(catkin REQUIRED COMPONENTS
   uchile_msgs
   uchile_srvs
-  bender_utils
+  uchile_util
   geometry_msgs
   roscpp
   roslib
@@ -23,7 +23,7 @@ catkin_package(
   CATKIN_DEPENDS
     uchile_msgs
     uchile_srvs
-    bender_utils
+    uchile_util
     geometry_msgs
     roscpp
     roslib

@@ -4,7 +4,7 @@ project(uchile_maps)
 find_package(catkin REQUIRED COMPONENTS
   uchile_msgs
   uchile_srvs
-  bender_utils
+  uchile_util
   geometry_msgs
   pcl_conversions
   pcl_ros
@@ -31,7 +31,7 @@ catkin_package(
   CATKIN_DEPENDS 
     uchile_msgs
     uchile_srvs
-    bender_utils
+    uchile_util
     geometry_msgs
     pcl_ros
     roscpp

@@ -36,7 +36,7 @@ PoseServer::PoseServer(std::string name): _name(name){
 
 	// load default map if necessary
 	bool load_map;
-	bender_utils::ParameterServerWrapper psw;
+	uchile_util::ParameterServerWrapper psw;
 	psw.getParameter("load_default_map",load_map, true);
 	if (load_map) {
 		uchile_srvs::String str_srv;

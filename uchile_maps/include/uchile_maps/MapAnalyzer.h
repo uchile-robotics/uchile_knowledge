@@ -18,7 +18,7 @@
 #include <ros/ros.h>
 #include <ros/package.h>
 #include <tf/transform_listener.h>
-#include <bender_utils/ParameterServerWrapper.h>
+#include <uchile_util/ParameterServerWrapper.h>
 
 // ROS messages and services
 #include <std_msgs/String.h>

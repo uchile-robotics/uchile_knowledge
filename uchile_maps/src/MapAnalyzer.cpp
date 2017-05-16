@@ -17,7 +17,7 @@ MapAnalyzer::MapAnalyzer(std::string) {
 	ros::NodeHandle priv("~");
 
 	// - - - - parameters - - - -
-	bender_utils::ParameterServerWrapper psw;
+	uchile_util::ParameterServerWrapper psw;
 	psw.getParameter("tf_map_frame", _map_frame, "/map");
 	if (!psw.getParameter("map_polygon", _map_polygon, _map_polygon)) {
 		ROS_ERROR_STREAM("map_polygon parameter is not defined. Please," 

@@ -10,7 +10,7 @@ import sys
 from bender_arm_planning.srv import ManageOctomap, ManageOctomapRequest
 from bender_arm_planning.msg import OctomapOptions
 
-from bender_utils.ros import benpy
+from uchile_util.ros import benpy
 
 class OctomapManager():
     """Manejo de octomap"""
