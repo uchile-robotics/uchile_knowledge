@@ -40,7 +40,7 @@
 #include <pcl/point_cloud.h>
 #include <pcl/PCLPointCloud2.h>
 
-namespace bender_knowledge {
+namespace uchile_knowledge {
 
 typedef pcl::PointCloud<pcl::PointXYZ> PointCloud;
 
@@ -98,6 +98,6 @@ private:
 
 const float MapAnalyzer::invalid_pcl_point = std::numeric_limits<float>::quiet_NaN();
 
-} /* namespace bender_knowledge */
+} /* namespace uchile_knowledge */
 
 #endif /* SEMANTICMAPSERVER_H_ */

@@ -49,7 +49,7 @@ void operator >> (const YAML::Node& node, T& i) {
 typedef std::map<std::string, uchile_msgs::SemanticObject> SemanticMap;
 typedef std::vector<uchile_msgs::SemanticObject> SemanticObjectArray;
 
-namespace bender_knowledge {
+namespace uchile_knowledge {
 
 class PoseServer {
 
@@ -131,6 +131,6 @@ public:
 
 };
 
-} /* namespace bender_knowledge */
+} /* namespace uchile_knowledge */
 
 #endif /* POSESERVER_H_ */

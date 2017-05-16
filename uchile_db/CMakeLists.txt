@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(bender_db)
+project(uchile_db)
 
 find_package(catkin REQUIRED COMPONENTS
   uchile_msgs

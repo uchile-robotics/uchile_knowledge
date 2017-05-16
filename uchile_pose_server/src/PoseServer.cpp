@@ -26,7 +26,7 @@ void operator >> (const YAML::Node& node, uchile_msgs::SemanticObject& data) {
 	node["orientation"] >> data.pose.orientation;
 }
 
-namespace bender_knowledge {
+namespace uchile_knowledge {
 
 PoseServer::PoseServer(std::string name): _name(name){
 
@@ -262,15 +262,15 @@ bool PoseServer::load(uchile_srvs::String::Request &req, uchile_srvs::String::Re
 	return true;
 }
 
-} /* namespace bender_knowledge */
+} /* namespace uchile_knowledge */
 
 
 int main(int argc, char **argv) {
 
 	ros::init(argc, argv, "pose_server");
 
-	boost::scoped_ptr<bender_knowledge::PoseServer> node(
-			new bender_knowledge::PoseServer(ros::this_node::getName())
+	boost::scoped_ptr<uchile_knowledge::PoseServer> node(
+			new uchile_knowledge::PoseServer(ros::this_node::getName())
 	);
 
 	ros::spin();

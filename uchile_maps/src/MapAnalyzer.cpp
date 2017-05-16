@@ -7,7 +7,7 @@
 
 #include "uchile_maps/MapAnalyzer.h"
 
-namespace bender_knowledge {
+namespace uchile_knowledge {
 
 // TODO: compute bounding boxes from map image, this way the node configuration is easier.
 // TODO: checkPointCloud2Service() with XYZ& vs. XYZPtr&. choose the best one!.
@@ -317,14 +317,14 @@ bool MapAnalyzer::checkPoint(float x, float y) {
 	return checkInsidePolygon(x, y, _map_polygon);
 }
 
-} /* namespace bender_knowledge */
+} /* namespace uchile_knowledge */
 
 
 int main(int argc, char **argv) {
 
 	ros::init(argc, argv, "map_analyzer");
 
-	bender_knowledge::MapAnalyzer node(ros::this_node::getName());
+	uchile_knowledge::MapAnalyzer node(ros::this_node::getName());
 
 	ros::spin();
 

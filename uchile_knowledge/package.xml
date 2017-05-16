@@ -4,7 +4,7 @@
     <!-- PACKAGE INFORMATION -->
     <!-- - - - - - - - - - - -->
 
-    <name>bender_knowledge</name>
+    <name>uchile_knowledge</name>
     <version>2.0.0</version>
 
     <description>Pakacges for database and runtime information management</description>
