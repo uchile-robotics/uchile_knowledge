@@ -1,4 +1,4 @@
-#include "bender_pose_server/PoseServer.h"
+#include "uchile_pose_server/PoseServer.h"
 
 // TODO: maps folder as parameter 
 

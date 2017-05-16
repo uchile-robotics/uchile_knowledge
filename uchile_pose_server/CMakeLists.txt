@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(bender_pose_server)
+project(uchile_pose_server)
 
 find_package(catkin REQUIRED COMPONENTS
   uchile_msgs
@@ -29,7 +29,7 @@ endif()
 
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES bender_pose_server
+  LIBRARIES uchile_pose_server
   CATKIN_DEPENDS
     uchile_msgs
     uchile_srvs
