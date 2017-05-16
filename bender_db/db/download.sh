@@ -43,4 +43,4 @@
 
 
 # Extract files
-#unzip bender_description.zip -d $BENDER_WS/base_ws/src/bender_common/
+#unzip bender_description.zip -d $BENDER_WS/base_ws/src/uchile_common/
