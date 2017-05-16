@@ -10,5 +10,5 @@
 # Download bender_description
 "$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!a0930ZYB!sciM89vyDLtrpDpC5_CB-6BCXA6OE1p2Bzq8R6rWeRU'
 
-# Download bender_fun
+# Download uchile_fun
 "$BENDER_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!K1F3jRgY!S20epp5617NV7BkEaSaRCblGgZ9MoT2M9n1f_pP6Gck'
