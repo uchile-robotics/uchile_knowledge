@@ -152,7 +152,7 @@ bool PoseServer::save(uchile_srvs::String::Request &req, uchile_srvs::String::Re
 	std::string map_path;
 
 	// yaml file
-	map_path += ros::package::getPath("bender_maps");
+	map_path += ros::package::getPath("uchile_maps");
 	map_path += "/maps/" + req.data;
 	std::ofstream file(map_path.c_str(), std::ios::trunc);
 
@@ -206,7 +206,7 @@ bool PoseServer::load(uchile_srvs::String::Request &req, uchile_srvs::String::Re
 	std::string map_path;
 
 	// load yaml file
-	map_path += ros::package::getPath("bender_maps");
+	map_path += ros::package::getPath("uchile_maps");
 	map_path += "/maps/" + req.data;
 	std::ifstream file(map_path.data());
 

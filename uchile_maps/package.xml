@@ -17,10 +17,10 @@
     <!-- PACKAGE INFORMATION -->
     <!-- - - - - - - - - - - -->
 
-    <name>bender_maps</name>
+    <name>uchile_maps</name>
     <version>2.0.0</version>
     
-    <description>The bender_maps package</description>
+    <description>The uchile_maps package</description>
 
     <!-- team -->
     <maintainer email="bender.devel@gmail.com">

@@ -5,7 +5,7 @@
  *      Author: matias.pavez.b@gmail.com
  */
 
-#include "bender_maps/MapAnalyzer.h"
+#include "uchile_maps/MapAnalyzer.h"
 
 namespace bender_knowledge {
 
