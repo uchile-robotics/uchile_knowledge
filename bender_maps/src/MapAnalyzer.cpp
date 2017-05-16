@@ -89,7 +89,7 @@ void MapAnalyzer::testCloudCallback(const sensor_msgs::PointCloud2& cloud) {
 
 	if (_cloud_testing_pub.getNumSubscribers() > 0) {
 
-		bender_srvs::PointCloud2Trasnform srv;
+		uchile_srvs::PointCloud2Trasnform srv;
 		srv.request.cloud_in = cloud;
 		srv.request.frame_out = cloud.header.frame_id;
 
@@ -100,7 +100,7 @@ void MapAnalyzer::testCloudCallback(const sensor_msgs::PointCloud2& cloud) {
 	}
 }
 
-bool MapAnalyzer::checkPointCloud2Service(bender_srvs::PointCloud2Trasnform::Request &req, bender_srvs::PointCloud2Trasnform::Response& res) {
+bool MapAnalyzer::checkPointCloud2Service(uchile_srvs::PointCloud2Trasnform::Request &req, uchile_srvs::PointCloud2Trasnform::Response& res) {
 
 	// desired == ("" or "/map") --> don't apply transform
 	bool should_apply_final_tf = (req.frame_out != _map_frame && req.frame_out != "");
@@ -246,7 +246,7 @@ void MapAnalyzer::publishPolygons() {
 	_rviz_pub.publish(rviz);
 }
 
-bool MapAnalyzer::checkPointService(bender_srvs::ValidPoint::Request &req, bender_srvs::ValidPoint::Response& res) {
+bool MapAnalyzer::checkPointService(uchile_srvs::ValidPoint::Request &req, uchile_srvs::ValidPoint::Response& res) {
 
 	geometry_msgs::PointStamped ps_in;
 	geometry_msgs::PointStamped ps_out;

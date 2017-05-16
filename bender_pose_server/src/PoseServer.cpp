@@ -17,7 +17,7 @@ void operator >> (const YAML::Node& node, geometry_msgs::Quaternion & quaternion
 	node[3] >> quaternion.z;
 }
 
-void operator >> (const YAML::Node& node, bender_msgs::SemanticObject& data) {
+void operator >> (const YAML::Node& node, uchile_msgs::SemanticObject& data) {
 
 	node["id"] >> data.id;
 	node["type"] >> data.type;
@@ -39,7 +39,7 @@ PoseServer::PoseServer(std::string name): _name(name){
 	bender_utils::ParameterServerWrapper psw;
 	psw.getParameter("load_default_map",load_map, true);
 	if (load_map) {
-		bender_srvs::String str_srv;
+		uchile_srvs::String str_srv;
 		str_srv.request.data = "map.sem_map";
 		this->load(str_srv.request, str_srv.response);
 	}
@@ -61,7 +61,7 @@ PoseServer::~PoseServer(){
 
 }
 
-bool PoseServer::which(bender_srvs::String::Request  &req, bender_srvs::String::Response &res) {
+bool PoseServer::which(uchile_srvs::String::Request  &req, uchile_srvs::String::Response &res) {
 
 	if (_last_loaded_map == "") {
 		// avoid attempts to load or save "[EMPTY] map names."
@@ -71,9 +71,9 @@ bool PoseServer::which(bender_srvs::String::Request  &req, bender_srvs::String::
 	return true;
 }
 
-bool PoseServer::set(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Response &res) {
+bool PoseServer::set(uchile_srvs::SemMap::Request  &req, uchile_srvs::SemMap::Response &res) {
 
-	bender_msgs::SemanticObject data = req.new_data;
+	uchile_msgs::SemanticObject data = req.new_data;
 
 	boost::algorithm::trim(data.id);
 	boost::algorithm::trim(data.type);
@@ -90,7 +90,7 @@ bool PoseServer::set(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Re
 	return true;
 }
 
-bool PoseServer::get(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Response &res) {
+bool PoseServer::get(uchile_srvs::SemMap::Request  &req, uchile_srvs::SemMap::Response &res) {
 
 	SemanticMap::iterator it = _map.find(req.id);
 
@@ -106,7 +106,7 @@ bool PoseServer::get(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Re
 	return true;
 }
 
-bool PoseServer::get_all(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Response &res) {
+bool PoseServer::get_all(uchile_srvs::SemMap::Request  &req, uchile_srvs::SemMap::Response &res) {
 
 	SemanticMap::iterator map_it;
 
@@ -119,7 +119,7 @@ bool PoseServer::get_all(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap
 	return true;
 }
 
-bool PoseServer::del(bender_srvs::String::Request  &req, bender_srvs::String::Response &res) {
+bool PoseServer::del(uchile_srvs::String::Request  &req, uchile_srvs::String::Response &res) {
 
 	if( _map.erase(req.data) == 0 ) {
 
@@ -145,7 +145,7 @@ bool PoseServer::print(std_srvs::Empty::Request  &req, std_srvs::Empty::Response
 
 }
 
-bool PoseServer::save(bender_srvs::String::Request &req, bender_srvs::String::Response &res) {
+bool PoseServer::save(uchile_srvs::String::Request &req, uchile_srvs::String::Response &res) {
 
 	YAML::Emitter yaml;
 	SemanticMap::iterator it;
@@ -201,7 +201,7 @@ bool PoseServer::save(bender_srvs::String::Request &req, bender_srvs::String::Re
 	return true;
 }
 
-bool PoseServer::load(bender_srvs::String::Request &req, bender_srvs::String::Response &res) {
+bool PoseServer::load(uchile_srvs::String::Request &req, uchile_srvs::String::Response &res) {
 
 	std::string map_path;
 
@@ -235,7 +235,7 @@ bool PoseServer::load(bender_srvs::String::Request &req, bender_srvs::String::Re
 
 		for (unsigned int k=0; k < doc.size(); k++) {
 
-			bender_msgs::SemanticObject data;
+			uchile_msgs::SemanticObject data;
 			doc[k] >> data;
 			_map[data.id] = data;
 		}

@@ -24,18 +24,18 @@
 #include <std_msgs/ColorRGBA.h>
 
 // bender
-#include <bender_msgs/SemanticObject.h>
-#include <bender_srvs/SemMap.h>
-#include <bender_srvs/String.h>
+#include <uchile_msgs/SemanticObject.h>
+#include <uchile_srvs/SemMap.h>
+#include <uchile_srvs/String.h>
 
-typedef std::vector<bender_msgs::SemanticObject> SemanticObjectArray;
+typedef std::vector<uchile_msgs::SemanticObject> SemanticObjectArray;
 
 /*
  * TODO: new pose: rviz plugin
  * TODO: id
  */
 
-namespace bender_nav {
+namespace uchile_nav {
 
 visualization_msgs::Marker make_map_arrow_marker( visualization_msgs::InteractiveMarker &msg )
 {
@@ -236,11 +236,11 @@ public:
 		ros::NodeHandle priv("~");
 
 		// -- prepare clients --
-		_which_map_client = priv.serviceClient<bender_srvs::String>("/bender/knowledge/pose_server/which");
-		_set_client = priv.serviceClient<bender_srvs::SemMap>("/bender/knowledge/pose_server/set");
-		_get_all_client = priv.serviceClient<bender_srvs::SemMap>("/bender/knowledge/pose_server/get_all");
-		_get_client = priv.serviceClient<bender_srvs::SemMap>("/bender/knowledge/pose_server/get");
-		_save_client = priv.serviceClient<bender_srvs::String>("/bender/knowledge/pose_server/save");
+		_which_map_client = priv.serviceClient<uchile_srvs::String>("/bender/knowledge/pose_server/which");
+		_set_client = priv.serviceClient<uchile_srvs::SemMap>("/bender/knowledge/pose_server/set");
+		_get_all_client = priv.serviceClient<uchile_srvs::SemMap>("/bender/knowledge/pose_server/get_all");
+		_get_client = priv.serviceClient<uchile_srvs::SemMap>("/bender/knowledge/pose_server/get");
+		_save_client = priv.serviceClient<uchile_srvs::String>("/bender/knowledge/pose_server/save");
 
 		ROS_INFO("Waiting for services");
 		while ( ros::ok() && !_which_map_client.waitForExistence(ros::Duration(3.0)) );
@@ -254,14 +254,14 @@ public:
 
 	std::string getMapName() {
 
-		bender_srvs::String str_srv;
+		uchile_srvs::String str_srv;
 		_which_map_client.call(str_srv);
 		return str_srv.response.data;
 	};
 
 	std::string getType(const std::string& key) {
 
-		bender_srvs::SemMap get_srv;
+		uchile_srvs::SemMap get_srv;
 		get_srv.request.id = key;
 		if ( !_get_client.call(get_srv) ) {
 			ROS_ERROR_STREAM("Failed to call service " << _get_client.getService());
@@ -270,11 +270,11 @@ public:
 		return get_srv.response.data[0].type;
 	};
 
-	void getAll(std::vector<bender_msgs::SemanticObject> &map_data) {
+	void getAll(std::vector<uchile_msgs::SemanticObject> &map_data) {
 
 		map_data.clear();
 
-		bender_srvs::SemMap all_srv;
+		uchile_srvs::SemMap all_srv;
 		if ( !_get_all_client.call(all_srv) ) {
 			ROS_ERROR_STREAM("Failed to call service " << _get_all_client.getService());
 			return;
@@ -283,16 +283,16 @@ public:
 		map_data = all_srv.response.data;
 	};
 
-	bool add(bender_msgs::SemanticObject data) {
+	bool add(uchile_msgs::SemanticObject data) {
 
-		bender_srvs::SemMap srv;
+		uchile_srvs::SemMap srv;
 		srv.request.new_data = data;
 
 		if (!_set_client.call(srv)) {
 			ROS_ERROR_STREAM("Failed to call service" << _set_client.getService());
 		}
 
-		bender_srvs::String str_srv;
+		uchile_srvs::String str_srv;
 		std::string map_name = getMapName();
 		str_srv.request.data = map_name;
 		if (!_save_client.call(str_srv)) {
@@ -308,7 +308,7 @@ public:
 	bool add(const std::string &marker_name, const std::string &marker_type,
 			const std::string &frame_id, const geometry_msgs::Pose& pose) {
 
-		bender_msgs::SemanticObject data;
+		uchile_msgs::SemanticObject data;
 		data.id = marker_name;
 		data.type = marker_type;
 		data.frame_id = frame_id;
@@ -496,7 +496,7 @@ void PoseServerMarkerPlugin::spin() {
 void PoseServerMarkerPlugin::loadMarkers() {
 
 	// get map data
-	std::vector<bender_msgs::SemanticObject> map_data;
+	std::vector<uchile_msgs::SemanticObject> map_data;
 	map_server_handler.getAll(map_data);
 
 	// marker names
@@ -512,7 +512,7 @@ void PoseServerMarkerPlugin::loadMarkers() {
 	name.scale.z = 0.3;
 
 	// append data
-	std::vector<bender_msgs::SemanticObject>::const_iterator it;
+	std::vector<uchile_msgs::SemanticObject>::const_iterator it;
 	for( it = map_data.begin(); it != map_data.end(); ++it) {
 
 		// -- create interactive marker --
@@ -598,14 +598,14 @@ void PoseServerMarkerPlugin::newMarker_callback(const geometry_msgs::PointStampe
 	_marker_names_pub.publish(names_array);
 }
 
-} /* namespace bender_nav */
+} /* namespace uchile_nav */
 
 int main(int argc, char **argv)
 {
 	ros::init(argc, argv, "pose_server_marker_plugin");
 
-	boost::scoped_ptr<bender_nav::PoseServerMarkerPlugin> node(
-		new bender_nav::PoseServerMarkerPlugin()
+	boost::scoped_ptr<uchile_nav::PoseServerMarkerPlugin> node(
+		new uchile_nav::PoseServerMarkerPlugin()
 	);
 
 	ros::Rate loop_rate(10);

@@ -26,10 +26,10 @@
 #include <geometry_msgs/Polygon.h>
 #include <geometry_msgs/PolygonStamped.h>
 #include <geometry_msgs/PointStamped.h>
-#include <bender_srvs/ValidPoint.h>
+#include <uchile_srvs/ValidPoint.h>
 #include <sensor_msgs/PointCloud2.h>
-#include <bender_srvs/PointCloud2.h>
-#include <bender_srvs/PointCloud2Trasnform.h>
+#include <uchile_srvs/PointCloud2.h>
+#include <uchile_srvs/PointCloud2Trasnform.h>
 #include <visualization_msgs/MarkerArray.h>
 
 // pcl
@@ -78,8 +78,8 @@ public:
 private:
 
 	// services
-	bool checkPointService(bender_srvs::ValidPoint::Request &req, bender_srvs::ValidPoint::Response& res);
-	bool checkPointCloud2Service(bender_srvs::PointCloud2Trasnform::Request &req, bender_srvs::PointCloud2Trasnform::Response& res);
+	bool checkPointService(uchile_srvs::ValidPoint::Request &req, uchile_srvs::ValidPoint::Response& res);
+	bool checkPointCloud2Service(uchile_srvs::PointCloud2Trasnform::Request &req, uchile_srvs::PointCloud2Trasnform::Response& res);
 
 	// publishing
 	void publishPolygons();

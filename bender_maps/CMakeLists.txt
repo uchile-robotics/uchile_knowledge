@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8.3)
 project(bender_maps)
 
 find_package(catkin REQUIRED COMPONENTS
-  bender_msgs
-  bender_srvs
+  uchile_msgs
+  uchile_srvs
   bender_utils
   geometry_msgs
   pcl_conversions
@@ -27,10 +27,10 @@ catkin_python_setup()
 
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES bender_nav
+  LIBRARIES uchile_nav
   CATKIN_DEPENDS 
-    bender_msgs
-    bender_srvs
+    uchile_msgs
+    uchile_srvs
     bender_utils
     geometry_msgs
     pcl_ros

@@ -28,9 +28,9 @@
 
 // Bender
 #include <bender_utils/ParameterServerWrapper.h>
-#include <bender_msgs/SemanticObject.h>
-#include <bender_srvs/SemMap.h>
-#include <bender_srvs/String.h>
+#include <uchile_msgs/SemanticObject.h>
+#include <uchile_srvs/SemMap.h>
+#include <uchile_srvs/String.h>
 
 // YAML Parsing & Writing
 #include <yaml-cpp/yaml.h>
@@ -46,8 +46,8 @@ void operator >> (const YAML::Node& node, T& i) {
 #endif
 
 
-typedef std::map<std::string, bender_msgs::SemanticObject> SemanticMap;
-typedef std::vector<bender_msgs::SemanticObject> SemanticObjectArray;
+typedef std::map<std::string, uchile_msgs::SemanticObject> SemanticMap;
+typedef std::vector<uchile_msgs::SemanticObject> SemanticObjectArray;
 
 namespace bender_knowledge {
 
@@ -78,7 +78,7 @@ public:
 	/**
 	 * Returns the name of the last loaded map
 	 */
-	bool which(bender_srvs::String::Request  &req, bender_srvs::String::Response &res);
+	bool which(uchile_srvs::String::Request  &req, uchile_srvs::String::Response &res);
 
 	/**
 	 * Inserts a SemanticObject in memory.
@@ -88,7 +88,7 @@ public:
 	 * returns false: if 'id', 'type' or 'frame_id' fields are empty
 	 * returns true: otherwise
 	 */
-	bool set(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Response &res);
+	bool set(uchile_srvs::SemMap::Request  &req, uchile_srvs::SemMap::Response &res);
 
 	/**
 	 * Gets a SemanticObject with the specified 'id' from memory.
@@ -97,13 +97,13 @@ public:
 	 * returns false: if a object with that 'id' does not exist
 	 * returns true: otherwise
 	 */
-	bool get(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Response &res);
+	bool get(uchile_srvs::SemMap::Request  &req, uchile_srvs::SemMap::Response &res);
 
 	/**
 	 * Gets all the SemanticObject(s) from memory.
 	 * It does not uses the map file
 	 */
-	bool get_all(bender_srvs::SemMap::Request  &req, bender_srvs::SemMap::Response &res);
+	bool get_all(uchile_srvs::SemMap::Request  &req, uchile_srvs::SemMap::Response &res);
 
 	/**
 	 * Deletes a SemanticObject with the specified 'id' from memory.
@@ -112,7 +112,7 @@ public:
 	 * returns false: if a object with that 'id' does not exist
 	 * returns true: otherwise
 	 */
-	bool del(bender_srvs::String::Request  &req, bender_srvs::String::Response &res);
+	bool del(uchile_srvs::String::Request  &req, uchile_srvs::String::Response &res);
 
 	/**
 	 * Prints current map contents on screen
@@ -122,12 +122,12 @@ public:
 	/**
 	 * Saves the current map contents on the specified file
 	 */
-	bool save(bender_srvs::String::Request &req, bender_srvs::String::Response &res);
+	bool save(uchile_srvs::String::Request &req, uchile_srvs::String::Response &res);
 
 	/**
 	 * Loads the current map contents from the specified file
 	 */
-	bool load(bender_srvs::String::Request &req, bender_srvs::String::Response &res);
+	bool load(uchile_srvs::String::Request &req, uchile_srvs::String::Response &res);
 
 };
 

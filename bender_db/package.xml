@@ -56,8 +56,8 @@
     <depend>rospy</depend>
     <depend>std_msgs</depend>
     <depend>std_srvs</depend>
-    <depend>bender_msgs</depend>
-    <depend>bender_srvs</depend>
+    <depend>uchile_msgs</depend>
+    <depend>uchile_srvs</depend>
     <depend>bender_utils</depend>
     <depend>geometry_msgs</depend>
     <depend>sensor_msgs</depend>

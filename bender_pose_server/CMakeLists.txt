@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8.3)
 project(bender_pose_server)
 
 find_package(catkin REQUIRED COMPONENTS
-  bender_msgs
-  bender_srvs
+  uchile_msgs
+  uchile_srvs
   bender_utils
   geometry_msgs
   interactive_markers
@@ -31,8 +31,8 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES bender_pose_server
   CATKIN_DEPENDS
-    bender_msgs
-    bender_srvs
+    uchile_msgs
+    uchile_srvs
     bender_utils
     geometry_msgs
     interactive_markers
