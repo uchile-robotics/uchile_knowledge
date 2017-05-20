@@ -41,6 +41,3 @@
 # Download uchile_db face_recognition
 "$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!7l130Q6Q!4zOzDcrODzLX07TmSp4EgjKb0rTFLRps9N9L-FwOfZU'
 
-
-# Extract files
-#unzip bender_description.zip -d $BENDER_WS/base_ws/src/uchile_common/
