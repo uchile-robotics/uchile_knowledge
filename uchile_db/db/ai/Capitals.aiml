@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+        <pattern>GERMANY</pattern>
+        <template> 
+            the capital of Germany is <bot name="germany"/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BRAZIL</pattern>
+        <template> 
+            the capital of Brazil is <bot name="brazil"/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHINA</pattern>
+        <template> 
+            the capital of China is <bot name="china"/>
+        </template>
+    </category>
+    <category>
+        <pattern>JAPAN</pattern>
+        <template> 
+            the capital of Japan is <bot name="japan"/>
+        </template>
+    </category>
+    <category>
+        <pattern>_ CAPITAL OF *</pattern>
+        <template><srai><star index="2"/></srai></template>
+    </category>
+</aiml>
