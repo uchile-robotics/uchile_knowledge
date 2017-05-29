@@ -3,7 +3,17 @@
 <!-- <aiml version="1.0.1" encoding="UTF-8"> -->
 
     <!-- QUESTION - ANSWER -->
-	<!-- GREETING -->
+	<category>
+        <pattern>WHAT WAS THE LAST QUESTION</pattern>
+        <template>The last question is <bot name="last_question"/></template>
+    </category>
+    <category>
+        <pattern>LAST QUESTION</pattern>
+        <template><srai>WHAT WAS THE LAST QUESTION</srai></template>
+    </category>
+
+
+    <!-- GREETING -->
     <category>
         <pattern>MY NAME IS *</pattern>
         <template> Nice to meet you <star/> </template>
