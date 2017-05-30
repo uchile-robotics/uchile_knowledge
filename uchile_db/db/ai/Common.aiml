@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ <!-- CONECTORES COMUNES -->
+
+    <category>
+        <pattern>IN *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>IS *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>ARE *</pattern>
+        <template><srai><star index="2"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>THE *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>TO THE *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>FOR *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>A *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>OF *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>WAS *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>HAS *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>AN *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>DURING *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>INTO *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>ON *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+<!-- INICIO DE PREGUNTA COMUN -->
+
+    <category>
+        <pattern>WHO *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>WHAT *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>HOW MANY *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>WHEN *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>WHICH *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>IN WHICH *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>TO WHICH *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    <!-- PALABRAS COMUNES -->
+
+    <category>
+        <pattern>NAME *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>KNOWN AS *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
+        <pattern>CALLED *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    </aiml>

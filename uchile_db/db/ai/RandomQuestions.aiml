@@ -1,77 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-<!-- <aiml version="1.0.1" encoding="UTF-8"> -->
-
-    <!-- QUESTION - ANSWER -->
-	<category>
-        <pattern>WHAT WAS THE LAST QUESTION</pattern>
-        <template>The last question is <bot name="last_question"/></template>
-    </category>
-    <category>
-        <pattern>LAST QUESTION</pattern>
-        <template><srai>WHAT WAS THE LAST QUESTION</srai></template>
-    </category>
-
-
-    <!-- GREETING -->
-    <category>
-        <pattern>MY NAME IS *</pattern>
-        <template> Nice to meet you <star/> </template>
-    </category>
-
-    <category>
-        <pattern>HELLO</pattern>
-        <template> Hello, nice to meet you </template>
-    </category>
-
-    <category>
-        <pattern>HI</pattern>
-        <template><srai>HELLO</srai></template>
-    </category>
-
-    <category>
-        <pattern>HOLA</pattern>
-        <template><srai>HELLO</srai></template>
-    </category>
-
-    <!-- WHAT'S YOUR NAME -->
-
-    <category>
-        <pattern>WHAT IS YOUR NAME</pattern>
-        <template>
-            My name is <bot name="name"/>
-        </template>
-    </category>
-
-    <!-- THE CAPITAL OF ... -->
-
-    <category>
-        <pattern>GERMANY</pattern>
-        <template> 
-            the capital of Germany is <bot name="germany"/>
-        </template>
-    </category>
-
-    <category>
-        <pattern>BRAZIL</pattern>
-        <template> 
-            the capital of Brazil is <bot name="brazil"/>
-        </template>
-    </category>
-
-    <category>
-        <pattern>CHINA</pattern>
-        <template> 
-            the capital of China is <bot name="china"/>
-        </template>
-    </category>
-
-    <category>
-        <pattern>_ CAPITAL OF *</pattern>
-        <template><srai><star index="2"/></srai></template>
-    </category>
-
-    <!-- IN WHICH YEAR WAS THE ROBOCUP FOUNDED -->
+<!-- IN WHICH YEAR WAS THE ROBOCUP FOUNDED -->
 
     <category>
         <pattern>ROBOCUP</pattern>
@@ -846,273 +775,78 @@
         <pattern>* MEN</pattern>
         <template><srai>BEST FRIEND</srai></template>
     </category>
-
-    <!-- WHEN WERE YOU BORN -->
-
-    <category>
-        <pattern>BORN</pattern>
-        <template>I was born in <bot name="birth"/> in the University of Chile</template>
+<category>
+	<pattern>WHICH ROBOT IS USED IN THE DOMESTIC STANDARD PLATFORM LEAGUE</pattern>
+	<template>The Toyota Human Support Robot</template>
     </category>
-
+    
     <category>
-        <pattern>* BORN</pattern>
-        <template><srai>BORN</srai></template>
+	<pattern>WHO INVENTED THE C PROGRAMMING LANGUAGE</pattern>
+	<template>Ken Thompson and Dennis Ritchie.</template>
     </category>
-
+    
     <category>
-        <pattern>* WERE YOU BORN</pattern>
-        <template><srai>BORN</srai></template>
+	<pattern>WHEN WAS INVENTED THE C PROGRAMMING LANGUAGE</pattern>
+	<template>C was developed after B in 1972 at Bell Labs</template>
     </category>
-
-    <!-- WHAT IS YOUR TEAMS NAME -->
-
+    
     <category>
-        <pattern>TEAM</pattern>
-        <template>My team is called Home Breakers Robotics Team</template>
+	<pattern>WHEN WAS INVENTED THE B PROGRAMMING LANGUAGE</pattern>
+	<template>B was developed circa 1969 at Bell Labs</template>
     </category>
-
+    
     <category>
-        <pattern>* TEAMS *</pattern>
-        <template><srai>TEAM</srai></template>
+	<pattern>WHERE DOES THE TERM COMPUTER BUG COME FROM</pattern>
+	<template>From a moth trapped in a relay</template>
     </category>
-
-    <!-- QUESTION - KEYWORD -->
-
-
-    <!-- WHAT TIME/DAY WEEK/DAY MONTH IS IT -->
+    
     <category>
-        <pattern>WHAT TIME *</pattern>
-        <template>The time is <bot name="date_hour"/> with <bot name="date_minute"/> minutes</template>
+	<pattern>WHO INVENTED THE FIRST COMPILER</pattern>
+	<template>Grace Brewster Murray Hopper invented it</template>
     </category>
-
+    
     <category>
-        <pattern>WHAT DAY OF THE WEEK *</pattern>
-        <template>Today is <bot name="date_today_dayWeek"/> </template>
+	<pattern>WHICH ROBOT IS USED IN THE OPEN PLATFORM LEAGUE</pattern>
+	<template>There is no standard defined for OPL</template>
     </category>
-
+    
     <category>
-        <pattern>WHAT DAY OF THE MONTH *</pattern>
-        <template>Today is <bot name="date_today_dayMonth"/>  </template>
+	<pattern>WHICH ROBOT IS USED IN THE SOCIAL STANDARD PLATFORM LEAGUE</pattern>
+	<template>The SoftBank Robotics Pepper</template>
     </category>
-
+    
     <category>
-        <pattern>* IS IT</pattern>
-        <template><srai><star index="1"/></srai></template>
+	<pattern>HOW MANY PEOPLE LIVE IN THE JAPAN</pattern>
+	<template>A little over 80 million</template>
     </category>
-
-
-    <!-- WHAT DAY IS TODAY/TOMORROW -->
+    
     <category>
-        <pattern>WHAT DAY IS *</pattern>
-        <template><srai><star index="1"/></srai></template>
+	<pattern>WHAT ARE THE COLOURS OF THE JAPANESE FLAG</pattern>
+	<template>Japanese flag is a red circle centred over white</template>
     </category>
-
+    
     <category>
-        <pattern>TODAY</pattern>
-        <template>Today is <bot name="date_today_day"/> </template>
+	<pattern>WHAT IS A SAKURA</pattern>
+	<template>Sakura is the Japanese term for ornamental cherry blossom and its tree</template>
     </category>
-
+    
     <category>
-        <pattern>TOMORROW</pattern>
-        <template>Tomorrow is <bot name="date_tomorrow_day"/> </template>
+	<pattern>WHO IS THE EMPEROR OF JAPAN</pattern>
+	<template>His Majesty Akihito sama is the emperor in Japan since January 7, 1989</template>
     </category>
-
-
-    <!-- WHAT IS THE SIZE OF THE CROWD -->
-
+    
     <category>
-        <pattern>WHAT IS THE SIZE OF THE CROWD</pattern>
-        <template>In the group there are <bot name="crowd_size"/> people</template>
+	<pattern>DO YOU HAVE DREAMS</pattern>
+	<template>I dream of Electric Sheep.</template>
     </category>
-
-
-    <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
-
+    
     <category>
-        <pattern>WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+	<pattern>IN WHICH CITY WILL NEXT YEAR'S ROBOCUP BE HOSTED</pattern>
+	<template>It hasn't been announced yet.</template>
     </category>
-
-   <!-- WHAT IS THE NUMBER OF MALE  PEOPLE -->
-
+    
     <category>
-        <pattern>WHAT IS THE NUMBER OF MALE PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men</template>
+	<pattern>WHO IS THE LAST SAMURAI</pattern>
+	<template>Tom Cruise is the last samurai</template>
     </category>
-
-   <!-- WHAT IS THE NUMBER OF WOMEN PEOPLE -->
-
-    <category>
-        <pattern>WHAT IS THE NUMBER OF WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_woman"/> woman</template>
-    </category>
-
-    <!-- WHAT IS THE NUMBER OF CHILDREN IN THE CROWD -->
-
-    <category>
-        <pattern>WHAT IS THE NUMBER OF CHILDREN IN THE CROWD</pattern>
-        <template>In the group there are <bot name="crowd_children"/> children</template>
-    </category>
-
-    <!-- WHAT IS THE NUMBER OF ADULTS IN THE CROWD -->
-
-    <category>
-        <pattern>WHAT IS THE NUMBER OF ADULTS IN THE CROWD</pattern>
-        <template>In the group there are <bot name="crowd_adults"/> adults</template>
-    </category>
-
-    <!-- PREGUNTAS SOBRE OBJETOS-->
-
-    <category>
-        <pattern>WHAT IS THE * FOOD </pattern>
-        <template>object <star /> food </template>
-    </category>
-
-    <category>
-        <pattern>WHAT IS THE * DRINK </pattern>
-        <template>object <star /> drink </template>
-    </category>
-
-    <category>
-        <pattern>WHERE CAN I FIND THE * </pattern>
-        <template>object where <star /> </template>
-    </category>
-
-    <category>
-        <pattern>WHAT IS THE COLOR OF THE * </pattern>
-        <template>object color <star /> </template>
-    </category>
-
-    <category>
-        <pattern>WHAT OBJECTS ARE IN THE * </pattern>
-        <template>object in <star /> </template>
-    </category>
-
-
-    <!-- CONECTORES COMUNES -->
-
-    <category>
-        <pattern>IN *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>IS *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>ARE *</pattern>
-        <template><srai><star index="2"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>THE *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>TO THE *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>FOR *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>A *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>OF *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>WAS *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>HAS *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>AN *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>DURING *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>INTO *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>ON *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <!-- INICIO DE PREGUNTA COMUN -->
-
-    <category>
-        <pattern>WHO *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>WHAT *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>HOW MANY *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>WHEN *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>WHICH *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>IN WHICH *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>TO WHICH *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <!-- PALABRAS COMUNES -->
-
-    <category>
-        <pattern>NAME *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>KNOWN AS *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
-    <category>
-        <pattern>CALLED *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
-
 </aiml>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<autor>"Nicolas Marticorena"</autor>
+<category>
+        <pattern>WHAT IS THE NUMBER OF ADULTS IN THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_adults"/> adults</template>
+    </category>
+    <category>
+        <pattern>_ ADULTS IN THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_adults"/> adults</template>
+    </category>
+</aiml>

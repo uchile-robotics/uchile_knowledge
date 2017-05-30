@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- GREETING -->
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template> Nice to meet you <set name="username"> <star/>! </set></template>
+    </category>
+    <category>
+      <pattern>GOOD NIGHT</pattern>
+      <template>
+         Hi <get name="username"/> Thanks for the conversation!
+      </template>  
+   </category> 
+    <category>
+      <pattern>BYE</pattern>
+      <template>
+        <srai>GOOD NIGHT</srai>
+      </template>   
+    </category>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+	        <random>
+        	  <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+            <li> Hola </li>
+            <li> konnichiwa </li>
+      </random>	
+        </template>
+  </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>HOLA</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>
+            My name is <bot name="name"/>
+        </template>
+    </category>
+    
+
+</aiml>
