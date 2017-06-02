@@ -13,13 +13,23 @@
     </category>
 
     <category>
+        <pattern>WHERE IS THE * </pattern>
+        <template>object where <star /> </template>
+    </category>
+
+    <category>
+        <pattern>KITCHEN COUNTER</pattern>
+        <template><srai>where is the kitchencounter</srai></template>
+    </category>
+
+    <category>
         <pattern>WHERE CAN I FIND THE * </pattern>
         <template>object where <star /> </template>
     </category>
 
     <category>
         <pattern>COLOR OF THE * </pattern>
-        <template>object color <star index="1"/> place<think><set name="last_color"><star index="1"/></set><set name="last_question"><star index="1"/></template>
+        <template>object color <star index="1"/></template>
     </category>
 
     <category>
