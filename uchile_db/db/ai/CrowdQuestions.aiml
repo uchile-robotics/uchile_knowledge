@@ -9,4 +9,45 @@
         <pattern>_ ADULTS IN THE CROWD</pattern>
         <template>In the group there are <bot name="crowd_adults"/> adults</template>
     </category>
+    <category>
+        <pattern>WHAT IS THE SIZE OF THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_size"/> people</template>
+    </category>
+
+
+    <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+
+   <!-- WHAT IS THE NUMBER OF MALE  PEOPLE -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF MALE PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men</template>
+    </category>
+
+   <!-- WHAT IS THE NUMBER OF WOMEN PEOPLE -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_woman"/> woman</template>
+    </category>
+
+    <!-- WHAT IS THE NUMBER OF CHILDREN IN THE CROWD -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF CHILDREN IN THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_children"/> children</template>
+    </category>
+
+    <!-- WHAT IS THE NUMBER OF ADULTS IN THE CROWD -->
+
+    <category>
+        <pattern>WHAT IS THE NUMBER OF ADULTS IN THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_adults"/> adults</template>
+    </category>
+
 </aiml>
