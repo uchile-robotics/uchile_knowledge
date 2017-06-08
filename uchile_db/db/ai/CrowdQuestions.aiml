@@ -14,11 +14,24 @@
         <template>In the group there are <bot name="crowd_size"/> people</template>
     </category>
 
+    <category>
+        <pattern>THE SIZE OF THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_size"/> people</template>
+    </category>
 
     <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
 
     <category>
         <pattern>WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+
+    <category>
+        <pattern>NUMBER OF MALE AND WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+    <category>
+        <pattern>THE NUMBER OF MALE AND WOMEN PEOPLE</pattern>
         <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
     </category>
 
@@ -29,10 +42,29 @@
         <template>In the group there are <bot name="crowd_men"/> men</template>
     </category>
 
+    <category>
+        <pattern>THE NUMBER OF MALE PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men</template>
+    </category>
+
+    <category>
+        <pattern>NUMBER OF MALE PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men</template>
+    </category>
    <!-- WHAT IS THE NUMBER OF WOMEN PEOPLE -->
 
     <category>
         <pattern>WHAT IS THE NUMBER OF WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_woman"/> woman</template>
+    </category>
+
+     <category>
+        <pattern>THE NUMBER OF WOMEN PEOPLE</pattern>
+        <template>In the group there are <bot name="crowd_woman"/> woman</template>
+    </category>
+
+    <category>
+        <pattern>NUMBER OF WOMEN PEOPLE</pattern>
         <template>In the group there are <bot name="crowd_woman"/> woman</template>
     </category>
 
@@ -54,9 +86,19 @@
     <pattern>TELL ME THE NUMBER OF MALES IN THE CROWD</pattern>
     <template>in the group there are <bot name="crowd_men"/></template>
     </category>
+
+    <category>
+    <pattern>NUMBER OF MALES IN THE CROWD</pattern>
+    <template>in the group there are <bot name="crowd_men"/></template>
+    </category>
     
     <category>
     <pattern>TELL ME THE NUMBER OF ADULTS IN THE CROWD</pattern>
+    <template>in the group there are <bot name="crowd_adults"/></template>
+    </category>
+
+    <category>
+    <pattern>THE NUMBER OF ADULTS IN THE CROWD</pattern>
     <template>in the group there are <bot name="crowd_adults"/></template>
     </category>
     
