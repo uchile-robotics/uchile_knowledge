@@ -1,0 +1,23 @@
+- id: corridor
+  type: unknown
+  frame: map
+  position: [1.663945436477661, 3.12717080116272, 0.006378173828125]
+  orientation: [1, 0, 0, 0]
+
+- id: tv
+  type: unknown
+  frame: map
+  position: [2.176772356033325, 1.26049530506134, -0.001434326171875]
+  orientation: [1, 0, 0, 0]
+
+- id: hallway
+  type: unknown
+  frame: map
+  position: [2.083762645721436, -1.809915900230408, -0.001434326171875]
+  orientation: [1, 0, 0, 0]
+
+- id: kitchen
+  type: unknown
+  frame: map
+  position: [4.896442890167236, 0.5794158577919006, -0.001434326171875]
+  orientation: [0, 0, 0, 1]
