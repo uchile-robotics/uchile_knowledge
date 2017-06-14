@@ -2,44 +2,67 @@
 <aiml version="2.0">
 <autor>"Nicolas Marticorena"</autor>
 
-<category>
-<pattern>MALES</pattern>
-<template><srai>MALE</srai></template>
-</category>
-
-
-
 <!-- Whatis the number of ..... in the crowd                                                                                                       -->
-
 <!-- WHAT IS THE NUMBER OF CHILDREN IN THE CROWD -->
     <category>
         <pattern>NUMBER OF CHILDREN</pattern>
         <template>In the group there are <bot name="crowd_children"/> children</template>
     </category>
-
     <!-- WHAT IS THE NUMBER OF ADULTS IN THE CROWD -->
         <category>
         <pattern>NUMBER OF ADULTS</pattern>
         <template>In the group there are <bot name="crowd_adults"/> adults </template>
     </category>
-
-    
      <!-- WHAT IS THE NUMBER OF WOMEN IN THE CROWD -->
     <category>
         <pattern>NUMBER OF WOMEN</pattern>
         <template>In the group there are <bot name="crowd_women"/> womens</template>
     </category>
-    
     <!-- WHAT IS THE NUMBER OF MALE IN THE CROWD -->
     <category>
-        <pattern>NUMBER OF [MALE MALES]</pattern>
+        <pattern>NUMBER OF MALE</pattern>
         <template>In the group there are <bot name="crowd_men"/> mens</template>
     </category>
-    
+    <!-- WHAT IS THE NUMBER OF MALES IN THE CROWD -->
+    <category>
+        <pattern>NUMBER OF MALES</pattern>
+        <template>In the group there are <bot name="crowd_men"/> mens</template>
+    </category>
     <!-- WHAT IS THE SIZE OF THE CROWD -->
     <category>
         <pattern>SIZE OF THE CROWD</pattern>
         <template>In the group there are <bot name="crowd_size"/> people</template>
+    </category>
+    <!-- WHAT IS THE NUMBER OF ELDERS IN THE CROWD -->
+    <category>
+        <pattern>NUMBER OF ELDERS</pattern>
+        <template>In the group there are <bot name="crowd_elders"/> elders</template>
+    </category>
+    
+    <!-- How many _____ are in the crowd -->
+    <category>
+        <pattern>CHILDREN ARE</pattern>
+        <template><srai>NUMBER OF CHILDREN</srai></template>
+    </category>
+    <category>
+        <pattern>ADULTS ARE</pattern>
+        <template><srai>NUMBER OF ADULTS</srai></template>
+    </category>
+    <category>
+        <pattern>WOMEN ARE</pattern>
+        <template><srai>NUMBER OF WOMEN</srai></template>
+    </category>
+    <category>
+        <pattern>MALE ARE</pattern>
+        <template><srai>NUMBER OF MALE</srai></template>
+    </category>
+    <category>
+        <pattern>MALES ARE</pattern>
+        <template><srai>NUMBER OF MALES</srai></template>
+    </category>
+    <category>
+        <pattern>ELDERS ARE</pattern>
+        <template><srai>NUMBER OF ELDERS</srai></template>
     </category>
     
     <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
@@ -60,6 +83,16 @@
         <pattern>NUMBER OF WOMEN AND MALE</pattern>
         <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
     </category>
+    
+    <!-- Tell me how many people were wearing blue -->
+    <category>
+        <pattern>PEOPLE WERE WEARING *</pattern>
+        <template>PEOPLE COLOR <star index="1"/></template></category>
+    
+    
+    
+    
+    
     
 
 </aiml>

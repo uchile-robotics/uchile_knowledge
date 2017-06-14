@@ -6,8 +6,7 @@
         <pattern>_THE * FOOD </pattern>
         <template>object <star /> food </template>
     </category>
-    
-    
+  
     <category>
         <pattern>WHAT IS THE * DRINK </pattern>
         <template>object <star /> drink </template>
