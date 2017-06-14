@@ -1,112 +1,70 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 <autor>"Nicolas Marticorena"</autor>
+
 <category>
-        <pattern>WHAT IS THE NUMBER OF ADULTS IN THE CROWD</pattern>
-        <template>In the group there are <bot name="crowd_adults"/> adults</template>
-    </category>
+<pattern>MALES</pattern>
+<template><srai>MALE</srai></template>
+</category>
+
+
+
+<!-- Whatis the number of ..... in the crowd                                                                                                       -->
+
+<!-- WHAT IS THE NUMBER OF CHILDREN IN THE CROWD -->
     <category>
-        <pattern>_ ADULTS IN THE CROWD</pattern>
-        <template>In the group there are <bot name="crowd_adults"/> adults</template>
-    </category>
-    <category>
-        <pattern>WHAT IS THE SIZE OF THE CROWD</pattern>
-        <template>In the group there are <bot name="crowd_size"/> people</template>
-    </category>
-
-    <category>
-        <pattern>_ SIZE OF THE CROWD</pattern>
-        <template>In the group there are <bot name="crowd_size"/> people</template>
-    </category>
-
-    <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
-
-    <category>
-        <pattern>WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
-    </category>
-
-    <category>
-        <pattern>NUMBER OF MALE AND WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
-    </category>
-    <category>
-        <pattern>THE NUMBER OF MALE AND WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
-    </category>
-
-   <!-- WHAT IS THE NUMBER OF MALE  PEOPLE -->
-
-    <category>
-        <pattern>WHAT IS THE NUMBER OF MALE PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men</template>
-    </category>
-
-    <category>
-        <pattern>THE NUMBER OF MALE PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men</template>
-    </category>
-
-    <category>
-        <pattern>NUMBER OF MALE PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men</template>
-    </category>
-   <!-- WHAT IS THE NUMBER OF WOMEN PEOPLE -->
-
-    <category>
-        <pattern>WHAT IS THE NUMBER OF WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_woman"/> woman</template>
-    </category>
-
-     <category>
-        <pattern>THE NUMBER OF WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_woman"/> woman</template>
-    </category>
-
-    <category>
-        <pattern>NUMBER OF WOMEN PEOPLE</pattern>
-        <template>In the group there are <bot name="crowd_woman"/> woman</template>
-    </category>
-
-    <!-- WHAT IS THE NUMBER OF CHILDREN IN THE CROWD -->
-
-    <category>
-        <pattern>WHAT IS THE NUMBER OF CHILDREN IN THE CROWD</pattern>
+        <pattern>NUMBER OF CHILDREN</pattern>
         <template>In the group there are <bot name="crowd_children"/> children</template>
     </category>
 
     <!-- WHAT IS THE NUMBER OF ADULTS IN THE CROWD -->
-
     <category>
-        <pattern>WHAT IS THE NUMBER OF ADULTS IN THE CROWD</pattern>
+        <pattern>NUMBER OF ADULTS</pattern>
         <template>In the group there are <bot name="crowd_adults"/> adults</template>
     </category>
     
+     <!-- WHAT IS THE NUMBER OF WOMEN IN THE CROWD -->
     <category>
-    <pattern>TELL ME THE NUMBER OF MALES IN THE CROWD</pattern>
-    <template>in the group there are <bot name="crowd_men"/> males</template>
-    </category>
-
-    <category>
-    <pattern>NUMBER OF MALES IN THE CROWD</pattern>
-    <template>in the group there are <bot name="crowd_men"/> males</template>
+        <pattern>NUMBER OF WOMEN</pattern>
+        <template>In the group there are <bot name="crowd_women"/> adults</template>
     </category>
     
+    <!-- WHAT IS THE NUMBER OF MALE IN THE CROWD -->
     <category>
-    <pattern>TELL ME THE NUMBER OF ADULTS IN THE CROWD</pattern>
-    <template>in the group there are <bot name="crowd_adults"/> adults </template>
-    </category>
-
-    <category>
-    <pattern>THE NUMBER OF ADULTS IN THE CROWD</pattern>
-    <template>in the group there are <bot name="crowd_adults"/> adults</template>
+        <pattern>NUMBER OF MALE</pattern>
+        <template>In the group there are <bot name="crowd_women"/> adults</template>
     </category>
     
-        <category>
-    <pattern>TELL ME THE NUMBER OF CHILDERN IN THE CROWD</pattern>
-    <template>in the group there are <bot name="crowd_childern"/> children </template>
+        <!-- WHAT IS THE NUMBER OF MALES IN THE CROWD -->
+    <category>
+        <pattern>NUMBER OF MALES</pattern>
+        <template>In the group there are <bot name="crowd_women"/> adults</template>
     </category>
-
-
+    
+    <!-- WHAT IS THE SIZE OF THE CROWD -->
+    <category>
+        <pattern>SIZE OF THE CROWD</pattern>
+        <template>In the group there are <bot name="crowd_size"/> people</template>
+    </category>
+    
+    <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
+    <!-- TELL THE NUMBER OF MALE AND WOMEN PEOPLE -->
+    <category>
+        <pattern>NUMBER OF MALE AND WOMEN</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF MALE AND WOMEN</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF WOMEN AND MALES</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF WOMEN AND MALE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+    </category>
+    
 
 </aiml>

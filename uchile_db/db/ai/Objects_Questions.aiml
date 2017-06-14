@@ -7,10 +7,6 @@
         <template>object <star /> food </template>
     </category>
     
-    <category>
-    <pattern></pattern>
-    <template></template>
-    </category>
     
     <category>
         <pattern>WHAT IS THE * DRINK </pattern>
@@ -72,11 +68,8 @@
       <template>object color <star index="1"/></template>
       </category>
       
-      
-    
-
-    <category>
+      <category>
         <pattern>WHAT OBJECTS ARE IN THE * </pattern>
-        <template>object in <star index="1"/> <think><set name="last_place"><star index="1"/></set><set name="last_question"><star index="1"/></set></think></template>
+        <template>object in <star index="1"/></template>
     </category>
 </aiml>

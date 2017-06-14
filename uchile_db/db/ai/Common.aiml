@@ -124,4 +124,24 @@
         <pattern>CALLED *</pattern>
         <template><srai><star index="1"/></srai></template>
     </category>
+    
+    <category>
+        <pattern>TELL ME *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>TELL *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    
+    <category>
+    <pattern>* IN THE CROWD</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    
+    <category>
+    <pattern>* PEOPLE</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
     </aiml>
