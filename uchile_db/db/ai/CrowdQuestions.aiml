@@ -18,27 +18,22 @@
     </category>
 
     <!-- WHAT IS THE NUMBER OF ADULTS IN THE CROWD -->
-    <category>
+        <category>
         <pattern>NUMBER OF ADULTS</pattern>
-        <template>In the group there are <bot name="crowd_adults"/> adults</template>
+        <template>In the group there are <bot name="crowd_adults"/> adults </template>
     </category>
+
     
      <!-- WHAT IS THE NUMBER OF WOMEN IN THE CROWD -->
     <category>
         <pattern>NUMBER OF WOMEN</pattern>
-        <template>In the group there are <bot name="crowd_women"/> adults</template>
+        <template>In the group there are <bot name="crowd_women"/> womens</template>
     </category>
     
     <!-- WHAT IS THE NUMBER OF MALE IN THE CROWD -->
     <category>
-        <pattern>NUMBER OF MALE</pattern>
-        <template>In the group there are <bot name="crowd_women"/> adults</template>
-    </category>
-    
-        <!-- WHAT IS THE NUMBER OF MALES IN THE CROWD -->
-    <category>
-        <pattern>NUMBER OF MALES</pattern>
-        <template>In the group there are <bot name="crowd_women"/> adults</template>
+        <pattern>NUMBER OF [MALE MALES]</pattern>
+        <template>In the group there are <bot name="crowd_men"/> mens</template>
     </category>
     
     <!-- WHAT IS THE SIZE OF THE CROWD -->
