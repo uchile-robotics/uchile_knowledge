@@ -68,25 +68,31 @@
     <!-- TELL THE NUMBER OF MALE AND WOMEN PEOPLE -->
     <category>
         <pattern>NUMBER OF MALE AND WOMEN</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     <category>
         <pattern>NUMBER OF MALE AND WOMEN</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     <category>
         <pattern>NUMBER OF WOMEN AND MALES</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     <category>
         <pattern>NUMBER OF WOMEN AND MALE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     
     <!-- Tell me how many people were wearing blue -->
     <category>
         <pattern>PEOPLE WERE WEARING *</pattern>
         <template>PEOPLE COLOR <star index="1"/></template>
+    </category>
+
+    <!-- Was the <pose> person <gender> or <gender> -->
+    <category>
+        <pattern>* person male or female</pattern>
+        <template>CROWD <star index="1"/> GENDER</template>
     </category>
     
 </aiml>
