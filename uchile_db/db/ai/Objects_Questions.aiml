@@ -38,9 +38,20 @@
     </category>
     
     <category>
-    <pattern>TO WICH CATEGORY BELONG THE *</pattern>
+    <pattern>CATEGORY BELONG THE *</pattern>
     <template>object category <star index="1"></star></template>
     </category>
+    
+     <category>
+    <pattern>CATEGORY BELONGS THE *</pattern>
+    <template>object category <star index="1"></star></template>
+    </category>
+    
+    <category>
+    <pattern>WHAT IS THE *</pattern>
+    <template>object is <star index="1"></star></template>
+    </category>
+    
     
     <category>
     <pattern>BETWEEN THE * AND * WICH ONE IS *</pattern>
