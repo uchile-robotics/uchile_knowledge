@@ -91,8 +91,28 @@
 
     <!-- Was the <pose> person <gender> or <gender> -->
     <category>
-        <pattern>* person male or female</pattern>
-        <template>CROWD <star index="1"/> GENDER</template>
+        <pattern> * PERSON MALE OR FEMALE</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
     </category>
     
+    <category>
+        <pattern>* PERSON FEMALE OR MALE</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
+    </category>
+    
+    <category>
+        <pattern>* PERSON MEN OR WOMEN</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
+    </category>
+    
+    <category>
+        <pattern>* PERSON WOMEN OR MEN</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
+    </category>
+    
+    <!-- Was the <pose> person <gender> or <gender> -->
+    <category>
+        <pattern> * PERSON WAS A *</pattern>
+        <template>crowd <star index="1"/> gender <star index="1"/></template>
+    </category>
 </aiml>
