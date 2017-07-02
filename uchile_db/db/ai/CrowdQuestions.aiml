@@ -115,4 +115,57 @@
         <pattern> * PERSON WAS A *</pattern>
         <template>crowd <star index="1"/> gender <star index="1"/></template>
     </category>
+    
+    <!-- Tell me how many people were wearing <color>  -->
+    <category>
+    <pattern>PEOPLE WERE WEARING BLUE</pattern>
+    <template>In the group there are <bot name="crowd_blue"/> persons wearing blue</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING BLACK</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing black</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING RED</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing red</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING GREEN</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing green</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING YELLOW</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing yellow</template>
+    </category>
+
+    <!-- Tell me how many person were wearing <color>  -->
+    <category>
+    <pattern>PERSON WERE WEARING BLUE</pattern>
+    <template>In the group there are <bot name="crowd_blue"/> persons wearing blue</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING BLACK</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing black</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING RED</pattern>
+    <template>In the group there are <bot name="crowd_men"/>persons wearing red</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING GREEN</pattern>
+    <template>In the group there are <bot name="crowd_men"/>persons wearing green</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING YELLOW</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing yellow</template>
+    </category>
+    
 </aiml>

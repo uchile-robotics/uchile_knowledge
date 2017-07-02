@@ -74,6 +74,11 @@
       </category>
       
       <category>
+        <pattern>COLOR OF * </pattern>
+        <template>object color <star index="1"/></template>
+      </category>
+      
+      <category>
       <pattern>WHAT'S THE COLOUR OF THE *</pattern>
       <template>object color <star index="1"/></template>
       </category>
