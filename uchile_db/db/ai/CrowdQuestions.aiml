@@ -168,4 +168,19 @@
     <template>In the group there are <bot name="crowd_men"/> persons wearing yellow</template>
     </category>
     
+    <category>
+    <pattern>OLD DO YOU THINK I AM</pattern>
+    <template>i think that you are <bot name="personal_age"/></template>
+    </category>
+    
+    <category>
+    <pattern>I AM A MAN OR A WOMEN</pattern>
+    <template>you are a <bot name="persona_gender"/></template>
+    </category>
+    
+    <category>
+    <pattern>I AM A WOMEN OR A MAN</pattern>
+    <template>you are a <bot name="persona_gender"/></template>
+    </category>
+    
 </aiml>
