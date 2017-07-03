@@ -169,8 +169,8 @@
     </category>
     
     <category>
-    <pattern>OLD DO YOU THINK I AM</pattern>
-    <template>i think that you are <bot name="personal_age"/></template>
+    <pattern>HOW OLD DO YOU THINK I AM</pattern>
+    <template>i think that you are <bot name="personal_age"/> years old</template>
     </category>
     
     <category>
