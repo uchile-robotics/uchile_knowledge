@@ -174,12 +174,12 @@
     </category>
     
     <category>
-    <pattern>I AM A MAN OR A WOMEN</pattern>
+    <pattern>AM I A MAN OR A WOMAN</pattern>
     <template>you are a <bot name="persona_gender"/></template>
     </category>
     
     <category>
-    <pattern>I AM A WOMEN OR A MAN</pattern>
+    <pattern>AM I A WOMAN OR A MAN</pattern>
     <template>you are a <bot name="persona_gender"/></template>
     </category>
     
