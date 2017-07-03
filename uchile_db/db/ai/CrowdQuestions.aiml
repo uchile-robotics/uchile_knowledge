@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
+﻿<aiml version="2.0">
 <autor>"Nicolas Marticorena"</autor>
 
 <!-- Whatis the number of ..... in the crowd                                                                                                       -->
@@ -69,30 +68,119 @@
     <!-- TELL THE NUMBER OF MALE AND WOMEN PEOPLE -->
     <category>
         <pattern>NUMBER OF MALE AND WOMEN</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     <category>
         <pattern>NUMBER OF MALE AND WOMEN</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     <category>
         <pattern>NUMBER OF WOMEN AND MALES</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     <category>
         <pattern>NUMBER OF WOMEN AND MALE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_woman"/> woman</template>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> woman</template>
     </category>
     
     <!-- Tell me how many people were wearing blue -->
     <category>
         <pattern>PEOPLE WERE WEARING *</pattern>
-        <template>PEOPLE COLOR <star index="1"/></template></category>
-    
-    
-    
-    
-    
-    
+        <template>PEOPLE COLOR <star index="1"/></template>
+    </category>
 
+    <!-- Was the <pose> person <gender> or <gender> -->
+    <category>
+        <pattern> * PERSON MALE OR FEMALE</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
+    </category>
+    
+    <category>
+        <pattern>* PERSON FEMALE OR MALE</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
+    </category>
+    
+    <category>
+        <pattern>* PERSON MEN OR WOMEN</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
+    </category>
+    
+    <category>
+        <pattern>* PERSON WOMEN OR MEN</pattern>
+        <template>crowd <star index="1"/> gender male female</template>
+    </category>
+    
+    <!-- Was the <pose> person <gender> or <gender> -->
+    <category>
+        <pattern> * PERSON WAS A *</pattern>
+        <template>crowd <star index="1"/> gender <star index="1"/></template>
+    </category>
+    
+    <!-- Tell me how many people were wearing <color>  -->
+    <category>
+    <pattern>PEOPLE WERE WEARING BLUE</pattern>
+    <template>In the group there are <bot name="crowd_blue"/> persons wearing blue</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING BLACK</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing black</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING RED</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing red</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING GREEN</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing green</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE WERE WEARING YELLOW</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing yellow</template>
+    </category>
+
+    <!-- Tell me how many person were wearing <color>  -->
+    <category>
+    <pattern>PERSON WERE WEARING BLUE</pattern>
+    <template>In the group there are <bot name="crowd_blue"/> persons wearing blue</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING BLACK</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing black</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING RED</pattern>
+    <template>In the group there are <bot name="crowd_men"/>persons wearing red</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING GREEN</pattern>
+    <template>In the group there are <bot name="crowd_men"/>persons wearing green</template>
+    </category>
+    
+    <category>
+    <pattern>PERSON WERE WEARING YELLOW</pattern>
+    <template>In the group there are <bot name="crowd_men"/> persons wearing yellow</template>
+    </category>
+    
+    <category>
+    <pattern>OLD DO YOU THINK I AM</pattern>
+    <template>i think that you are <bot name="personal_age"/></template>
+    </category>
+    
+    <category>
+    <pattern>AM I A MAN OR A WOMAN</pattern>
+    <template>you are a <bot name="persona_gender"/></template>
+    </category>
+    
+    <category>
+    <pattern>AM I A WOMAN OR A MAN</pattern>
+    <template>you are a <bot name="persona_gender"/></template>
+    </category>
+    
 </aiml>

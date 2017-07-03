@@ -6,6 +6,26 @@
         <pattern>IN *</pattern>
         <template><srai><star index="1"/></srai></template>
     </category>
+    
+    <category>
+        <pattern>BENDER *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    
+    <category>
+    <pattern>PEPPER *</pattern>
+    <template><srai><star index="1"/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>HEY *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>ROBOT *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
 
     <category>
         <pattern>IS *</pattern>
@@ -129,6 +149,12 @@
         <pattern>TELL ME *</pattern>
         <template><srai><star index="1"/></srai></template>
     </category>
+    
+    <category>
+        <pattern>IF *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+    
     
     <category>
         <pattern>TELL *</pattern>
