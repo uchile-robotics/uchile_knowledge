@@ -1,6 +1,9 @@
 #!/bin/bash
 #ejemplo : ./CreateMapperObject.sh GermanOpen2017/Objects/
 
+echo "#Cylinder :::> name : [diameter(scale.x =scale.y), height (scale.z) ]" >> ObjectInformation.yaml
+
+
 dirlist=(${1}*)
 obj='<small_objects> = '
 objmaqui='<small_objects> = '
@@ -30,9 +33,9 @@ for dir in "${dirlist[@]}"; do
 
 	if echo "$nameobj" | grep -q ","; then
 	  echo "OJO!! hay que separarlos";
-	  echo "$nameobj: ['$categobj', 0.15, 0.15]" >> ObjectInformation.yaml
+	  echo "$nameobj: [ 0.15, 0.15]" >> ObjectInformation.yaml
 	else
-	  echo "$nameobj: ['$categobj', 0.15, 0.15]" >> ObjectInformation.yaml
+	  echo "$nameobj: [ 0.15, 0.15]" >> ObjectInformation.yaml
 	fi
 	obj=$obj$nameCamel" | "
 	objmaqui=$objmaqui$nameobj" | "
