@@ -17,6 +17,11 @@
         <pattern>NUMBER OF WOMEN</pattern>
         <template>In the group there are <bot name="crowd_women"/> womens</template>
     </category>
+    <!-- WHAT IS THE NUMBER OF FEMALE IN THE CROWD -->
+    <category>
+        <pattern>NUMBER OF FEMALE</pattern>
+        <template>In the group there are <bot name="crowd_women"/> womens</template>
+    </category>
     <!-- WHAT IS THE NUMBER OF MALE IN THE CROWD -->
     <category>
         <pattern>NUMBER OF MALE</pattern>
@@ -49,6 +54,10 @@
     </category>
     <category>
         <pattern>WOMEN ARE</pattern>
+        <template><srai>NUMBER OF WOMEN</srai></template>
+    </category>
+    <category>
+        <pattern>FEMALES ARE</pattern>
         <template><srai>NUMBER OF WOMEN</srai></template>
     </category>
     <category>
