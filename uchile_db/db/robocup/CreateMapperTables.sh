@@ -13,6 +13,7 @@ manipulation_tablemaqui='<manipulation_tables> = '
 
 categories='<categories> = '
 categoriesmaqui='<categories> = '
+echo "#length, with, height" >> TablesInformation.yaml
 
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 while read num tabl cat 
@@ -39,7 +40,7 @@ do
 	manipulation_table=$manipulation_table$tablCamel" | "
 	manipulation_tablemaqui=$manipulation_tablemaqui$tabl" | "
 
-	echo "$tabl: [ 0.8, 0.6, 0.6]" >> TablesInformation.yaml
+	echo "$tabl: [1.20, 0.50, 0.75]" >> TablesInformation.yaml
 
 done < $INPUT
 IFS=$OLDIFS
