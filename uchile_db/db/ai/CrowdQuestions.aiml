@@ -15,17 +15,17 @@
      <!-- WHAT IS THE NUMBER OF WOMEN IN THE CROWD -->
     <category>
         <pattern>NUMBER OF WOMEN</pattern>
-        <template>In the group there are <bot name="crowd_women"/> womens</template>
+        <template>In the group there are <bot name="crowd_women"/> women</template>
     </category>
     <!-- WHAT IS THE NUMBER OF MALE IN THE CROWD -->
     <category>
         <pattern>NUMBER OF MALE</pattern>
-        <template>In the group there are <bot name="crowd_men"/> mens</template>
+        <template>In the group there are <bot name="crowd_men"/> men</template>
     </category>
     <!-- WHAT IS THE NUMBER OF MALES IN THE CROWD -->
     <category>
         <pattern>NUMBER OF MALES</pattern>
-        <template>In the group there are <bot name="crowd_men"/> mens</template>
+        <template>In the group there are <bot name="crowd_men"/> men</template>
     </category>
     <!-- WHAT IS THE SIZE OF THE CROWD -->
     <category>
