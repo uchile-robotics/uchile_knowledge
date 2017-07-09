@@ -1,25 +1,7 @@
-- id: indoor_a
-  type: object_pose
-  frame: map
-  position: [2.755891561508179, 1.183229804039001, 0.002471923828125]
-  orientation: [1, 0, 0, 0]
-
-- id: indoor_b
-  type: object_pose
-  frame: map
-  position: [4.640798568725586, -0.2341482788324356, 0.002471923828125]
-  orientation: [1, 0, 0, 0]
-
-- id: indoor_c
-  type: object_pose
-  frame: map
-  position: [1.660662174224854, 3.116635799407959, 0.026336669921875]
-  orientation: [1, 0, 0, 0]
-
-- id: gpsr_init
+- id: storing_table
   type: map_pose
   frame: map
-  position: [0.02574404515326023, 0.01614152267575264, 1.534332275390625]
+  position: [2.408672332763672, -0.7685624957084656, 0.006378173828125]
   orientation: [1, 0, 0, 0]
 
 - id: bar
@@ -93,6 +75,30 @@
   frame: map
   position: [4.366086483001709, -2.953428030014038, 0.000537872314453125]
   orientation: [0.6979798078536987, 5.044079998128836e-08, -2.175379876234729e-10, -0.7161174416542053]
+
+- id: gpsr_init
+  type: map_pose
+  frame: map
+  position: [0.02574404515326023, 0.01614152267575264, 1.534332275390625]
+  orientation: [1, 0, 0, 0]
+
+- id: indoor_a
+  type: object_pose
+  frame: map
+  position: [2.755891561508179, 1.183229804039001, 0.002471923828125]
+  orientation: [1, 0, 0, 0]
+
+- id: indoor_b
+  type: object_pose
+  frame: map
+  position: [4.640798568725586, -0.2341482788324356, 0.002471923828125]
+  orientation: [1, 0, 0, 0]
+
+- id: indoor_c
+  type: object_pose
+  frame: map
+  position: [1.660662174224854, 3.116635799407959, 0.026336669921875]
+  orientation: [1, 0, 0, 0]
 
 - id: kitchen
   type: map_pose
