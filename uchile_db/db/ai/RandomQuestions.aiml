@@ -120,7 +120,11 @@
 
     <category>
         <pattern>USED *</pattern>
-        <template><srai>DRUG</srai></template>
+        <template><srai>DRUG</srai></template> # smach.StateMachine.add('SAVEINFORMATION',SaveAudioCommandInformation(robot),
+        #     transitions={
+        #         'succeeded':'FIND_ANSWER'
+        #     }
+        # )
     </category>
 
     <category>
@@ -775,76 +779,191 @@
         <pattern>* MEN</pattern>
         <template><srai>BEST FRIEND</srai></template>
     </category>
+
+CHECK
 <category>
 	<pattern>WHICH ROBOT IS USED IN THE DOMESTIC STANDARD PLATFORM LEAGUE</pattern>
 	<template>The Toyota Human Support Robot</template>
     </category>
-    
+
+CHECK
     <category>
 	<pattern>WHO INVENTED THE C PROGRAMMING LANGUAGE</pattern>
 	<template>Ken Thompson and Dennis Ritchie.</template>
     </category>
-    
+
+CHECK
     <category>
 	<pattern>WHEN WAS INVENTED THE C PROGRAMMING LANGUAGE</pattern>
 	<template>C was developed after B in 1972 at Bell Labs</template>
     </category>
     
+CHECK
     <category>
 	<pattern>WHEN WAS INVENTED THE B PROGRAMMING LANGUAGE</pattern>
 	<template>B was developed circa 1969 at Bell Labs</template>
     </category>
-    
+
+CHECK
     <category>
 	<pattern>WHERE DOES THE TERM COMPUTER BUG COME FROM</pattern>
 	<template>From a moth trapped in a relay</template>
     </category>
     
+
     <category>
 	<pattern>WHO INVENTED THE FIRST COMPILER</pattern>
 	<template>Grace Brewster Murray Hopper invented it</template>
     </category>
+
+CHECK
+JUANMA 
+    <category>
+    <pattern>WHO INVENTED THE FIRST COMPUTER</pattern>
+    <template>Grace Brewster Murray Hopper invented it</template>
+    </category>
     
+CHECK
     <category>
 	<pattern>WHICH ROBOT IS USED IN THE OPEN PLATFORM LEAGUE</pattern>
 	<template>There is no standard defined for OPL</template>
     </category>
-    
+
+JUANMA
+    <category>
+    <pattern>WHICH ROBOT IS USED IN THE OVEN PLATFORM LEAGUE</pattern>
+    <template>There is no standard defined for OPL</template>
+    </category>
+
+CHECK
     <category>
 	<pattern>WHICH ROBOT IS USED IN THE SOCIAL STANDARD PLATFORM LEAGUE</pattern>
 	<template>The SoftBank Robotics Pepper</template>
     </category>
+
+JUANMA
+    <category>
+    <pattern>WHICH ROAD IS USED IN THE SOCIAL STANDARD PLATFORM LEAGUE</pattern>
+    <template>The SoftBank Robotics Pepper</template>
+    </category>
+
+JUANMA
+    <category>
+    <pattern>WHICH ROBOT IS USED IN THE SOCIALIST STANDARD PLATFORM LEAGUE</pattern>
+    <template>The SoftBank Robotics Pepper</template>
+    </category>
     
+JUANMA
+    <category>
+    <pattern>WHICH ROAD IS USED IN THE SOCIALIST ON THE PLATFORM LEAGUE</pattern>
+    <template>The SoftBank Robotics Pepper</template>
+    </category>
+
+JUANMA
+    <category>
+    <pattern>WHICH ROAD IS USED IN THE SOCIALIST AND THEIR PLATFORM LEAGUE</pattern>
+    <template>The SoftBank Robotics Pepper</template>
+    </category>
+
+CHECK
     <category>
 	<pattern>HOW MANY PEOPLE LIVE IN THE JAPAN</pattern>
 	<template>A little over 80 million</template>
     </category>
     
+
+CHECK
     <category>
 	<pattern>WHAT ARE THE COLOURS OF THE JAPANESE FLAG</pattern>
 	<template>Japanese flag is a red circle centred over white</template>
     </category>
+
+JUANMA
+    <category>
+    <pattern>WHAT ARE THE COLORS OF THE JAPANESE FLAG</pattern>
+    <template>Japanese flag is a red circle centred over white</template>
+    </category>
     
+CHECK
     <category>
 	<pattern>WHAT IS A SAKURA</pattern>
 	<template>Sakura is the Japanese term for ornamental cherry blossom and its tree</template>
     </category>
-    
+
+    JUANMA
+    <category>
+    <pattern>WHAT IS A SACRUM</pattern>
+    <template>Sakura is the Japanese term for ornamental cherry blossom and its tree</template>
+    </category>
+
+CHECK
     <category>
 	<pattern>WHO IS THE EMPEROR OF JAPAN</pattern>
 	<template>His Majesty Akihito sama is the emperor in Japan since January 7, 1989</template>
     </category>
+
+JUANMA
+    <category>
+    <pattern>WHO IS EMPEROR OF JAPAN</pattern>
+    <template>His Majesty Akihito sama is the emperor in Japan since January 7, 1989</template>
+    </category>
     
+CHECK
     <category>
 	<pattern>DO YOU HAVE DREAMS</pattern>
 	<template>I dream of Electric Sheep.</template>
     </category>
     
+CHECK
     <category>
-	<pattern>IN WHICH CITY WILL NEXT YEAR'S ROBOCUP BE HOSTED</pattern>
+	<pattern>IN WHICH CITY WILL NEXT YEAR IS ROBOCUP BE HOSTED</pattern>
 	<template>It hasn't been announced yet.</template>
     </category>
-    
+
+JUANMA
+    <category>
+    <pattern>IN WHICH CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+JUANMA
+    <category>
+    <pattern>CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+    <category>
+    <pattern>IN WHICH CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+    <category>
+    <pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTEL</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+    <category>
+    <pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTEL</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+    <category>
+    <pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTED</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+    <category>
+    <pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTED</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+JUANMA
+    <category>
+    <pattern>CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
+    <template>It hasn't been announced yet.</template>
+    </category>
+
+CHECK
     <category>
 	<pattern>WHO IS THE LAST SAMURAI</pattern>
 	<template>Tom Cruise is the last samurai</template>
