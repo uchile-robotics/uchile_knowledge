@@ -3,6 +3,15 @@
 	<arg name="map_name" default="map"/>
 
 	<!-- Map Server -->
-	<node pkg="map_server" type="map_server" name="map_server" respawn="true" args="$(find uchile_maps)/maps/$(arg map_name).yaml"/>
+	<node pkg="map_server" type="map_server" name="map_server"
+		respawn="true" args="$(find uchile_maps)/maps/$(arg map_name).yaml"/>
+
+	<!-- Only static obstacles -->
+	<node pkg="map_server" type="map_server" name="map_server_obstacles" ns="/bender/knowledge/map"
+		respawn="true" args="$(find uchile_maps)/maps/$(arg map_name)_obstacles.yaml">
+		<remap from="map" to="map_obstacles"/>
+		<remap from="map_metadata" to="map_obstacles_metadata"/>
+		<remap from="static_map" to="static_map_obstacles"/>
+	</node>
 
 </launch>

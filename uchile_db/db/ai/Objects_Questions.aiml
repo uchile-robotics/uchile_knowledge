@@ -112,7 +112,7 @@
     <template>object category <star index="1"></star></template>
     </category>
     
-     <category>
+    <category>
     <pattern>CATEGORY BELONGS THE *</pattern>
     <template>object category <star index="1"></star></template>
     </category>
