@@ -51,6 +51,12 @@
     <pattern> ROOMS ON THE *</pattern>
     <template>qobjects qroom <star></star></template>
     </category>
+
+    <category>
+    <pattern> IN WICH ROOM IS THE *</pattern>
+    <template>qobjects qroom <star></star></template>
+    </category>
+
     
     <category>
     <pattern> WHERE IS LOCATED THE *</pattern>
