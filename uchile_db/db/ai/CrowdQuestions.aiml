@@ -95,7 +95,7 @@
     <!-- Tell me how many people were wearing blue -->
     <category>
         <pattern>PEOPLE WERE WEARING *</pattern>
-        <template>PEOPLE COLOR <star index="1"/></template>
+        <template>PEOPLE COLOUR <star index="1"/></template>
     </category>
 
     <!-- Was the <pose> person <gender> or <gender> -->

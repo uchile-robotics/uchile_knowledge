@@ -144,13 +144,13 @@
     </category>
     
     <category>
-        <pattern>COLOR OF THE * </pattern>
-        <template>object color <star index="1"/></template>
+        <pattern>COLOUR OF THE * </pattern>
+        <template>object colour <star index="1"/></template>
       </category>
       
       <category>
-        <pattern>COLOR OF * </pattern>
-        <template>object color <star index="1"/></template>
+        <pattern>COLOUR OF * </pattern>
+        <template>object colour <star index="1"/></template>
       </category>
       
       <category>
@@ -162,8 +162,6 @@
         <pattern>WHAT OBJECTS ARE IN THE * </pattern>
         <template>object in <star index="1"/></template>
     </category>
-    
-    
     
     
     <category>

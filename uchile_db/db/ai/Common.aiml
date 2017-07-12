@@ -3,6 +3,11 @@
  <!-- CONECTORES COMUNES -->
 
     <category>
+        <pattern>PLEASE *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
         <pattern>IN *</pattern>
         <template><srai><star index="1"/></srai></template>
     </category>
