@@ -7,6 +7,10 @@
         <pattern>NUMBER OF CHILDREN</pattern>
         <template>In the group there are <bot name="crowd_children"/> children</template>
     </category>
+    <category>
+        <pattern>NUMBER OF CHILDRENS</pattern>
+        <template>In the group there are <bot name="crowd_children"/> children</template>
+    </category>
     <!-- WHAT IS THE NUMBER OF ADULTS IN THE CROWD -->
         <category>
         <pattern>NUMBER OF ADULTS</pattern>
