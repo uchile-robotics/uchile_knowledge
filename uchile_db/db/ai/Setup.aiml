@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="2.0">
+
+<category>
+  <pattern>DOORS HAS THE *</pattern>
+  <template>arena doors <star index="1"/></template>
+</category>
+
+<category>
+  <pattern>NURSE HAS THE *</pattern>
+  <template>arena doors <star index="1"/></template>
+</category>
+
+<category>
+  <pattern>DORIS HAS THE *</pattern>
+  <template>arena doors <star index="1"/></template>
+</category>
+
+
+</aiml>
