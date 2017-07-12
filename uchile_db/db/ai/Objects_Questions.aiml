@@ -4,72 +4,72 @@
 
     <category>
         <pattern>_THE * FOOD </pattern>
-        <template>object <star /> food </template>
+        <template>qobject <star /> food </template>
     </category>
     
     <category>
     <pattern>* THERE ARE</pattern>
-    <template>object cantidad <star/> global</template>
+    <template>qobject qcantidad <star/> global</template>
     </category>
     
     <category>
     <pattern>* ARE LOCATED IN THE *</pattern>
-    <template>object <star index="1"/> cantidad <star index="2"/></template>
+    <template>qobject <star index="1"/> qcantidad <star index="2"/></template>
     </category>
   
     <category>
         <pattern>WHICH IS THE * DRINK </pattern>
-        <template>object <star /> drink </template>
+        <template>qobject <star /> qdrink </template>
     </category>
     
     <category>
         <pattern>WHICH IS THE * OBJECT</pattern>
-        <template>object <star /> object </template>
+        <template>qobject <star /> qobject </template>
     </category>
     
     <category>
         <pattern>WHICH IS THE * FOOD</pattern>
-        <template>object <star /> food </template>
+        <template>qobjects <star /> qfood </template>
     </category>
 
     <category>
         <pattern>WHERE IS THE * </pattern>
-        <template>object where <star /> </template>
+        <template>qobjects qwhere <star /> </template>
     </category>
     
     <category>
     <pattern> ROOM IS THE *</pattern>
-    <template> object room <star></star></template>
+    <template> qobjects qroom <star></star></template>
     </category>
     
     <category>
     <pattern> ROOM ON THE *</pattern>
-    <template> object room <star></star></template>
+    <template>qobjects qroom <star></star></template>
     </category>
     
     <category>
     <pattern> ROOMS ON THE *</pattern>
-    <template> object room <star></star></template>
+    <template>qobjects qroom <star></star></template>
     </category>
     
     <category>
     <pattern> WHERE IS LOCATED THE *</pattern>
-    <template> object located <star></star></template>
+    <template>qobjects qlocated <star></star></template>
     </category>
     
     <category>
     <pattern> WHERES IS LOCATED THE *</pattern>
-    <template> object located <star></star></template>
+    <template>qobjects located <star></star></template>
     </category>
     
     <category>
     <pattern> WHERE ON LOCATED THE *</pattern>
-    <template> object located <star></star></template>
+    <template>qobjects qlocated <star></star></template>
     </category>
     
      <category>
     <pattern> WHERES ON LOCATED THE *</pattern>
-    <template> object located <star></star></template>
+    <template>qobjects qlocated <star></star></template>
     </category>
 
     <category>
@@ -79,89 +79,103 @@
 
     <category>
         <pattern>WHERE CAN I FIND THE * </pattern>
-        <template>object where <star /> </template>
+        <template>qobjects qwhere <star /> </template>
     </category>
     
     <category>
         <pattern>WHERE CAN I FIND A * </pattern>
-        <template>object where <star /> </template>
+        <template>qobjects qwhere <star /> </template>
     </category>
     
     <category>
     <pattern>WHAT OBJECTS ARE STORED IN THE *</pattern>
-    <template>object in <star index="1"/></template>
+    <template>qobjects qin <star index="1"/></template>
     </category>
 
     <category>
     <pattern>WHAT OBJECTS ARE STARRETT IN THE *</pattern>
-    <template>object in <star index="1"/></template>
+    <template>qobjects qin <star index="1"/></template>
     </category>
     
     <category>
     <pattern>WHAT OBJECTS ARE STIRRETT IN THE *</pattern>
-    <template>object in <star index="1"/></template>
+    <template>qobjects qin <star index="1"/></template>
     </category>
     
     <category>
     <pattern>WHAT OBJECTS ARE IS TURRET IN THE *</pattern>
-    <template>object in <star index="1"/></template>
+    <template>qobjects qin <star index="1"/></template>
     </category>
     
     <category>
     <pattern>CATEGORY BELONG THE *</pattern>
-    <template>object category <star index="1"></star></template>
+    <template>qobjects qcategory <star index="1"></star></template>
     </category>
     
     <category>
     <pattern>CATEGORY BELONGS THE *</pattern>
-    <template>object category <star index="1"></star></template>
+    <template>qobjects qcategory <star index="1"></star></template>
     </category>
     
-    <category>
-    <pattern>WHAT IS THE *</pattern>
-    <template>object is <star index="1"></star></template>
-    </category>
     
     
     <category>
     <pattern>BETWEEN THE * AND * WHICH ONE IS *</pattern>
-    <template>object compare <star index="1"/> <star index="2"/> <star index="3"/></template>
+    <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
     </category>
     
     <category>
     <pattern>BETWEEN THE * AND * WHICH ONE IS THE *</pattern>
-    <template>object compare <star index="1"/> <star index="2"/> <star index="3"/></template>
+    <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
     </category>
     
     <category>
     <pattern>DO THE * AND * BELONG TO THE SAME CATEGORY</pattern>
-    <template>object same <star index="1"/>  <star index="2"/> </template>
+    <template>qobject qsame <star index="1"/>  <star index="2"/> </template>
     </category>
     
     <category>
     <pattern>* AND * BELONG TO THE SAME CATEGORY</pattern>
-    <template>object same <star index="1"/>  <star index="2"/> </template>
+    <template>qobject qsame <star index="1"/>  <star index="2"/> </template>
     </category>
     
     <category>
         <pattern>COLOUR OF THE * </pattern>
-        <template>object colour <star index="1"/></template>
+        <template>qobject qcolour <star index="1"/></template>
+      </category>
+
+      <category>
+        <pattern>COLOR OF THE * </pattern>
+        <template>qobject qcolour <star index="1"/></template>
+      </category>
+
+      <category>
+        <pattern>COLOR OF * </pattern>
+        <template>qobject qcolour <star index="1"/></template>
       </category>
       
       <category>
         <pattern>COLOUR OF * </pattern>
-        <template>object colour <star index="1"/></template>
+        <template>qobject qcolour <star index="1"/></template>
       </category>
       
       <category>
       <pattern>WHAT'S THE COLOUR OF THE *</pattern>
-      <template>object color <star index="1"/></template>
+      <template>qobject qcolour <star index="1"/></template>
+      </category>
+      
+      <category>
+      <pattern>WHAT IS THE COLOUR OF THE *</pattern>
+      <template>qobject qcolour <star index="1"/></template>
       </category>
       
       <category>
         <pattern>WHAT OBJECTS ARE IN THE * </pattern>
-        <template>object in <star index="1"/></template>
+        <template>qobject qin <star index="1"/></template>
     </category>
+    
+    <category>
+    <pattern>* ARE IN THE *</pattern></category>
     
     
     <category>
