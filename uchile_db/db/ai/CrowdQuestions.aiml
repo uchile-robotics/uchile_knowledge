@@ -105,28 +105,28 @@
     <!-- Was the <pose> person <gender> or <gender> -->
     <category>
         <pattern> * PERSON MALE OR FEMALE</pattern>
-        <template>crowd <star index="1"/> gender male female</template>
+        <template>qcrowd <star index="1"/> gender male female</template>
     </category>
     
     <category>
         <pattern>* PERSON FEMALE OR MALE</pattern>
-        <template>crowd <star index="1"/> gender male female</template>
+        <template>qcrowd <star index="1"/> gender male female</template>
     </category>
     
     <category>
         <pattern>* PERSON MEN OR WOMEN</pattern>
-        <template>crowd <star index="1"/> gender male female</template>
+        <template>qcrowd <star index="1"/> gender male female</template>
     </category>
     
     <category>
         <pattern>* PERSON WOMEN OR MEN</pattern>
-        <template>crowd <star index="1"/> gender male female</template>
+        <template>qcrowd <star index="1"/> gender male female</template>
     </category>
     
     <!-- Was the <pose> person <gender> or <gender> -->
     <category>
         <pattern> * PERSON WAS A *</pattern>
-        <template>crowd <star index="1"/> gender <star index="1"/></template>
+        <template>qcrowd <star index="1"/> gender <star index="1"/></template>
     </category>
     
     <!-- Tell me how many people were wearing <color>  -->
@@ -194,6 +194,36 @@
     <category>
     <pattern>AM I A WOMAN OR A MAN</pattern>
     <template>you are a <bot name="personal_gender"/></template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD ARE POINTING RIGHT</pattern>
+    <template>in the crowd there are <bot name="crowd_rightpointarms"/> person pointing right</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD ARE POINTING LEFT</pattern>
+    <template>in the crowd there are <bot name="crowd_leftpointarms"/> person pointing left</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD WERE POINTING RIGHT</pattern>
+    <template>in the crowd there are <bot name="crowd_rightpointarms"/> person pointing right</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD WERE POINTING LEFT</pattern>
+    <template>in the crowd there are <bot name="crowd_leftpointarms"/> person pointing left</template>
+    </category>
+    <!-- How many people in the crowd are waving? -->
+    <category>
+    <pattern>PEOPLE IN THE CROWD ARE WAVING</pattern>
+    <template>In the crowd there are <bot name="crowd_waving"></bot>  person waving her arms</template>    
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD WERE WAVING</pattern>
+    <template>In the crowd there are <bot name="crowd_waving"></bot>  person waving her arms</template>    
     </category>
     
 </aiml>
