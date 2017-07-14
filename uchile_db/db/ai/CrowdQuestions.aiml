@@ -225,5 +225,26 @@
     <pattern>PEOPLE IN THE CROWD WERE WAVING</pattern>
     <template>In the crowd there are <bot name="crowd_waving"></bot>  person waving her arms</template>    
     </category>
+
+    <!--How many people in the crowd are rising right arm?--> 
+    <category>
+    <pattern>PEOPLE IN THE CROWD ARE RISING RIGHT ARM</pattern>
+    <template>in the crowd there are <bot name="crowd_rightraisearms"/> person pointing right</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD ARE RISING LEFT ARM</pattern>
+    <template>in the crowd there are <bot name="crowd_leftraisearms"/> person pointing left</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD WERE RISING RIGHT ARM</pattern>
+    <template>in the crowd there are <bot name="crowd_rightraisearms"/> person pointing right</template>
+    </category>
+    
+    <category>
+    <pattern>PEOPLE IN THE CROWD WERE RISING LEFT ARM</pattern>
+    <template>in the crowd there are <bot name="crowd_leftraisearms"/> person pointing left</template>
+    </category>
     
 </aiml>

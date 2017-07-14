@@ -33,6 +33,21 @@
     </category>
 
     <category>
+        <pattern>WHICH IS THE * TOILETRIES</pattern>
+        <template>qobjects <star /> qtoiletries </template>
+    </category>
+
+    <category>
+        <pattern>WHICH IS THE * CANDIES</pattern>
+        <template>qobjects <star /> qcandies </template>
+    </category>
+
+    <category>
+        <pattern>WHICH IS THE * CONTAINERS</pattern>
+        <template>qobjects <star /> qcontainers </template>
+    </category>
+
+    <category>
         <pattern>WHERE IS THE * </pattern>
         <template>qobjects qwhere <star /> </template>
     </category>
