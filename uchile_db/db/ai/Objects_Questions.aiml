@@ -77,6 +77,11 @@
     <pattern> WHERE IS THE * LOCATED</pattern>
     <template>qobjects qlocated <star></star></template>
     </category>
+
+    <category>
+    <pattern> WHERE IS LOCATED THE *</pattern>
+    <template>qobjects qlocated <star></star></template>
+    </category>
     
     <category>
     <pattern> WHERES IS LOCATED THE *</pattern>
