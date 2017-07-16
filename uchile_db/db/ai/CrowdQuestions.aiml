@@ -176,27 +176,27 @@
     
     <category>
     <pattern>PEOPLE WERE WEARING BLACK</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing black</template>
+    <template>In the group there are <bot name="crowd_black"/> people wearing black</template>
     </category>
     
     <category>
     <pattern>PEOPLE WERE WEARING RED</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing red</template>
+    <template>In the group there are <bot name="crowd_red"/> people wearing red</template>
     </category>
     
     <category>
     <pattern>PEOPLE WERE WEARING GREEN</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing green</template>
+    <template>In the group there are <bot name="crowd_green"/> people wearing green</template>
     </category>
     
     <category>
     <pattern>PEOPLE WERE WEARING YELLOW</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing yellow</template>
+    <template>In the group there are <bot name="crowd_yellow"/> people wearing yellow</template>
     </category>
 
     <category>
     <pattern>PEOPLE WERE WEARING WHITE</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing white</template>
+    <template>In the group there are <bot name="crowd_white"/> people wearing white</template>
     </category>
 
     <!-- Tell me how many person were wearing <color>  -->
@@ -207,27 +207,27 @@
     
     <category>
     <pattern>PERSON WERE WEARING BLACK</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing black</template>
+    <template>In the group there are <bot name="crowd_black"/> people wearing black</template>
     </category>
     
     <category>
     <pattern>PERSON WERE WEARING RED</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing red</template>
+    <template>In the group there are <bot name="crowd_red"/> people wearing red</template>
     </category>
     
     <category>
     <pattern>PERSON WERE WEARING GREEN</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing green</template>
+    <template>In the group there are <bot name="crowd_green"/> people wearing green</template>
     </category>
     
     <category>
     <pattern>PERSON WERE WEARING YELLOW</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing yellow</template>
+    <template>In the group there are <bot name="crowd_yellow"/> people wearing yellow</template>
     </category>
 
     <category>
     <pattern>PERSON WERE WEARING WHITE</pattern>
-    <template>In the group there are <bot name="crowd_men"/> people wearing white</template>
+    <template>In the group there are <bot name="crowd_white"/> people wearing white</template>
     </category>
 
     
