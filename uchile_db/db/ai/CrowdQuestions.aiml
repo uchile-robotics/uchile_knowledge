@@ -97,6 +97,38 @@
         <pattern>NUMBER OF WOMEN AND MALE</pattern>
         <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
     </category>
+    <category>
+        <pattern>NUMBER OF FEMALE AND MALES</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF FEMALE AND MALE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF FEMALES AND MALES</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF FEMALES AND MALE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF MALE AND FEMALES</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF MALE AND FEMALE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF MALES AND FEMALES</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF MALES AND FEMALE</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
+    </category>
     
     <!-- Tell me how many people were wearing blue -->
     <category>
