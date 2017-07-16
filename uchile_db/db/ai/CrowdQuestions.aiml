@@ -194,6 +194,11 @@
     <template>In the group there are <bot name="crowd_men"/> people wearing yellow</template>
     </category>
 
+    <category>
+    <pattern>PEOPLE WERE WEARING WHITE</pattern>
+    <template>In the group there are <bot name="crowd_men"/> people wearing white</template>
+    </category>
+
     <!-- Tell me how many person were wearing <color>  -->
     <category>
     <pattern>PERSON WERE WEARING BLUE</pattern>
@@ -207,18 +212,24 @@
     
     <category>
     <pattern>PERSON WERE WEARING RED</pattern>
-    <template>In the group there are <bot name="crowd_men"/>people wearing red</template>
+    <template>In the group there are <bot name="crowd_men"/> people wearing red</template>
     </category>
     
     <category>
     <pattern>PERSON WERE WEARING GREEN</pattern>
-    <template>In the group there are <bot name="crowd_men"/>people wearing green</template>
+    <template>In the group there are <bot name="crowd_men"/> people wearing green</template>
     </category>
     
     <category>
     <pattern>PERSON WERE WEARING YELLOW</pattern>
     <template>In the group there are <bot name="crowd_men"/> people wearing yellow</template>
     </category>
+
+    <category>
+    <pattern>PERSON WERE WEARING WHITE</pattern>
+    <template>In the group there are <bot name="crowd_men"/> people wearing white</template>
+    </category>
+
     
     <category>
     <pattern>HOW OLD DO YOU THINK I AM</pattern>
