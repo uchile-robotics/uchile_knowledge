@@ -268,12 +268,12 @@
     <!-- How many people in the crowd are waving? -->
     <category>
     <pattern>PEOPLE IN THE CROWD ARE WAVING</pattern>
-    <template>In the crowd there are <bot name="crowd_waving"></bot>  people waving her arms</template>    
+    <template>In the crowd there are <bot name="crowd_wave"></bot>  people waving her arms</template>    
     </category>
     
     <category>
     <pattern>PEOPLE IN THE CROWD WERE WAVING</pattern>
-    <template>In the crowd there are <bot name="crowd_waving"></bot>  people waving her arms</template>    
+    <template>In the crowd there are <bot name="crowd_wave"></bot>  people waving her arms</template>    
     </category>
 
     <!--How many people in the crowd are rising right arm?--> 
