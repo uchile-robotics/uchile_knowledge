@@ -149,7 +149,13 @@
     <pattern>BETWEEN THE * AND * WHICH ONE IS *</pattern>
     <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
     </category>
-    
+
+    <category>
+    <pattern>BETWEEN THE * AND THE * WHICH ONE IS *</pattern>
+    <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
+    </category>
+
+
     <category>
     <pattern>BETWEEN THE * AND * WHICH ONE IS THE *</pattern>
     <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
