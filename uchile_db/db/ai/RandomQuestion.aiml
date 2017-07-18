@@ -96,16 +96,25 @@
         <template><srai>ROBOCUP</srai></template>
     </category>
 
-
     <category>
 	<pattern>WHICH ROBOT IS USED IN THE DOMESTIC STANDARD PLATFORM LEAGUE</pattern>
 	<template>The Toyota Human Support Robot</template>
     </category>
 
+    <category>
+    <pattern>WHAT IS THE HIGHEST POINT IN JAPAN</pattern>
+    <template>THE HIGHEST POINT IN JAPAN IS MOUNT FUJI WHICH REACHES 3776M ABOVE SEA LEVEL</template>
+    </category>
+
 CHECK
     <category>
-	<pattern>WHO INVENTED THE C PROGRAMMING LANGUAGE</pattern>
-	<template>Ken Thompson and Dennis Ritchie.</template>
+	<pattern>WHEN WAS INVENTED THE B PROGRAMMING LANGUAGE</pattern>
+	<template>B WAS DEVELOPED CIRCA 1969 AT BELL LABS</template>
+    </category>
+
+    <category>
+    <pattern>WHO INVENTED THE C PROGRAMMING LANGUAGE</pattern>
+    <template>Ken Thompson and Dennis Ritchie.</template>
     </category>
 
 CHECK
