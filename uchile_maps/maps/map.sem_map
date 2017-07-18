@@ -103,8 +103,8 @@
 - id: kitchencounter
   type: map_pose
   frame: map
-  position: [1.915222060979122, 2.14405976718132, 0]
-  orientation: [0.9996788802185326, 0, 0, -0.02534041130330908]
+  position: [2.156426034513287, 1.918436934881825, 0]
+  orientation: [0.9999785257758705, 0, 0, -0.006553471379094038]
 
 - id: living_room
   type: map_pose
