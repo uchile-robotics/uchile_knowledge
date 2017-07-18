@@ -59,6 +59,7 @@ MapAnalyzer::MapAnalyzer(std::string) {
 	_rviz_pub =  priv.advertise<visualization_msgs::MarkerArray>("map_data",1,this);
 
 	// - - - - Servers - - - -
+	_get_rooms_server = priv.advertiseService("get_rooms", &MapAnalyzer::getRoomsService,this);
 	_check_point_server = priv.advertiseService("check_point_inside_map", &MapAnalyzer::checkPointService,this);
 	_mask_point_cloud2_server = priv.advertiseService("mask_pointcloud2_inside_map", &MapAnalyzer::checkPointCloud2Service,this);
 
@@ -83,6 +84,15 @@ MapAnalyzer::MapAnalyzer(std::string) {
 
 MapAnalyzer::~MapAnalyzer() {
 
+}
+
+bool MapAnalyzer::getRoomsService(uchile_srvs::StringArray::Request &req, uchile_srvs::StringArray::Response& res) {
+	std_msgs::String name;
+	for (int i = 0; i < _rooms.size(); ++i)
+	{
+		res.array.push_back(_rooms[i]);
+	}
+	return true;
 }
 
 void MapAnalyzer::testCloudCallback(const sensor_msgs::PointCloud2& cloud) {
@@ -250,6 +260,10 @@ bool MapAnalyzer::checkPointService(uchile_srvs::ValidPoint::Request &req, uchil
 
 	geometry_msgs::PointStamped ps_in;
 	geometry_msgs::PointStamped ps_out;
+	if (req.frame_id == "") {
+		ROS_WARN("Invalid check point request. 'frame_id' parameter cannot be empty.");
+		return false;
+	}
 	ps_in.header.frame_id = req.frame_id;
 	ps_in.header.stamp = ros::Time(0);
 	ps_in.point = req.point;

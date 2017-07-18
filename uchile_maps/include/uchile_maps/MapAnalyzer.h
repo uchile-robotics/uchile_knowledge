@@ -27,6 +27,7 @@
 #include <geometry_msgs/PolygonStamped.h>
 #include <geometry_msgs/PointStamped.h>
 #include <uchile_srvs/ValidPoint.h>
+#include <uchile_srvs/StringArray.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <uchile_srvs/PointCloud2.h>
 #include <uchile_srvs/PointCloud2Trasnform.h>
@@ -63,6 +64,7 @@ private:
 	ros::Publisher _rviz_pub;
 
 	// services
+	ros::ServiceServer _get_rooms_server;
 	ros::ServiceServer _check_point_server;
 	ros::ServiceServer _mask_point_cloud2_server;
 
@@ -78,6 +80,7 @@ public:
 private:
 
 	// services
+	bool getRoomsService(uchile_srvs::StringArray::Request &req, uchile_srvs::StringArray::Response& res);
 	bool checkPointService(uchile_srvs::ValidPoint::Request &req, uchile_srvs::ValidPoint::Response& res);
 	bool checkPointCloud2Service(uchile_srvs::PointCloud2Trasnform::Request &req, uchile_srvs::PointCloud2Trasnform::Response& res);
 
