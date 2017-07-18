@@ -110,6 +110,11 @@
     </category>
 
     <category>
+        <pattern>WHAT's *</pattern>
+        <template><srai><star index="1"/></srai></template>
+    </category>
+
+    <category>
         <pattern>HOW MANY *</pattern>
         <template><srai><star index="1"/></srai></template>
     </category>
