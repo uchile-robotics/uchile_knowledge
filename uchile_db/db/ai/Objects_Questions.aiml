@@ -28,26 +28,26 @@
     
     <category>
         <pattern>WHICH IS THE * DRINKS </pattern>
-        <template>qobject qsuperlative<star /> drink </template>
+        <template>qobject qsuperlative <star /> drink </template>
     </category>
     <category>
         <pattern>WHICH IS THE * OBJECT</pattern>
-        <template>qobject qsuperlative<star /> object </template>
+        <template>qobject qsuperlative <star /> object </template>
     </category>
     
     <category>
         <pattern>WHICH IS THE * FOOD</pattern>
-        <template>qobject qsuperlative<star /> food </template>
+        <template>qobject qsuperlative <star /> food </template>
     </category>
 
     <category>
         <pattern>WHICH IS THE * TOILETRIES</pattern>
-        <template>qobject qsuperlative<star /> toiletries </template>
+        <template>qobject qsuperlative <star /> toiletries </template>
     </category>
 
     <category>
         <pattern>WHICH IS THE * CANDIES</pattern>
-        <template>qobject qsuperlative<star /> candies </template>
+        <template>qobject qsuperlative <star /> candies </template>
     </category>
 
     <category>
@@ -57,13 +57,8 @@
 
     <category>
         <pattern>WHICH IS THE * SNACKS </pattern>
-        <template>qobject qsuperlative<star /> snacks </template>
+        <template>qobject qsuperlative <star /> snacks </template>
     </category>
-
-
-
-
-
 
     <category>
         <pattern>WHERE IS THE * </pattern>
@@ -137,9 +132,10 @@
     </category>
 
     <category> 
-        <pattern>OBJECTS ARE IN THE *</pattern>
-        <template>qobject qin <star index="1"/></template>
+    <pattern> WHAT OBJECTS ARE IN THE *</pattern>
+    <template>qobject qin <star index="1"/></template>
     </category>
+
 
     <category>
         <pattern>WHAT OBJECTS ARE STARRETT IN THE *</pattern>
@@ -156,6 +152,7 @@
       <template>qobject qin <star index="1"/></template>
     </category>
     
+
     <category>
         <pattern>CATEGORY BELONG THE *</pattern>
         <template>qobject qcategory <star index="1"></star></template>
@@ -228,12 +225,76 @@
         <template>qobject qin <star index="1"/></template>
     </category>
     
+
+
+
     <category>
-        <pattern> * ARE IN THE * </pattern>
-        <template>qobject qmany <star index="1"/> <star index="2"/></template>
+        <pattern> * ARE IN THE BATHROOM </pattern>
+        <template>qobject qcantidad <star index="1"/> bathroom</template>
     </category>
-    
+
     <category>
-    <pattern>LIGHTEST *</pattern>
-    <template></template></category>
+        <pattern> * ARE IN THE BEDROOM </pattern>
+        <template>qobject qcantidad <star index="1"/> bedroom</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE KITCHEN </pattern>
+        <template>qobject qcantidad <star index="1"/> kitchen</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE LIVING ROOM </pattern>
+        <template>qobject qcantidad <star index="1"/> living room</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE OFFICE </pattern>
+        <template>qobject qcantidad <star index="1"/> office </template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE CORRIDOR </pattern>
+        <template>qobject qcantidad <star index="1"/> corridor </template>
+    </category>
+
+
+    <category> 
+    <pattern> OBJECTS ARE IN THE * </pattern>
+    <template> qobject qcantidad object <star index="1"/></template>
+    </category> 
+
+    <category> 
+    <pattern> DRINKS ARE IN THE *</pattern>
+    <template>qobject qcantidad drinks <star index="1"/></template>
+    </category>
+
+    <category> 
+    <pattern> FOOD ARE IN THE *</pattern>
+    <template>qobject qcantidad food <star index="1"/></template>
+    </category>
+
+    <category> 
+        <pattern> SNACKS ARE IN THE *</pattern>
+        <template>qobject qcantidad snacks <star index="1"/></template>
+    </category>
+
+    <category> 
+        <pattern>TOILETRIES ARE IN THE *</pattern>
+        <template>qobject qcantidad toiletries <star index="1"/></template>
+    </category>
+
+
+    <category> 
+        <pattern>CONTAINERS ARE IN THE *</pattern>
+        <template>qobject qcantidad containers <star index="1"/></template>
+    </category>
+
+    <category> 
+        <pattern>CANDIES ARE IN THE *</pattern>
+        <template>qobject qcantidad candies <star index="1"/></template>
+    </category>
+
+
+    
 </aiml>

@@ -170,16 +170,37 @@
         <pattern>TELL *</pattern>
         <template><srai><star index="1"/></srai></template>
     </category>
-    
+
     <category>
     <pattern>* IN THE CROWD</pattern>
-        <template><srai><star index="1"/></srai></template>
+        <template><srai><star index="1"/> </srai></template>
     </category>
-    
+
     <category>
-    <pattern>* PEOPLE</pattern>
-        <template><srai><star index="1"/></srai></template>
+    <pattern>* IN THE GROW</pattern>
+        <template><srai><star index="1"/> </srai></template>
     </category>
-    
-    
+
+<category>
+    <pattern>* IN THE GROWTH</pattern>
+        <template><srai><star index="1"/> </srai></template>
+    </category>
+<category>
+    <pattern>* IN THE ROW</pattern>
+        <template><srai><star index="1"/> </srai></template>
+    </category>
+
+<category>
+    <pattern>PEOPLE IN THE GROW *</pattern>
+        <template><srai>PEOPLE IN THE CROWD <star index="1"/></srai></template>
+    </category>
+<category>
+    <pattern>PEOPLE IN THE GROWTH *</pattern>
+        <template><srai>PEOPLE IN THE CROWD <star index="1"/></srai></template>
+    </category>
+<category>
+    <pattern>PEOPLE IN THE ROW *</pattern>
+        <template><srai>PEOPLE IN THE CROWD <star index="1"/></srai></template>
+    </category>
+
     </aiml>

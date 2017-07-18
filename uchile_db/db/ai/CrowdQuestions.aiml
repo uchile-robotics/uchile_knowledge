@@ -87,6 +87,10 @@
         <template><srai>NUMBER OF MALES</srai></template>
     </category>
     <category>
+        <pattern>BOYS ARE</pattern>
+        <template><srai>NUMBER OF CHILDREN</srai></template>
+    </category>
+    <category>
         <pattern>ELDERS ARE</pattern>
         <template><srai>NUMBER OF ELDERS</srai></template>
     </category>
