@@ -63,11 +63,23 @@
         <template><srai>NUMBER OF WOMEN</srai></template>
     </category>
     <category>
+        <pattern>WOMAN ARE</pattern>
+        <template><srai>NUMBER OF WOMEN</srai></template>
+    </category>
+    <category>
+        <pattern>GIRLS ARE</pattern>
+        <template><srai>NUMBER OF WOMEN</srai></template>
+    </category>
+    <category>
         <pattern>FEMALES ARE</pattern>
         <template><srai>NUMBER OF WOMEN</srai></template>
     </category>
     <category>
         <pattern>MALE ARE</pattern>
+        <template><srai>NUMBER OF MALE</srai></template>
+    </category>
+    <category>
+        <pattern>MEN ARE</pattern>
         <template><srai>NUMBER OF MALE</srai></template>
     </category>
     <category>
@@ -78,7 +90,7 @@
         <pattern>ELDERS ARE</pattern>
         <template><srai>NUMBER OF ELDERS</srai></template>
     </category>
-    
+
     <!-- WHAT IS THE NUMBER OF MALE AND WOMEN PEOPLE -->
     <!-- TELL THE NUMBER OF MALE AND WOMEN PEOPLE -->
     <category>
@@ -129,7 +141,23 @@
         <pattern>NUMBER OF MALES AND FEMALE</pattern>
         <template>In the group there are <bot name="crowd_men"/> men and <bot name="crowd_women"/> women</template>
     </category>
-    
+    <category>
+        <pattern>NUMBER OF BOYS</pattern>
+        <template>In the group there are <bot name="crowd_children"/> boys</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF GIRLS</pattern>
+        <template>In the group there are <bot name="crowd_children"/> boys</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF FEMALES</pattern>
+        <template>In the group there are <bot name="crowd_women"/> females</template>
+    </category>
+    <category>
+        <pattern>NUMBER OF MEN</pattern>
+        <template>In the group there are <bot name="crowd_men"/> men</template>
+    </category>
+
     <!-- Tell me how many people were wearing blue -->
     <category>
         <pattern>PEOPLE WERE WEARING *</pattern>
@@ -138,28 +166,33 @@
 
     <!-- Was the <pose> person <gender> or <gender> -->
     <category>
-        <pattern> * PERSON MALE OR FEMALE</pattern>
-        <template>qcrowd <star index="1"/> gender male female</template>
+        <pattern> * PERSON MAN OR WOMAN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
     </category>
-    
+
+    <category>
+        <pattern> * PERSON MALE OR FEMALE</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
     <category>
         <pattern>* PERSON FEMALE OR MALE</pattern>
-        <template>qcrowd <star index="1"/> gender male female</template>
+        <template>qcrowd <star index="1"/>  male female</template>
     </category>
     
     <category>
         <pattern>* PERSON MEN OR WOMEN</pattern>
-        <template>qcrowd <star index="1"/> gender male female</template>
+        <template>qcrowd <star index="1"/>  male female</template>
     </category>
     
     <category>
         <pattern>* PERSON WOMEN OR MEN</pattern>
-        <template>qcrowd <star index="1"/> gender male female</template>
+        <template>qcrowd <star index="1"/>  male female</template>
     </category>
 
      <category>
         <pattern>* PERSON BOY OR GIRL</pattern>
-        <template>qcrowd <star index="1"/> age boy girl</template>
+        <template>qcrowd <star index="1"/> male female</template>
     </category>
     
     <!-- Was the <pose> person <gender> or <gender> -->
@@ -168,6 +201,32 @@
         <template>qcrowd <star index="1"/> gender <star index="1"/></template>
     </category>
     
+    <!-- How many people in the crowd are standing or lying? -->
+    <category>
+        <pattern>PEOPLE IN THE CROWD ARE STANDING OR LYING</pattern>
+        <template>In the group there are <bot name="crowd_stand"/> standing and <bot name="crowd_laying"/> laying</template>
+    </category>
+    <category>
+        <pattern>PEOPLE IN THE CROWD ARE STANDING OR SITTING</pattern>
+        <template>In the group there are <bot name="crowd_stand"/> standing and <bot name="crowd_sit"/> sitting</template>
+    </category>
+    <category>
+        <pattern>PEOPLE IN THE CROWD ARE SITTING OR LYING</pattern>
+        <template>In the group there are <bot name="crowd_stand"/> standing and <bot name="crowd_sit"/> sitting</template>
+    </category>
+    <category>
+        <pattern>PEOPLE IN THE CROWD ARE STANDING</pattern>
+        <template>In the group there are <bot name="crowd_stand"/> standing </template>
+    </category>
+    <category>
+        <pattern>PEOPLE IN THE CROWD ARE SITTING</pattern>
+        <template>In the group there are <bot name="crowd_stand"/> standing</template>
+    </category>
+    <category>
+        <pattern>PEOPLE IN THE CROWD ARE LYING</pattern>
+        <template>In the group there are <bot name="crowd_sit"/> sitting</template>
+    </category>
+
     <!-- Tell me how many people were wearing <color>  -->
     <category>
     <pattern>PEOPLE WERE WEARING BLUE</pattern>
