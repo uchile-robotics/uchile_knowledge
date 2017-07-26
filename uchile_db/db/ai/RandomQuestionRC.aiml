@@ -2,7 +2,7 @@
     <!-- QUESTION - ANSWER -->
     <category>
         <pattern>WHAT CITY ARE WE IN</pattern>
-        <template>NAGOYA></template>
+        <template>WE ARE IN NAGOYA></template>
     </category>
 
 
@@ -13,16 +13,20 @@
 
     <category>
         <pattern>HOW MANY TEAMS PARTICIPATE IN ROBOCUP HOME THIS YEAR </pattern>
-        <template>31</template>
+        <template>31 TEAMS PARTICIATE IN THIS YEAR ROBOCUP</template>
+    </category>
+    <category>
+        <pattern>HOW MANY TEAMS PARTICIPATE IN ROBOCOP HOME THIS YEAR </pattern>
+        <template><srai>HOW MANY TEAMS PARTICIPATE IN ROBOCUP HOME THIS YEAR </srai></template>
     </category>
 
     <category>
         <pattern>WHO WON THE POPULAR VOTE IN THE US ELECTION </pattern>
-        <template>HILLARY CLINTON</template>
+        <template>HILLARY CLINTON WON THE POPULAR VOTE</template>
     </category>
         <category>
         <pattern>WHAT IS THE HIGHEST MOUNTAIN IN JAPAN </pattern>
-        <template>MOUNT FUJI</template>
+        <template>THE MOUNT FUJI ITS THE HIGHEST MOUNYAIN IN JAPAN</template>
     </category>
         <category>
         <pattern>NAME THE TWO ROBOCUP AT HOME STANDARD PLATFORMS </pattern>
@@ -41,7 +45,7 @@
 
             <category>
         <pattern>WHO DID ALPHABET SELL BOSTON DYNAMICS TO </pattern>
-        <template>SOFTBANK</template>
+        <template>SOFTBANK ROBOTICS</template>
     </category>
 
             <category>
@@ -56,7 +60,7 @@
 
             <category>
         <pattern>WHO CREATED STAR WARS </pattern>
-        <template>GEORGE LUCAS</template>
+        <template>GEORGE LUCAS CREATED STAR WARS</template>
     </category>
 
             <category>
