@@ -1,4 +1,4 @@
-image: map.pgm
+image: map_obstacles.pgm
 resolution: 0.020000
 origin: [-3.3, -10, 0.000000]
 negate: 0
