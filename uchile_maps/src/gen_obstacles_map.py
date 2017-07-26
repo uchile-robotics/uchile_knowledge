@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-__author__ = 'Diego Baño, Matías Pavez'
-__email__ = 'diego.bano@ug.uchile.cl, matias.pavez@ing.uchile.cl'
+__author__ = 'Matías Pavez'
+__email__ = 'matias.pavez@ing.uchile.cl'
 
 import rospy
 import rospkg
@@ -20,7 +20,7 @@ class GenObstaclesMap(object):
         # get the file path for rospy_tutorials
         pkg_path = rospack.get_path('uchile_maps')
 
-        self.obstacle_color = rospy.get_param("~obstacle_color", 127)
+        self.obstacle_color = rospy.get_param("~obstacle_color", 215)
         original_filename = rospy.get_param("~original_filename", "map_full.pgm")
         new_filename = rospy.get_param("~new_filename", "map_obstacles.pgm")
 
