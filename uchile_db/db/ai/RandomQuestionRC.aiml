@@ -1,0 +1,72 @@
+<aiml>
+    <!-- QUESTION - ANSWER -->
+    <category>
+        <pattern>WHAT CITY ARE WE IN</pattern>
+        <template>NAGOYA></template>
+    </category>
+
+
+    <category>
+        <pattern>WHAT IS THE NAME OF YOUR TEAM</pattern>
+        <template>My team is called Home Breakers Robotics Team</template>
+    </category>
+
+    <category>
+        <pattern>HOW MANY TEAMS PARTICIPATE IN ROBOCUP HOME THIS YEAR </pattern>
+        <template>31</template>
+    </category>
+
+    <category>
+        <pattern>WHO WON THE POPULAR VOTE IN THE US ELECTION </pattern>
+        <template>HILLARY CLINTON</template>
+    </category>
+        <category>
+        <pattern>WHAT IS THE HIGHEST MOUNTAIN IN JAPAN </pattern>
+        <template>MOUNT FUJI</template>
+    </category>
+        <category>
+        <pattern>NAME THE TWO ROBOCUP AT HOME STANDARD PLATFORMS </pattern>
+        <template>PEPPER AND HSR</template>
+    </category>
+
+        <category>
+        <pattern>WHAT DOES DSPL STAND FOR </pattern>
+        <template>DOMESTIC STANDARD PLATFORM LEAGUE.</template>
+    </category>
+
+            <category>
+        <pattern>WHAT DOES SSPL STAND FOR </pattern>
+        <template>SOCIAL STANDARD PLATFORM LEAGUE</template>
+    </category>
+
+            <category>
+        <pattern>WHO DID ALPHABET SELL BOSTON DYNAMICS TO </pattern>
+        <template>SOFTBANK</template>
+    </category>
+
+            <category>
+        <pattern>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </pattern>
+        <template> OVER 410000 SQUARE METRES</template>
+    </category>
+
+                <category>
+        <pattern>WHERE IS YOUR TEAM LOCATED </pattern>
+        <template>My team is located in Chile</template>
+    </category>
+
+            <category>
+        <pattern>WHO CREATED STAR WARS </pattern>
+        <template>GEORGE LUCAS</template>
+    </category>
+
+            <category>
+        <pattern>WHO LIVES IN A PINEAPPLE UNDER THE SEA </pattern>
+        <template>SPONGE BOB SQUAREPANTS</template>
+    </category>
+
+     <category>
+        <pattern>WHO IS GRACE HOPPER</pattern>
+        <template>THE INVENTOR OF THE FIRST COMPILER</template>
+    </category>
+</aiml>
+
