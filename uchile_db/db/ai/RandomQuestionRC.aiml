@@ -2,7 +2,7 @@
     <!-- QUESTION - ANSWER -->
     <category>
         <pattern>WHAT CITY ARE WE IN</pattern>
-        <template>WE ARE IN NAGOYA></template>
+        <template>WE ARE IN NAGOYA</template>
     </category>
 
 
@@ -19,6 +19,18 @@
         <pattern>HOW MANY TEAMS PARTICIPATE IN ROBOCOP HOME THIS YEAR </pattern>
         <template><srai>HOW MANY TEAMS PARTICIPATE IN ROBOCUP HOME THIS YEAR </srai></template>
     </category>
+    <category>
+        <pattern>HOW MANY TEAMS PARTICIPATE IN ROBOCUP AT HOME THIS YEAR </pattern>
+        <template><srai>HOW MANY TEAMS PARTICIPATE IN ROBOCUP HOME THIS YEAR </srai></template>
+    </category>
+    <category>
+        <pattern>HOW MANY TEAMS PARTICIPATE IN WORLD CUP HOME THIS YEAR </pattern>
+        <template><srai>HOW MANY TEAMS PARTICIPATE IN ROBOCUP HOME THIS YEAR </srai></template>
+    </category>
+    <category>
+        <pattern>HOW MANY TEAMS PARTICIPATE IN ROBOCOP HOME THIS YEAR </pattern>
+        <template><srai>HOW MANY TEAMS PARTICIPATE IN ROBOCUP HOME THIS YEAR </srai></template>
+    </category>
 
     <category>
         <pattern>WHO WON THE POPULAR VOTE IN THE US ELECTION </pattern>
@@ -26,21 +38,46 @@
     </category>
         <category>
         <pattern>WHAT IS THE HIGHEST MOUNTAIN IN JAPAN </pattern>
-        <template>THE MOUNT FUJI ITS THE HIGHEST MOUNYAIN IN JAPAN</template>
+        <template>THE MOUNT FUJI ITS THE HIGHEST MOUNTAIN IN JAPAN</template>
     </category>
         <category>
         <pattern>NAME THE TWO ROBOCUP AT HOME STANDARD PLATFORMS </pattern>
-        <template>PEPPER AND HSR</template>
+        <template>PEPPER AND HSR ARE THE STANTARD PLATFORMS IN ROBOCUP AT HOME</template>
+    </category>
+        <category>
+        <pattern>NAME THE TWO RUBBER CAP AT HOME STANDARD PLATFORMS </pattern>
+        <template><srai>NAME THE TWO ROBOCUP AT HOME STANDARD PLATFORMS </srai></template>
+    </category>
+    <category>
+        <pattern> TWO ROBOCUP AT HOME STANDARD PLATFORMS </pattern>
+        <template>PEPPER AND HSR ARE THE STANTARD PLATFORMS IN ROBOCUP AT HOME</template>
+    </category>
+        <category>
+        <pattern>TWO RUBBER CAP AT HOME STANDARD PLATFORMS </pattern>
+        <template><srai>NAME THE TWO ROBOCUP AT HOME STANDARD PLATFORMS </srai></template>
+    </category>
+        <category>
+        <pattern>TWO RUBBER CUP AT HOME STANDARD PLATFORMS </pattern>
+        <template><srai>NAME THE TWO ROBOCUP AT HOME STANDARD PLATFORMS </srai></template>
     </category>
 
         <category>
         <pattern>WHAT DOES DSPL STAND FOR </pattern>
-        <template>DOMESTIC STANDARD PLATFORM LEAGUE.</template>
+        <template>DSPL IS FOR DOMESTIC STANDARD PLATFORM LEAGUE.</template>
+    </category>
+    <category>
+        <pattern>WHAT DOES DCP STAND FOR </pattern>
+        <template><srai>WHAT DOES DSPL STAND FOR </srai></template>
     </category>
 
             <category>
         <pattern>WHAT DOES SSPL STAND FOR </pattern>
-        <template>SOCIAL STANDARD PLATFORM LEAGUE</template>
+        <template>SSPL IS FOR SOCIAL STANDARD PLATFORM LEAGUE</template>
+    </category>
+
+    <category>
+        <pattern>WHAT DOES SSP STAND FOR </pattern>
+        <template><srai>WHAT DOES SSPL STAND FOR </srai></template>
     </category>
 
             <category>
@@ -50,9 +87,28 @@
 
             <category>
         <pattern>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </pattern>
-        <template> OVER 410000 SQUARE METRES</template>
+        <template>THE LARGEST TRAIN STATION IN NAGOYA ITS OVER 410000 SQUARE METRES</template>
     </category>
-
+    <category>
+        <pattern>NADIA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </pattern>
+        <template><srai>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </srai></template>
+    </category>
+    <category>
+        <pattern>NIGERIA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </pattern>
+        <template><srai>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </srai></template>
+    </category>
+    <category>
+        <pattern>NADIA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE</pattern>
+        <template><srai>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </srai></template>
+    </category>
+    <category>
+        <pattern>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE</pattern>
+        <template><srai>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </srai></template>
+    </category>
+    <category>
+        <pattern>NIGERIA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE</pattern>
+        <template><srai>NAGOYA HAS ONE OF THE LARGEST TRAIN STATIONS IN THE WORLD HOW LARGE IS IT </srai></template>
+    </category>
                 <category>
         <pattern>WHERE IS YOUR TEAM LOCATED </pattern>
         <template>My team is located in Chile</template>
