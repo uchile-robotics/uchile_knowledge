@@ -19,8 +19,6 @@
         <template> qobject qsuperlative <star index="1"/> qcantidad <star index="2"/></template>
     </category>
   
-
-
     <category>
         <pattern>WHICH IS THE * DRINK </pattern>
         <template>qobject qsuperlative <star /> drinks </template>
