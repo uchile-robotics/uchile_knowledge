@@ -2,9 +2,6 @@ cmake_minimum_required(VERSION 2.8.3)
 project(uchile_pose_server)
 
 find_package(catkin REQUIRED COMPONENTS
-  uchile_msgs
-  uchile_srvs
-  uchile_util
   geometry_msgs
   interactive_markers
   roscpp
@@ -12,6 +9,9 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   std_srvs
+  uchile_msgs
+  uchile_srvs
+  uchile_util
 )
 
 
@@ -31,9 +31,6 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES uchile_pose_server
   CATKIN_DEPENDS
-    uchile_msgs
-    uchile_srvs
-    uchile_util
     geometry_msgs
     interactive_markers
     roscpp
@@ -41,6 +38,9 @@ catkin_package(
     rospy
     std_msgs
     std_srvs
+    uchile_msgs
+    uchile_srvs
+    uchile_util
 
   DEPENDS yaml-cpp
 )

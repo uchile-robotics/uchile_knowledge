@@ -2,9 +2,6 @@ cmake_minimum_required(VERSION 2.8.3)
 project(uchile_maps)
 
 find_package(catkin REQUIRED COMPONENTS
-  uchile_msgs
-  uchile_srvs
-  uchile_util
   geometry_msgs
   pcl_conversions
   pcl_ros
@@ -15,9 +12,12 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   std_srvs
   tf
+  uchile_msgs
+  uchile_srvs
+  uchile_util
 )
 
-find_package(PCL 1.7 REQUIRED COMPONENTS common)
+find_package(pcl 1.7 REQUIRED COMPONENTS common)
 
 catkin_python_setup()
 
@@ -29,9 +29,6 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES uchile_nav
   CATKIN_DEPENDS 
-    uchile_msgs
-    uchile_srvs
-    uchile_util
     geometry_msgs
     pcl_ros
     roscpp
@@ -41,6 +38,9 @@ catkin_package(
     std_msgs
     std_srvs
     tf
+    uchile_msgs
+    uchile_srvs
+    uchile_util
 
   DEPENDS pcl
 )

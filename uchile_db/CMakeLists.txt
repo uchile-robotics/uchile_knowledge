@@ -2,9 +2,6 @@ cmake_minimum_required(VERSION 2.8.3)
 project(uchile_db)
 
 find_package(catkin REQUIRED COMPONENTS
-  uchile_msgs
-  uchile_srvs
-  uchile_util
   geometry_msgs
   roscpp
   roslib
@@ -12,6 +9,9 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
   std_srvs
+  uchile_msgs
+  uchile_srvs
+  uchile_util
 )
 
 
@@ -21,9 +21,6 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package(
   CATKIN_DEPENDS
-    uchile_msgs
-    uchile_srvs
-    uchile_util
     geometry_msgs
     roscpp
     roslib
@@ -31,6 +28,9 @@ catkin_package(
     sensor_msgs
     std_msgs
     std_srvs
+    uchile_msgs
+    uchile_srvs
+    uchile_util
 )
 
 ###########
