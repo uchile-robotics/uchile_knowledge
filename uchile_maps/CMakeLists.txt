@@ -17,7 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   uchile_util
 )
 
-find_package(pcl 1.7 REQUIRED COMPONENTS common)
+find_package(PCL 1.7 REQUIRED COMPONENTS common)
 
 catkin_python_setup()
 
