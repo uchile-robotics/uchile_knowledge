@@ -42,7 +42,7 @@ catkin_package(
     uchile_srvs
     uchile_util
 
-  DEPENDS pcl
+  DEPENDS PCL
 )
 
 ###########
