@@ -3,7 +3,7 @@
 	<arg name="load_default_map" default="true"/>
 
 	<!-- Pose Server -->
-	<node pkg="uchile_pose_server" type="pose_server" name="pose_server" respawn="true" ns="/maqui/knowledge/" output="screen">
+	<node pkg="uchile_pose_server" type="pose_server" name="pose_server" respawn="true" ns="/bender/knowledge/" output="screen">
 		<param name="load_default_map" value="$(arg load_default_map)"/>
 	</node>
 
