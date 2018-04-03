@@ -1,296 +1,271 @@
-<aiml>
-    <!-- QUESTION - ANSWER -->
-    <category>
-        <pattern>WHAT WAS THE LAST QUESTION</pattern>
-        <template>The last question was <bot name="last_question"/></template>
-    </category>
-    <category>
-        <pattern>LAST QUESTION</pattern>
-        <template><srai>WHAT WAS THE LAST QUESTION</srai></template>
-    </category>
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- QUESTION - ANSWER -->
+	<category>
+		<pattern>WHAT WAS THE LAST QUESTION</pattern>
+		<template>The last question was <bot name="last_question"/></template>
+	</category>
+	<category>
+		<pattern>LAST QUESTION</pattern>
+		<template><srai>WHAT WAS THE LAST QUESTION</srai></template>
+	</category>
 
-    <!-- WHEN WERE YOU BORN -->
+	<!-- WHEN WERE YOU BORN -->
 
-    <category>
-        <pattern>BORN</pattern>
-        <template>I was born in <bot name="birth"/> in the University of Chile</template>
-    </category>
+	<category>
+		<pattern>BORN</pattern>
+		<template>I was born in <bot name="birth"/> in the University of Chile</template>
+	</category>
 
-    <category>
-        <pattern>* BORN</pattern>
-        <template><srai>BORN</srai></template>
-    </category>
+	<category>
+		<pattern>* BORN</pattern>
+		<template><srai>BORN</srai></template>
+	</category>
 
-    <category>
-        <pattern>* WERE YOU BORN</pattern>
-        <template><srai>BORN</srai></template>
-    </category>
+	<category>
+		<pattern>* WERE YOU BORN</pattern>
+		<template><srai>BORN</srai></template>
+	</category>
 
-    <!-- WHAT IS YOUR TEAMS NAME -->
+	<!-- WHAT IS YOUR TEAMS NAME -->
 
-    <category>
-        <pattern>TEAM</pattern>
-        <template>My team is called Home Breakers Robotics Team</template>
-    </category>
+	<category>
+		<pattern>TEAM</pattern>
+		<template>My team is called Home Breakers Robotics Team</template>
+	</category>
 
-    <category>
-        <pattern>* TEAMS *</pattern>
-        <template><srai>TEAM</srai></template>
-    </category>
+	<category>
+		<pattern>* TEAMS *</pattern>
+		<template><srai>TEAM</srai></template>
+	</category>
 
-    <!-- QUESTION - KEYWORD -->
-
-
-    <!-- WHAT TIME/DAY WEEK/DAY MONTH IS IT -->
-    <category>
-        <pattern>WHAT TIME *</pattern>
-        <template>The time is <bot name="date_hour"/> with <bot name="date_minute"/> minutes</template>
-    </category>
-
-    <category>
-        <pattern>WHAT DAY OF THE WEEK *</pattern>
-        <template>Today is <bot name="date_today_dayWeek"/> </template>
-    </category>
-
-    <category>
-        <pattern>WHAT DAY OF THE MONTH *</pattern>
-        <template>Today is <bot name="date_today_dayMonth"/>  </template>
-    </category>
-
-    <category>
-        <pattern>* IS IT</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
+	<!-- QUESTION - KEYWORD -->
 
 
-    <!-- WHAT DAY IS TODAY/TOMORROW -->
-    <category>
-        <pattern>WHAT DAY IS *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
+	<!-- WHAT TIME/DAY WEEK/DAY MONTH IS IT -->
+	<category>
+		<pattern>WHAT TIME *</pattern>
+		<template>The time is <bot name="date_hour"/> with <bot name="date_minute"/> minutes</template>
+	</category>
 
-    <category>
-        <pattern>TODAY</pattern>
-        <template>Today is <bot name="date_today_day"/> </template>
-    </category>
+	<category>
+		<pattern>WHAT DAY OF THE WEEK *</pattern>
+		<template>Today is <bot name="date_today_dayWeek"/> </template>
+	</category>
 
-    <category>
-        <pattern>TOMORROW</pattern>
-        <template>Tomorrow is <bot name="date_tomorrow_day"/> </template>
-    </category>
-    
-    <!-- IN WHICH YEAR WAS THE ROBOCUP FOUNDED -->
+	<category>
+		<pattern>WHAT DAY OF THE MONTH *</pattern>
+		<template>Today is <bot name="date_today_dayMonth"/>  </template>
+	</category>
 
-    <category>
-        <pattern>ROBOCUP</pattern>
-        <template>The robocup was founded in 1997</template>
-    </category>
+	<category>
+		<pattern>* IS IT</pattern>
+		<template><srai><star index="1"/></srai></template>
+	</category>
 
-    <category>
-        <pattern>YEAR WAS *</pattern>
-        <template><srai><star index="1"/></srai></template>
-    </category>
 
-    <category>
-        <pattern>ROBOCUP *</pattern>
-        <template><srai>ROBOCUP</srai></template>
-    </category>
+	<!-- WHAT DAY IS TODAY/TOMORROW -->
+	<category>
+		<pattern>WHAT DAY IS *</pattern>
+		<template><srai><star index="1"/></srai></template>
+	</category>
 
-    <category>
-	<pattern>WHICH ROBOT IS USED IN THE DOMESTIC STANDARD PLATFORM LEAGUE</pattern>
-	<template>The Toyota Human Support Robot</template>
-    </category>
+	<category>
+		<pattern>TODAY</pattern>
+		<template>Today is <bot name="date_today_day"/> </template>
+	</category>
 
-    <category>
-    <pattern>WHAT IS THE HIGHEST POINT IN JAPAN</pattern>
-    <template>THE HIGHEST POINT IN JAPAN IS MOUNT FUJI WHICH REACHES 3776M ABOVE SEA LEVEL</template>
-    </category>
+	<category>
+		<pattern>TOMORROW</pattern>
+		<template>Tomorrow is <bot name="date_tomorrow_day"/> </template>
+	</category>
+	
+	<!-- IN WHICH YEAR WAS THE ROBOCUP FOUNDED -->
 
-CHECK
-    <category>
-	<pattern>WHEN WAS INVENTED THE B PROGRAMMING LANGUAGE</pattern>
-	<template>B WAS DEVELOPED CIRCA 1969 AT BELL LABS</template>
-    </category>
+	<category>
+		<pattern>ROBOCUP</pattern>
+		<template>The robocup was founded in 1997</template>
+	</category>
 
-    <category>
-    <pattern>WHO INVENTED THE C PROGRAMMING LANGUAGE</pattern>
-    <template>Ken Thompson and Dennis Ritchie.</template>
-    </category>
+	<category>
+		<pattern>YEAR WAS *</pattern>
+		<template><srai><star index="1"/></srai></template>
+	</category>
 
-CHECK
-    <category>
-	<pattern>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</pattern>
-	<template>C was developed after B in 1972 at Bell Labs</template>
-    </category>
-    
-CHECK
-    <category>
-	<pattern>WHEN WAS THE B PROGRAMMING LANGUAGE INVENTED</pattern>
-	<template>B was developed circa 1969 at Bell Labs</template>
-    </category>
+	<category>
+		<pattern>ROBOCUP *</pattern>
+		<template><srai>ROBOCUP</srai></template>
+	</category>
 
-CHECK
-    <category>
-	<pattern>WHERE DOES THE TERM COMPUTER BUG COME FROM</pattern>
-	<template>From a moth trapped in a relay</template>
-    </category>
-    
+	<category>
+		<pattern>WHICH ROBOT IS USED IN THE DOMESTIC STANDARD PLATFORM LEAGUE</pattern>
+		<template>The Toyota Human Support Robot</template>
+	</category>
 
-    <category>
-	<pattern>WHO INVENTED THE FIRST COMPILER</pattern>
-	<template>Grace Brewster Murray Hopper invented it</template>
-    </category>
+	<category>
+		<pattern>WHAT IS THE HIGHEST POINT IN JAPAN</pattern>
+		<template>THE HIGHEST POINT IN JAPAN IS MOUNT FUJI WHICH REACHES 3776M ABOVE SEA LEVEL</template>
+	</category>
 
-CHECK
-JUANMA 
-    <category>
-    <pattern>WHO INVENTED THE FIRST COMPUTER</pattern>
-    <template>Grace Brewster Murray Hopper invented it</template>
-    </category>
-    
-CHECK
-    <category>
-	<pattern>WHICH ROBOT IS USED IN THE OPEN PLATFORM LEAGUE</pattern>
-	<template>There is no standard defined for the Open Platform League</template>
-    </category>
+	<category>
+		<pattern>WHEN WAS INVENTED THE B PROGRAMMING LANGUAGE</pattern>
+		<template>B WAS DEVELOPED CIRCA 1969 AT BELL LABS</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>WHICH ROBOT IS USED IN THE OVEN PLATFORM LEAGUE</pattern>
-    <template>There is no standard defined for the Open Platform League</template>
-    </category>
+	<category>
+		<pattern>WHO INVENTED THE C PROGRAMMING LANGUAGE</pattern>
+		<template>Ken Thompson and Dennis Ritchie.</template>
+	</category>
 
-CHECK
-    <category>
-	<pattern>WHICH ROBOT IS USED IN THE SOCIAL STANDARD PLATFORM LEAGUE</pattern>
-	<template>The Pepper robot made by SoftBank Robotics</template>
-    </category>
+	<category>
+		<pattern>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</pattern>
+		<template>C was developed after B in 1972 at Bell Labs</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>WHICH ROAD IS USED IN THE SOCIAL STANDARD PLATFORM LEAGUE</pattern>
-    <template>The Pepper robot made by SoftBank Robotics</template>
-    </category>
+	<category>
+		<pattern>WHEN WAS THE B PROGRAMMING LANGUAGE INVENTED</pattern>
+		<template>B was developed circa 1969 at Bell Labs</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>WHICH ROBOT IS USED IN THE SOCIALIST STANDARD PLATFORM LEAGUE</pattern>
-    <template>The Pepper robot made by SoftBank Robotics</template>
-    </category>
-    
-JUANMA
-    <category>
-    <pattern>WHICH ROAD IS USED IN THE SOCIALIST ON THE PLATFORM LEAGUE</pattern>
-    <template>The Pepper robot made by SoftBank Robotics</template>
-    </category>
 
-JUANMA
-    <category>
-    <pattern>WHICH ROAD IS USED IN THE SOCIALIST AND THEIR PLATFORM LEAGUE</pattern>
-    <template>The Pepper robot made by SoftBank Robotics</template>
-    </category>
+	<category>
+		<pattern>WHERE DOES THE TERM COMPUTER BUG COME FROM</pattern>
+		<template>From a moth trapped in a relay</template>
+	</category>
+	
 
-CHECK
-    <category>
-	<pattern>HOW MANY PEOPLE LIVE IN THE JAPAN</pattern>
-	<template>A little over 80 million</template>
-    </category>
-    
+	<category>
+		<pattern>WHO INVENTED THE FIRST COMPILER</pattern>
+		<template>Grace Brewster Murray Hopper invented it</template>
+	</category>
 
-CHECK
-    <category>
-	<pattern>WHAT ARE THE COLOURS OF THE JAPANESE FLAG</pattern>
-	<template>Japanese flag is a red circle centered over white</template>
-    </category>
+	<category>
+		<pattern>WHO INVENTED THE FIRST COMPUTER</pattern>
+		<template>Grace Brewster Murray Hopper invented it</template>
+	</category>
+	
+	<category>
+		<pattern>WHICH ROBOT IS USED IN THE OPEN PLATFORM LEAGUE</pattern>
+		<template>There is no standard defined for the Open Platform League</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>WHAT ARE THE COLORS OF THE JAPANESE FLAG</pattern>
-    <template>Japanese flag is a red circle centred over white</template>
-    </category>
-    
-CHECK
-    <category>
-	<pattern>WHAT IS A SAKURA</pattern>
-	<template>Sakura is the Japanese term for ornamental cherry blossom and it is a tree</template>
-    </category>
+	<category>
+		<pattern>WHICH ROBOT IS USED IN THE OVEN PLATFORM LEAGUE</pattern>
+		<template>There is no standard defined for the Open Platform League</template>
+	</category>
 
-    JUANMA
-    <category>
-    <pattern>WHAT IS A SACRUM</pattern>
-    <template>Sakura is the Japanese term for ornamental cherry blossom and it is a tree</template>
-    </category>
+	<category>
+		<pattern>WHICH ROBOT IS USED IN THE SOCIAL STANDARD PLATFORM LEAGUE</pattern>
+		<template>The Pepper robot made by SoftBank Robotics</template>
+	</category>
 
-CHECK
-    <category>
-	<pattern>WHO IS THE EMPEROR OF JAPAN</pattern>
-	<template>His Majesty Akihito sama is the emperor of Japan since January 7, 1989</template>
-    </category>
+	<category>
+		<pattern>WHICH ROAD IS USED IN THE SOCIAL STANDARD PLATFORM LEAGUE</pattern>
+		<template>The Pepper robot made by SoftBank Robotics</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>WHO IS EMPEROR OF JAPAN</pattern>
-    <template>His Majesty Akihito sama is the emperor of Japan since January 7, 1989</template>
-    </category>
-    
-CHECK
-    <category>
-	<pattern>DO YOU HAVE DREAMS</pattern>
-	<template>I dream of Electric Sheep.</template>
-    </category>
-    
-CHECK
-    <category>
-	<pattern>IN WHICH CITY WILL NEXT YEAR IS ROBOCUP BE HOSTED</pattern>
-	<template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>WHICH ROBOT IS USED IN THE SOCIALIST STANDARD PLATFORM LEAGUE</pattern>
+		<template>The Pepper robot made by SoftBank Robotics</template>
+	</category>
+	
+	<category>
+		<pattern>WHICH ROAD IS USED IN THE SOCIALIST ON THE PLATFORM LEAGUE</pattern>
+		<template>The Pepper robot made by SoftBank Robotics</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>IN WHICH CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>WHICH ROAD IS USED IN THE SOCIALIST AND THEIR PLATFORM LEAGUE</pattern>
+		<template>The Pepper robot made by SoftBank Robotics</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>HOW MANY PEOPLE LIVE IN THE JAPAN</pattern>
+		<template>A little over 80 million</template>
+	</category>
+	
+	<category>
+		<pattern>WHAT ARE THE COLOURS OF THE JAPANESE FLAG</pattern>
+		<template>Japanese flag is a red circle centered over white</template>
+	</category>
 
-    <category>
-    <pattern>IN WHICH CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>WHAT ARE THE COLORS OF THE JAPANESE FLAG</pattern>
+		<template>Japanese flag is a red circle centred over white</template>
+	</category>
+	
+	<category>
+		<pattern>WHAT IS A SAKURA</pattern>
+		<template>Sakura is the Japanese term for ornamental cherry blossom and it is a tree</template>
+	</category>
 
-    <category>
-    <pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTEL</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>WHAT IS A SACRUM</pattern>
+		<template>Sakura is the Japanese term for ornamental cherry blossom and it is a tree</template>
+	</category>
 
-    <category>
-    <pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTEL</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>WHO IS THE EMPEROR OF JAPAN</pattern>
+		<template>His Majesty Akihito sama is the emperor of Japan since January 7, 1989</template>
+	</category>
 
-    <category>
-    <pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTED</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>WHO IS EMPEROR OF JAPAN</pattern>
+		<template>His Majesty Akihito sama is the emperor of Japan since January 7, 1989</template>
+	</category>
+	
+	<category>
+		<pattern>DO YOU HAVE DREAMS</pattern>
+		<template>I dream of Electric Sheep.</template>
+	</category>
+	
+	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR IS ROBOCUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
 
-    <category>
-    <pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTED</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
 
-JUANMA
-    <category>
-    <pattern>CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
-    <template>It hasn't been announced yet.</template>
-    </category>
+	<category>
+		<pattern>CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
 
-CHECK
-    <category>
-	<pattern>WHO IS THE LAST SAMURAI</pattern>
-	<template>Tom Cruise is the last samurai</template>
-    </category>
+	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTEL</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTEL</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>WHO IS THE LAST SAMURAI</pattern>
+		<template>Tom Cruise is the last samurai</template>
+	</category>
 </aiml>
