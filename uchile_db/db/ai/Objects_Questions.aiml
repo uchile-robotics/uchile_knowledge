@@ -28,11 +28,27 @@
         <pattern>WHICH IS THE * DRINKS </pattern>
         <template>qobject qsuperlative <star /> drink </template>
     </category>
+
     <category>
         <pattern>WHICH IS THE * OBJECT</pattern>
         <template>qobject qsuperlative <star /> object </template>
     </category>
     
+    <category>
+        <pattern>WHICH IS THE * TABLEWARE</pattern>
+        <template>qobject qsuperlative <star /> tableware </template>
+    </category>
+
+    <category>
+        <pattern>WHICH IS THE * FRUITS</pattern>
+        <template>qobject qsuperlative <star /> fruit </template>
+    </category>
+    
+    <category>
+        <pattern>WHICH IS THE * CUTLERY</pattern>
+        <template>qobject qsuperlative <star /> cutlery </template>
+    </category>
+
     <category>
         <pattern>WHICH IS THE * FOOD</pattern>
         <template>qobject qsuperlative <star /> food </template>
@@ -196,36 +212,38 @@
     <category>
         <pattern>COLOR OF THE * </pattern>
         <template>qobject qcolour <star index="1"/></template>
-      </category>
+    </category>
 
-      <category>
+    <category>
         <pattern>COLOR OF * </pattern>
         <template>qobject qcolour <star index="1"/></template>
-      </category>
+    </category>
       
       <category>
         <pattern>COLOUR OF * </pattern>
         <template>qobject qcolour <star index="1"/></template>
       </category>
       
-      <category>
-      <pattern>WHAT'S THE COLOUR OF THE *</pattern>
-      <template>qobject qcolour <star index="1"/></template>
-      </category>
+    <category>
+        <pattern>WHAT'S THE COLOUR OF THE *</pattern>
+        <template>qobject qcolour <star index="1"/></template>
+    </category>
       
-      <category>
-      <pattern>WHAT IS THE COLOUR OF THE *</pattern>
-      <template>qobject qcolour <star index="1"/></template>
-      </category>
+    <category>
+        <pattern>WHATS THE COLOUR OF THE *</pattern>
+        <template>qobject qcolour <star index="1"/></template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE COLOUR OF THE *</pattern>
+        <template>qobject qcolour <star index="1"/></template>
+    </category>
       
-      <category>
+    <category>
         <pattern>WHAT OBJECTS ARE IN THE * </pattern>
         <template>qobject qin <star index="1"/></template>
     </category>
     
-
-
-
     <category>
         <pattern> * ARE IN THE BATHROOM </pattern>
         <template>qobject qcantidad <star index="1"/> bathroom</template>
@@ -239,6 +257,26 @@
     <category>
         <pattern> * ARE IN THE KITCHEN </pattern>
         <template>qobject qcantidad <star index="1"/> kitchen</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE FRIDGE </pattern>
+        <template>qobject qcantidad <star index="1"/> fridge</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE MICROWAVE </pattern>
+        <template>qobject qcantidad <star index="1"/> microwave</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE TOWEL RAIL </pattern>
+        <template>qobject qcantidad <star index="1"/> towel rail</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE WASHING MACHINE </pattern>
+        <template>qobject qcantidad <star index="1"/> washing machine</template>
     </category>
 
     <category>
@@ -256,6 +294,10 @@
         <template>qobject qcantidad <star index="1"/> corridor </template>
     </category>
 
+    <category>
+        <pattern> * ARE IN THE DINING ROOM </pattern>
+        <template>qobject qcantidad <star index="1"/> dining room </template>
+    </category>
 
     <category> 
     <pattern> OBJECTS ARE IN THE * </pattern>
