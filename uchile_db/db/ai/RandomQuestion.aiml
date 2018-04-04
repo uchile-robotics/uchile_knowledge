@@ -113,6 +113,8 @@
 		<template>THE HIGHEST POINT IN JAPAN IS MOUNT FUJI WHICH REACHES 3776M ABOVE SEA LEVEL</template>
 	</category>
 
+	<!-- C AND B PROGRAMMING LANGUAGE -->
+
 	<category>
 		<pattern>WHEN WAS INVENTED THE B PROGRAMMING LANGUAGE</pattern>
 		<template>B WAS DEVELOPED CIRCA 1969 AT BELL LABS</template>
@@ -130,7 +132,17 @@
 
 	<category>
 		<pattern>THE C PROGRAMMING LANGUAGE INVENTED</pattern>
-		<template>C was developed after B in 1972 at Bell Labs</template>
+		<template><srai>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</srai></template>
+	</category>
+
+	<category>
+		<pattern>INVENTED THE C PROGRAMMING LANGUAGE</pattern>
+		<template><srai>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</srai></template>
+	</category>
+
+	<category>
+		<pattern>WHEN WAS INVENTED THE C PROGRAMMING LANGUAGE</pattern>
+		<template><srai>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</srai></template>
 	</category>
 
 	<category>
@@ -232,6 +244,11 @@
 	
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR IS ROBOCUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>CITY WILL NEXT YEARS ROBOCUP BE HOSTED</pattern>
 		<template>It hasn't been announced yet.</template>
 	</category>
 
