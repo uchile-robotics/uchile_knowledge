@@ -39,6 +39,12 @@
 		<template><srai>TEAM</srai></template>
 	</category>
 
+	<category>
+		<pattern>* TEAM</pattern>
+		<template><srai>TEAM</srai></template>
+	</category>
+
+
 	<!-- QUESTION - KEYWORD -->
 
 
@@ -119,6 +125,11 @@
 
 	<category>
 		<pattern>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</pattern>
+		<template>C was developed after B in 1972 at Bell Labs</template>
+	</category>
+
+	<category>
+		<pattern>THE C PROGRAMMING LANGUAGE INVENTED</pattern>
 		<template>C was developed after B in 1972 at Bell Labs</template>
 	</category>
 
