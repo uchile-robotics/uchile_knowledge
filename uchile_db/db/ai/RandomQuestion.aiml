@@ -248,7 +248,17 @@
 	</category>
 
 	<category>
+		<pattern>IN WHICH CITY WILL NEXT YEAR'S IS ROBOCUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
 		<pattern>CITY WILL NEXT YEARS ROBOCUP BE HOSTED</pattern>
+		<template>It hasn't been announced yet.</template>
+	</category>
+
+	<category>
+		<pattern>CITY WILL NEXT YEAR'S ROBOCUP BE HOSTED</pattern>
 		<template>It hasn't been announced yet.</template>
 	</category>
 
