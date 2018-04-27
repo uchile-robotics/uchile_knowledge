@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- QUESTION - ANSWER -->
+
 	<category>
 		<pattern>WHAT WAS THE LAST QUESTION</pattern>
 		<template>The last question was <bot name="last_question"/></template>
@@ -44,11 +45,10 @@
 		<template><srai>TEAM</srai></template>
 	</category>
 
-
 	<!-- QUESTION - KEYWORD -->
 
-
 	<!-- WHAT TIME/DAY WEEK/DAY MONTH IS IT -->
+
 	<category>
 		<pattern>WHAT TIME *</pattern>
 		<template>The time is <bot name="date_hour"/> with <bot name="date_minute"/> minutes</template>
@@ -71,6 +71,7 @@
 
 
 	<!-- WHAT DAY IS TODAY/TOMORROW -->
+
 	<category>
 		<pattern>WHAT DAY IS *</pattern>
 		<template><srai><star index="1"/></srai></template>
@@ -101,16 +102,6 @@
 	<category>
 		<pattern>ROBOCUP *</pattern>
 		<template><srai>ROBOCUP</srai></template>
-	</category>
-
-	<category>
-		<pattern>WHICH ROBOT IS USED IN THE DOMESTIC STANDARD PLATFORM LEAGUE</pattern>
-		<template>The Toyota Human Support Robot</template>
-	</category>
-
-	<category>
-		<pattern>WHAT IS THE HIGHEST POINT IN JAPAN</pattern>
-		<template>THE HIGHEST POINT IN JAPAN IS MOUNT FUJI WHICH REACHES 3776M ABOVE SEA LEVEL</template>
 	</category>
 
 	<!-- C AND B PROGRAMMING LANGUAGE -->
@@ -150,12 +141,10 @@
 		<template>B was developed circa 1969 at Bell Labs</template>
 	</category>
 
-
 	<category>
 		<pattern>WHERE DOES THE TERM COMPUTER BUG COME FROM</pattern>
 		<template>From a moth trapped in a relay</template>
 	</category>
-	
 
 	<category>
 		<pattern>WHO INVENTED THE FIRST COMPILER</pattern>
@@ -167,6 +156,13 @@
 		<template>Grace Brewster Murray Hopper invented it</template>
 	</category>
 	
+	<!-- STANDARD ROBOTS FOR DIFFERENT LEAGUES QUESTIONS -->
+
+	<category>
+		<pattern>WHICH ROBOT IS USED IN THE DOMESTIC STANDARD PLATFORM LEAGUE</pattern>
+		<template>The Toyota Human Support Robot</template>
+	</category>
+
 	<category>
 		<pattern>WHICH ROBOT IS USED IN THE OPEN PLATFORM LEAGUE</pattern>
 		<template>There is no standard defined for the Open Platform League</template>
@@ -201,6 +197,8 @@
 		<pattern>WHICH ROAD IS USED IN THE SOCIALIST AND THEIR PLATFORM LEAGUE</pattern>
 		<template>The Pepper robot made by SoftBank Robotics</template>
 	</category>
+
+	<!-- JAPAN SPECIFIC QUESTIONS --> 
 
 	<category>
 		<pattern>HOW MANY PEOPLE LIVE IN THE JAPAN</pattern>
@@ -238,10 +236,24 @@
 	</category>
 	
 	<category>
-		<pattern>DO YOU HAVE DREAMS</pattern>
-		<template>I dream of Electric Sheep.</template>
+		<pattern>WHAT IS THE HIGHEST POINT IN JAPAN</pattern>
+		<template>THE HIGHEST POINT IN JAPAN IS MOUNT FUJI WHICH REACHES 3776M ABOVE SEA LEVEL</template>
+	</category>	
+
+	<!-- CANADA SPECIFIC QUESTIONS -->
+
+	<category>
+		<pattern>WHAT IS THE ORIGIN OF THE NAME CANADA</pattern>
+		<template>THE NAME CANADA COMES FROM THE IROQUOIS WORD KANATA, MEANING VILLAGE OR SETTLEMENT</template>
 	</category>
-	
+
+	<category>
+		<pattern>WHAT IS THE NATIONAL ANTHEM OF CANADA</pattern>
+		<template>O CANADA</template>
+	</category>
+
+	<!-- ROBOCUP HOST LOCATION AND VARIANTS -->
+
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR IS ROBOCUP BE HOSTED</pattern>
 		<template>It hasn't been announced yet.</template>
@@ -302,8 +314,16 @@
 		<template>It hasn't been announced yet.</template>
 	</category>
 
+	<!-- RANDOM QUESTIONS -->
+
 	<category>
 		<pattern>WHO IS THE LAST SAMURAI</pattern>
 		<template>Tom Cruise is the last samurai</template>
 	</category>
+
+	<category>
+		<pattern>DO YOU HAVE DREAMS</pattern>
+		<template>I dream of Electric Sheep.</template>
+	</category>
+
 </aiml>

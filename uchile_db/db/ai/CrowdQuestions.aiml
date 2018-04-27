@@ -205,9 +205,9 @@
         <template>qcrowd <star index="1"/> gender <star index="1"/></template>
     </category>
     
-    <!-- How many people in the crowd are standing or lying? -->
+    <!-- How many people in the crowd are standing or lying down? -->
     <category>
-        <pattern>PEOPLE IN THE CROWD ARE STANDING OR LYING</pattern>
+        <pattern>PEOPLE IN THE CROWD ARE STANDING OR LYING DOWN</pattern>
         <template>In the group there are <bot name="crowd_stand"/> standing and <bot name="crowd_laying"/> laying</template>
     </category>
     <category>
@@ -215,7 +215,7 @@
         <template>In the group there are <bot name="crowd_stand"/> standing and <bot name="crowd_sit"/> sitting</template>
     </category>
     <category>
-        <pattern>PEOPLE IN THE CROWD ARE SITTING OR LYING</pattern>
+        <pattern>PEOPLE IN THE CROWD ARE SITTING OR LYING DOWN</pattern>
         <template>In the group there are <bot name="crowd_stand"/> standing and <bot name="crowd_sit"/>  laying </template>
     </category>
     <category>

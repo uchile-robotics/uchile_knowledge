@@ -17,5 +17,19 @@
   <template>arena doors <star index="1"/></template>
 </category>
 
+<category>
+  <pattern>DOORS DOES THE * HAVE</pattern>
+  <template>arena doors <star index="1"/></template>
+</category>
+
+<category>
+  <pattern>NURSE DOES THE * HAVE</pattern>
+  <template>arena doors <star index="1"/></template>
+</category>
+
+<category>
+  <pattern>DORIS DOES THE * HAVE</pattern>
+  <template>arena doors <star index="1"/></template>
+</category>
 
 </aiml>

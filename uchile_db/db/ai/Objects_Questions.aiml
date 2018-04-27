@@ -3,10 +3,8 @@
 <!-- PREGUNTAS SOBRE OBJETOS-->
 
     <category>
-    
         <pattern>_THE * FOOD </pattern>
         <template>qobject <star /> food </template>
-    
     </category>
     
     <category>
@@ -80,49 +78,48 @@
     </category>
     
     <category>
-    <pattern> ROOM IS THE *</pattern>
-    <template> qobject qroom <star></star></template>
+        <pattern> ROOM IS THE *</pattern>
+        <template> qobject qroom <star></star></template>
     </category>
     
     <category>
-    <pattern> ROOM ON THE *</pattern>
-    <template>qobject qroom <star></star></template>
+        <pattern> ROOM ON THE *</pattern>
+        <template>qobject qroom <star></star></template>
     </category>
     
     <category>
-    <pattern> ROOMS ON THE *</pattern>
-    <template>qobject qroom <star></star></template>
+        <pattern> ROOMS ON THE *</pattern>
+        <template>qobject qroom <star></star></template>
     </category>
 
     <category>
-    <pattern> IN WICH ROOM IS THE *</pattern>
-    <template>qobject qroom <star></star></template>
-    </category>
-
-    
-    <category>
-    <pattern> WHERE IS THE * LOCATED</pattern>
-    <template>qobject qlocated <star></star></template>
+        <pattern> IN WICH ROOM IS THE *</pattern>
+        <template>qobject qroom <star></star></template>
     </category>
 
     <category>
-    <pattern> WHERE IS LOCATED THE *</pattern>
-    <template>qobject qlocated <star></star></template>
+        <pattern> WHERE IS THE * LOCATED</pattern>
+        <template>qobject qlocated <star></star></template>
+    </category>
+
+    <category>
+        <pattern> WHERE IS LOCATED THE *</pattern>
+        <template>qobject qlocated <star></star></template>
     </category>
     
     <category>
-    <pattern> WHERES IS LOCATED THE *</pattern>
-    <template>qobject located <star></star></template>
+        <pattern> WHERES IS LOCATED THE *</pattern>
+        <template>qobject located <star></star></template>
     </category>
     
     <category>
-    <pattern> WHERE ON LOCATED THE *</pattern>
-    <template>qobject qlocated <star></star></template>
+        <pattern> WHERE ON LOCATED THE *</pattern>
+        <template>qobject qlocated <star></star></template>
     </category>
     
      <category>
-    <pattern> WHERES ON LOCATED THE *</pattern>
-    <template>qobject qlocated <star></star></template>
+        <pattern> WHERES ON LOCATED THE *</pattern>
+        <template>qobject qlocated <star></star></template>
     </category>
 
     <category>
@@ -141,15 +138,14 @@
     </category>
     
     <category>
-    <pattern> WHAT OBJECTS ARE STORED IN THE *</pattern>
-    <template>qobject qin <star index="1"/></template>
+        <pattern> WHAT OBJECTS ARE STORED IN THE *</pattern>
+        <template>qobject qin <star index="1"/></template>
     </category>
 
     <category> 
-    <pattern> WHAT OBJECTS ARE IN THE *</pattern>
-    <template>qobject qin <star index="1"/></template>
+        <pattern> WHAT OBJECTS ARE IN THE *</pattern>
+        <template>qobject qin <star index="1"/></template>
     </category>
-
 
     <category>
         <pattern>WHAT OBJECTS ARE STARRETT IN THE *</pattern>
@@ -163,9 +159,13 @@
     
     <category>
         <pattern>WHAT OBJECTS ARE IS TURRET IN THE *</pattern>
-      <template>qobject qin <star index="1"/></template>
+        <template>qobject qin <star index="1"/></template>
     </category>
     
+    <category>
+        <pattern>WHAT IS THE CATEGORY OF THE *</pattern>
+        <template>qobject qcategory <star index="1"></star></template>
+    </category>
 
     <category>
         <pattern>CATEGORY BELONG THE *</pattern>
@@ -173,35 +173,33 @@
     </category>
     
     <category>
-    <pattern>CATEGORY BELONGS THE *</pattern>
-    <template>qobject qcategory <star index="1"></star></template>
+        <pattern>CATEGORY BELONGS THE *</pattern>
+        <template>qobject qcategory <star index="1"></star></template>
     </category>
     
-    
     <category>
-    <pattern>BETWEEN THE * AND * WHICH ONE IS *</pattern>
-    <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
+        <pattern>BETWEEN THE * AND * WHICH ONE IS *</pattern>
+        <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
     </category>
 
     <category>
-    <pattern>BETWEEN THE * AND THE * WHICH ONE IS *</pattern>
-    <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
+        <pattern>BETWEEN THE * AND THE * WHICH ONE IS *</pattern>
+        <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
     </category>
 
-
     <category>
-    <pattern>BETWEEN THE * AND * WHICH ONE IS THE *</pattern>
-    <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
+        <pattern>BETWEEN THE * AND * WHICH ONE IS THE *</pattern>
+        <template>qobject qcompare <star index="1"/> <star index="2"/> <star index="3"/></template>
     </category>
     
     <category>
-    <pattern>DO THE * AND * BELONG TO THE SAME CATEGORY</pattern>
-    <template>qobject qsame <star index="1"/>  <star index="2"/> </template>
+        <pattern>DO THE * AND * BELONG TO THE SAME CATEGORY</pattern>
+        <template>qobject qsame <star index="1"/>  <star index="2"/> </template>
     </category>
     
     <category>
-    <pattern>* AND * BELONG TO THE SAME CATEGORY</pattern>
-    <template>qobject qsame <star index="1"/>  <star index="2"/> </template>
+        <pattern>* AND * BELONG TO THE SAME CATEGORY</pattern>
+        <template>qobject qsame <star index="1"/>  <star index="2"/> </template>
     </category>
     
     <category>
@@ -300,18 +298,18 @@
     </category>
 
     <category> 
-    <pattern> OBJECTS ARE IN THE * </pattern>
-    <template> qobject qcantidad object <star index="1"/></template>
+        <pattern> OBJECTS ARE IN THE * </pattern>
+        <template> qobject qcantidad object <star index="1"/></template>
     </category> 
 
     <category> 
-    <pattern> DRINKS ARE IN THE *</pattern>
-    <template>qobject qcantidad drinks <star index="1"/></template>
+        <pattern> DRINKS ARE IN THE *</pattern>
+        <template>qobject qcantidad drinks <star index="1"/></template>
     </category>
 
     <category> 
-    <pattern> FOOD ARE IN THE *</pattern>
-    <template>qobject qcantidad food <star index="1"/></template>
+        <pattern> FOOD ARE IN THE *</pattern>
+        <template>qobject qcantidad food <star index="1"/></template>
     </category>
 
     <category> 
@@ -323,7 +321,6 @@
         <pattern>TOILETRIES ARE IN THE *</pattern>
         <template>qobject qcantidad toiletries <star index="1"/></template>
     </category>
-
 
     <category> 
         <pattern>CONTAINERS ARE IN THE *</pattern>
