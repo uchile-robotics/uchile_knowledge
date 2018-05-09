@@ -40,7 +40,7 @@ PoseServer::PoseServer(std::string name): _name(name){
 	psw.getParameter("load_default_map",load_map, true);
 	if (load_map) {
 		uchile_srvs::String str_srv;
-		str_srv.request.data = "map.sem_map";
+		str_srv.request.data = "blank_map.sem_map";
 		this->load(str_srv.request, str_srv.response);
 	}
 
