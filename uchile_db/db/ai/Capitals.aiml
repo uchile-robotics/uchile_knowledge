@@ -27,6 +27,12 @@
         </template>
     </category>
     <category>
+        <pattern>CANADA</pattern>
+        <template> 
+            the capital of canada is <bot name="canada"/>
+        </template>
+    </category>
+    <category>
         <pattern>_ CAPITAL OF *</pattern>
         <template><srai><star index="2"/></srai></template>
     </category>

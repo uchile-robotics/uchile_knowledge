@@ -1,1 +1,5 @@
-[]
+- id: ID_0
+  type: unknown
+  frame: map
+  position: [1.641033411026001, 0.4089802503585815, 0.7937729358673096]
+  orientation: [1, 0, 0, 0]
