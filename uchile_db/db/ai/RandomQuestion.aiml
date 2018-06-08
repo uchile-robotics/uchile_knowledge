@@ -256,62 +256,62 @@
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR IS ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR'S IS ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEARS ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEAR'S ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTEL</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTEL</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet.</template>
+		<template>It hasn't been announced yet</template>
 	</category>
 
 	<!-- RANDOM QUESTIONS -->

@@ -58,6 +58,10 @@
     
     <!-- How many _____ are in the crowd -->
     <category>
+        <pattern>PEOPLE ARE</pattern>
+        <template><srai>SIZE OF THE CROWD</srai></template>
+    </category>
+    <category>
         <pattern>CHILDREN ARE</pattern>
         <template><srai>NUMBER OF CHILDREN</srai></template>
     </category>
@@ -176,6 +180,7 @@
     </category>
 
     <!-- Was the <pose> person <gender> or <gender> -->
+    
     <category>
         <pattern> * PERSON MAN OR WOMAN</pattern>
         <template>qcrowd <star index="1"/>  male female</template>
@@ -203,7 +208,7 @@
 
      <category>
         <pattern>* PERSON BOY OR GIRL</pattern>
-        <template>qcrowd <star index="1"/> male female</template>
+        <template>qcrowd <star index="1"/> boy girl</template>
     </category>
 
     <category>
@@ -233,13 +238,64 @@
 
      <category>
         <pattern>* PERSON A BOY OR GIRL</pattern>
-        <template>qcrowd <star index="1"/> male female</template>
+        <template>qcrowd <star index="1"/> boy girl</template>
+    </category>
+
+    <category>
+        <pattern>PERSON * MEN OR WOMEN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+    
+    <category>
+        <pattern>PERSON * WOMEN OR MEN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
+     <category>
+        <pattern>PERSON * BOY OR GIRL</pattern>
+        <template>qcrowd <star index="1"/> boy girl</template>
+    </category>
+
+    <category>
+        <pattern>PERSON * A MAN OR WOMAN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
+    <category>
+        <pattern>PERSON * A MALE OR FEMALE</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
+    <category>
+        <pattern>PERSON * A FEMALE OR MALE</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+    
+    <category>
+        <pattern>PERSON * A MEN OR WOMEN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+    
+    <category>
+        <pattern>PERSON * A WOMEN OR MEN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
+     <category>
+        <pattern>PERSON * A BOY OR GIRL</pattern>
+        <template>qcrowd <star index="1"/> boy girl</template>
     </category>
     
     <category>
         <pattern> * PERSON WAS A *</pattern>
-        <template>qcrowd <star index="1"/> gender <star index="1"/></template>
+        <template>qcrowd <star index="1"/> gender <star index="2"/></template>
     </category>
+
+    <category>
+        <pattern>PERSON * WAS A *</pattern>
+        <template>qcrowd <star index="1"/> gender <star index="2"/></template>
+    </category>
+    
     
     <!-- How many people in the crowd are standing or lying down? -->
     <category>
