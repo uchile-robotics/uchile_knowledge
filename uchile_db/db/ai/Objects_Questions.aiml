@@ -11,6 +11,11 @@
         <pattern>* THERE ARE</pattern>
         <template>qobject qcantidad <star/> global</template>
     </category>
+
+    <category>
+        <pattern>* ARE THERE</pattern>
+        <template>qobject qcantidad <star/> global</template>
+    </category>
     
     <category>
         <pattern> * ARE LOCATED IN THE *</pattern>
@@ -138,6 +143,31 @@
     </category>
     
     <category>
+        <pattern>WHERE CAN I FIND AN * </pattern>
+        <template>qobject qwhere <star /> </template>
+    </category>
+
+    <category>
+        <pattern>WHERE I FIND * </pattern>
+        <template>qobject qwhere <star /> </template>
+    </category>
+
+    <category>
+        <pattern>WHERE I FIND A * </pattern>
+        <template>qobject qwhere <star /> </template>
+    </category>
+
+    <category>
+        <pattern>WHERE I FIND THE * </pattern>
+        <template>qobject qwhere <star /> </template>
+    </category>
+
+    <category>
+        <pattern>WHERE I FIND AN * </pattern>
+        <template>qobject qwhere <star /> </template>
+    </category>
+
+    <category>
         <pattern> WHAT OBJECTS ARE STORED IN THE *</pattern>
         <template>qobject qin <star index="1"/></template>
     </category>
@@ -263,8 +293,78 @@
     </category>
 
     <category>
+        <pattern> * ARE IN THE DESK </pattern>
+        <template>qobject qcantidad <star index="1"/> desk</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE CABINET </pattern>
+        <template>qobject qcantidad <star index="1"/> cabinet</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE SOFA </pattern>
+        <template>qobject qcantidad <star index="1"/> sofa</template>
+    </category>
+
+    <category>
         <pattern> * ARE IN THE MICROWAVE </pattern>
         <template>qobject qcantidad <star index="1"/> microwave</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE COFFEE TABLE </pattern>
+        <template>qobject qcantidad <star index="1"/> coffee table</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE DRESSER </pattern>
+        <template>qobject qcantidad <star index="1"/> dresser</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE CENTER TABLE </pattern>
+        <template>qobject qcantidad <star index="1"/> center table</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE BOOKSHELF </pattern>
+        <template>qobject qcantidad <star index="1"/> bookshelf</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE BATHROOM'S CABINET</pattern>
+        <template>qobject qcantidad <star index="1"/> bathroom cabinet</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE BATHROOMS CABINET</pattern>
+        <template>qobject qcantidad <star index="1"/> bathroom cabinet</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE BATHROOM CABINET</pattern>
+        <template>qobject qcantidad <star index="1"/> bathroom cabinet</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE STOVE</pattern>
+        <template>qobject qcantidad <star index="1"/> STOVE</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE DRAWER</pattern>
+        <template>qobject qcantidad <star index="1"/> the drawer</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE NIGHT TABLE</pattern>
+        <template>qobject qcantidad <star index="1"/> night table</template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE CUPBOARD</pattern>
+        <template>qobject qcantidad <star index="1"/> cupboard</template>
     </category>
 
     <category>
@@ -297,10 +397,26 @@
         <template>qobject qcantidad <star index="1"/> dining room </template>
     </category>
 
+    <category>
+        <pattern> * ARE IN THE DINING TABLE </pattern>
+        <template>qobject qcantidad <star index="1"/> dining table </template>
+    </category>
+
+    <category>
+        <pattern> * ARE IN THE CUTLERY DRAWER </pattern>
+        <template>qobject qcantidad <star index="1"/> cutlery drawer </template>
+    </category>
+
     <category> 
         <pattern> OBJECTS ARE IN THE * </pattern>
         <template> qobject qcantidad object <star index="1"/></template>
     </category> 
+
+    <category> 
+        <pattern> OBJECT ARE IN THE * </pattern>
+        <template> qobject qcantidad object <star index="1"/></template>
+    </category> 
+
 
     <category> 
         <pattern> DRINKS ARE IN THE *</pattern>

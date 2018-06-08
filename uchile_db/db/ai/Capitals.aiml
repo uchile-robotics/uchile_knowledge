@@ -32,7 +32,7 @@
     <category>
         <pattern>CANADA</pattern>
         <template>
-            THE CAPITAL OF CANDA IS <bot name="canada"/>
+            THE CAPITAL OF CANADA IS <bot name="canada"/>
         </template>
     </category>
     

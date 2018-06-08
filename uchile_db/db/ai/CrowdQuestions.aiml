@@ -3,7 +3,14 @@
 
 <!-- Is it possible to have conditional answers??? Like if *1* there is x person, but if more there are x people -->
 
-<!-- Whatis the number of ..... in the crowd                                                                                                       -->
+<!-- State Female and Male Crowd -->
+
+<category>
+    <pattern>CALL ME TO KNOW THE CROWD</pattern>
+    <template>I have found <bot name="crowd_women" /> women and <bot name="crowd_men"/> men </template>
+</category>
+
+<!-- What is the number of ..... in the crowd                                                                                                       -->
 <!-- WHAT IS THE NUMBER OF CHILDREN IN THE CROWD -->
     <category>
         <pattern>NUMBER OF CHILDREN</pattern>
@@ -198,8 +205,37 @@
         <pattern>* PERSON BOY OR GIRL</pattern>
         <template>qcrowd <star index="1"/> male female</template>
     </category>
+
+    <category>
+        <pattern> * PERSON A MAN OR WOMAN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
+    <category>
+        <pattern> * PERSON A MALE OR FEMALE</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
+    <category>
+        <pattern>* PERSON A FEMALE OR MALE</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
     
-    <!-- Was the <pose> person <gender> or <gender> -->
+    <category>
+        <pattern>* PERSON A MEN OR WOMEN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+    
+    <category>
+        <pattern>* PERSON A WOMEN OR MEN</pattern>
+        <template>qcrowd <star index="1"/>  male female</template>
+    </category>
+
+     <category>
+        <pattern>* PERSON A BOY OR GIRL</pattern>
+        <template>qcrowd <star index="1"/> male female</template>
+    </category>
+    
     <category>
         <pattern> * PERSON WAS A *</pattern>
         <template>qcrowd <star index="1"/> gender <star index="1"/></template>
@@ -227,8 +263,8 @@
         <template>In the group there are <bot name="crowd_sit"/> sitting</template>
     </category>
     <category>
-        <pattern>PEOPLE IN THE CROWD ARE LYING</pattern>
-        <template>In the group there are <bot name="crowd_lying"/> lying</template>
+        <pattern>PEOPLE IN THE CROWD ARE LYING DOWN</pattern>
+        <template>In the group there are <bot name="crowd_laying"/> lying</template>
     </category>
 
     <!-- Tell me how many people were wearing <color>  -->
@@ -299,6 +335,8 @@
     <template>i think that you are <bot name="personal_age"/> years old</template>
     </category>
     
+    <!-- Am i a "gender" or a "gender" -->
+
     <category>
     <pattern>AM I A MAN OR A WOMAN</pattern>
     <template>you are a <bot name="personal_gender"/></template>
@@ -308,7 +346,39 @@
     <pattern>AM I A WOMAN OR A MAN</pattern>
     <template>you are a <bot name="personal_gender"/></template>
     </category>
+
+    <category>
+    <pattern>AM I A BOY OR A GIRL</pattern>
+    <template>you are a <bot name="personal_gender"/></template>
+    </category>
     
+    <category>
+    <pattern>AM I A GIRL OR A BOY</pattern>
+    <template>you are a <bot name="personal_gender"/></template>
+    </category>
+
+    <category>
+    <pattern>AM I A MALE OR A FEMALE</pattern>
+    <template>you are a <bot name="personal_gender"/></template>
+    </category>
+    
+    <category>
+    <pattern>AM I A FEMALE OR A MALE</pattern>
+    <template>you are a <bot name="personal_gender"/></template>
+    </category>
+
+    <category>
+    <pattern>ARE YOU SEING A MAN OR A WOMAN</pattern>
+    <template>you are a <bot name="personal_gender"/></template>
+    </category>
+    
+    <category>
+    <pattern>MAN OR A WOMAN</pattern>
+    <template>you are a <bot name="personal_gender"/></template>
+    </category>
+    
+    <!-- People in the crowd are pointing --> 
+
     <category>
     <pattern>PEOPLE IN THE CROWD ARE POINTING RIGHT</pattern>
     <template>in the crowd there are <bot name="crowd_rightpointarms"/> people pointing right</template>

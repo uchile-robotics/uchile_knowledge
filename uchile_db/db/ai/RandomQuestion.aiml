@@ -15,7 +15,7 @@
 
 	<category>
 		<pattern>BORN</pattern>
-		<template>I was born in <bot name="birth"/> in the University of Chile</template>
+		<template>I was born in <bot name="birth"/> in Softbank Robotics</template>
 	</category>
 
 	<category>
@@ -32,7 +32,7 @@
 
 	<category>
 		<pattern>TEAM</pattern>
-		<template>My team is called Home Breakers Robotics Team</template>
+		<template>My team is called Uchile Peppers</template>
 	</category>
 
 	<category>
