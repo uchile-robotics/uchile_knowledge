@@ -183,7 +183,7 @@
     
     <category>
         <pattern> * PERSON MAN OR WOMAN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
 
     <category>
@@ -198,12 +198,12 @@
     
     <category>
         <pattern>* PERSON MEN OR WOMEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
     
     <category>
         <pattern>* PERSON WOMEN OR MEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
 
      <category>
@@ -213,7 +213,7 @@
 
     <category>
         <pattern> * PERSON A MAN OR WOMAN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
 
     <category>
@@ -228,12 +228,12 @@
     
     <category>
         <pattern>* PERSON A MEN OR WOMEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
     
     <category>
         <pattern>* PERSON A WOMEN OR MEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
 
      <category>
@@ -243,12 +243,12 @@
 
     <category>
         <pattern>PERSON * MEN OR WOMEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/> man woman</template>
     </category>
     
     <category>
         <pattern>PERSON * WOMEN OR MEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
 
      <category>
@@ -258,7 +258,7 @@
 
     <category>
         <pattern>PERSON * A MAN OR WOMAN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
 
     <category>
@@ -273,12 +273,12 @@
     
     <category>
         <pattern>PERSON * A MEN OR WOMEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
     
     <category>
         <pattern>PERSON * A WOMEN OR MEN</pattern>
-        <template>qcrowd <star index="1"/>  male female</template>
+        <template>qcrowd <star index="1"/>  man woman</template>
     </category>
 
      <category>
