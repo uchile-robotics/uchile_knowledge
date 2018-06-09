@@ -45,6 +45,10 @@
 		<template><srai>TEAM</srai></template>
 	</category>
 
+	<category>
+        <pattern>WHAT IS THE NAME OF YOUR TEAM</pattern>
+        <template>My team is called U chile Peppers</template>
+    </category>
 	<!-- QUESTION - KEYWORD -->
 
 	<!-- WHAT TIME/DAY WEEK/DAY MONTH IS IT -->
@@ -129,6 +133,11 @@
 	<category>
 		<pattern>INVENTED THE C PROGRAMMING LANGUAGE</pattern>
 		<template><srai>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</srai></template>
+	</category>
+
+	<category>
+		<pattern>INVENTED THE B PROGRAMMING LANGUAGE</pattern>
+		<template><srai>WHO INVENTED THE C PROGRAMMING LANGUAGE</srai></template>
 	</category>
 
 	<category>
