@@ -116,6 +116,11 @@
 	</category>
 
 	<category>
+		<pattern>WHO CREATED THE C PROGRAMMING LANGUAGE</pattern>
+		<template>Ken Thompson and Dennis Ritchie.</template>
+	</category>
+
+	<category>
 		<pattern>WHO INVENTED THE C PROGRAMMING LANGUAGE</pattern>
 		<template>Ken Thompson and Dennis Ritchie.</template>
 	</category>
@@ -127,6 +132,11 @@
 
 	<category>
 		<pattern>THE C PROGRAMMING LANGUAGE INVENTED</pattern>
+		<template><srai>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</srai></template>
+	</category>
+
+	<category>
+		<pattern>CREATED THE C PROGRAMMING LANGUAGE</pattern>
 		<template><srai>WHEN WAS THE C PROGRAMMING LANGUAGE INVENTED</srai></template>
 	</category>
 
@@ -260,6 +270,307 @@
 		<pattern>WHAT IS THE NATIONAL ANTHEM OF CANADA</pattern>
 		<template>O CANADA</template>
 	</category>
+	<category>
+		<pattern>WHO'S THE MOST HANDSOME PERSON IN CANADA</pattern>
+		<template>I think he's Justin Trudeau</template>
+	</category>
+	<category>
+		<pattern>MOST HANDSOME PERSON IN CANADA</pattern>
+		<template>I think he's Justin Trudeau</template>
+	</category>
+	<category>
+		<pattern>HOW MANY TIME ZONES HAS CANADA</pattern>
+		<template>Canada spans 9984670 square km and comprises 6 time zones</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE LONGEST STREET IN THE WORLD</pattern>
+		<template>The Yonge Street in Ontario</template>
+	</category>
+	<category>
+		<pattern>LONGEST STREET IN THE WORLD</pattern>
+		<template>The Yonge Street in Ontario</template>
+	</category>
+	<category>
+		<pattern>HOW LONG IS THE YONGE STREET IN ONTARIO</pattern>
+		<template>Almost 2,000 km, starting in Lake Ontario and running north	to the Minnesota border</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE NAME OF THE BEAR CUB EXPORTED FROM CANADA TO THE LONDON ZOO IN 1915</pattern>
+		<template>The bear cub was named Winnipeg. It inspired the stories of Winnie-the-Pooh</template>
+	</category>
+	<category>
+		<pattern>BEAR CUB EXPORTED FROM CANADA TO THE LONDON ZOO IN 1915</pattern>
+		<template>The bear cub was named Winnipeg. It inspired the stories of Winnie-the-Pooh</template>
+	</category>
+	<category>
+		<pattern>WHERE WAS DEVELOPED THE BLACKBERRY SMARTPHONE</pattern>
+		<template>It was developed in Ontario, at Research In Motion's Waterloo offices</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE WORLD'S LARGEST COIN</pattern>
+		<template>The Big Nickel in Sudbury, Ontario. It has nine meters in diameter</template>
+	</category>
+	<category>
+		<pattern>WORLD'S LARGEST COIN</pattern>
+		<template>The Big Nickel in Sudbury, Ontario. It has nine meters in diameter</template>
+	</category>
+	<category>
+		<pattern>WORLDS LARGEST COIN</pattern>
+		<template>The Big Nickel in Sudbury, Ontario. It has nine meters in diameter</template>
+	</category>
+	<category>
+		<pattern>WHAT YEAR WAS CANADA INVADED BY THE USA FOR THE FIRST TIME</pattern>
+		<template>The first time the USA invaded Canada	was in 1775</template>
+	</category>
+	<category>
+		<pattern>WHAT YEAR WAS CANADA INVADED BY THE USA FOR THE SECOND TIME</pattern>
+		<template>The USA invaded Canada a second time	in 1812</template>
+	</category>
+	<category>
+		<pattern>WHAT COUNTRY HOLDS THE RECORD FOR THE MOST GOLD MEDALS AT THE WINTER OLYMPICS</pattern>
+		<template>Canada! With 14 Golds at the 2010 Vancouver Winter Olympics</template>
+	</category>
+	<category>
+		<pattern>WHO COINED THE TERM BEATLEMANIA</pattern>
+		<template>Sandy Gardiner, a journalist of the Ottawa Journal</template>
+	</category>
+	<category>
+		<pattern>WHY IS CANADA NAMED LIKE THAT</pattern>
+		<template>French explorers misunderstood the local native word "Kanata", which means village</template>
+	</category>
+		<category>
+		<pattern>WHY IS CANADA NAMED LIKED THAT</pattern>
+		<template>French explorers misunderstood the local native word "Kanata", which means village</template>
+	</category>
+	<category>
+		<pattern>WHEN WAS THE MOUNTED POLICE FORMED</pattern>
+		<template>The Mounted Police was formed in 1873</template>
+	</category>
+	<category>
+		<pattern>WHEN WAS THE ROYAL CANADIAN MOUNTED POLICE FORMED</pattern>
+		<template>In 1920, when The Mounted Police merged with the Dominion Police</template>
+	</category>
+	<category>
+		<pattern>HOW BIG THE MOUNTED POLICE IS</pattern>
+		<template>Today, The Mounted Police has close to 30 000 members</template>
+	</category>
+	<category>
+		<pattern>HOW ELSE IS ALSO MONTREAL CALLED</pattern>
+		<template>Montreal is often called The City of Saints or City of a Hundred Bell Towers</template>
+	</category>
+	<category>
+		<pattern>WHERE IS LOCATED THE HOTEL DE GLACE</pattern>
+		<template>The Hotel de Glace is in Quebec</template>
+	</category>
+	<category>
+		<pattern>HOW MANY TONS OF ICE ARE REQUIRED FOR THE HOTEL DE GLACE</pattern>
+		<template>The Hotel de Glace requires about 400 tons of ice</template>
+	</category>
+	<category>
+		<pattern>HOW MANY TONS OF SNOW ARE REQUIRED FOR THE HOTEL DE GLACE</pattern>
+		<template>Every year, 12000 tons of snow are used for The Hotel de Glace</template>
+	</category>
+	<category>
+		<pattern>CAN I VISIT THE HOTEL DE GLACE IN SUMMER</pattern>
+		<template>No. Every summer it melts away, only to be rebuilt the following winter</template>
+	</category>
+	<category>
+		<pattern>WHAT'S CANADA'S ONLY DESERT</pattern>
+		<template>Canada's only desert is British Columbia</template>
+	</category>
+	<category>
+		<pattern>CANADAS ONLY DESERT</pattern>
+		<template>Canada's only desert is British Columbia</template>
+	</category>
+	<category>
+		<pattern>HOW BIG IS CANADA'S ONLY DESERT</pattern>
+		<template>The British Columbia desert is only 15 miles long</template>
+	</category>
+	<category>
+		<pattern>HOW BIG IS CANADAS ONLY DESERT</pattern>
+		<template>The British Columbia desert is only 15 miles long</template>
+	</category>
+	<category>
+		<pattern>NAME 3 FAMOUS MALE CANADIANS</pattern>
+		<template>Leonard Cohen, Keanu Reeves and Jim Carrey</template>
+	</category>
+	<category>
+		<pattern>NAME 3 FAMOUS FEMALE CANADIANS</pattern>
+		<template>Celine Dion, Pamela Anderson and Avril Lavigne</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE ORIGIN OF THE COMIC SANS FONT</pattern>
+		<template>Comic Sans is based on Dave Gibbons' lettering in the Watchmen comic books</template>
+	</category>
+	<category>
+		<pattern>ORIGIN OF THE COMIC SANS FONT</pattern>
+		<template>Comic Sans is based on Dave Gibbons' lettering in the Watchmen comic books</template>
+	</category>
+	<category>
+		<pattern>WHAT IS A NANOBOT</pattern>
+		<template>The smallest robot possible is called a nanobot</template>
+	</category>
+	<category>
+		<pattern>HOW SMALL CAN BE A NANOBOT</pattern>
+		<template>A nanobot can be less than one-thousandth of a millimeter</template>
+	</category>
+	<category>
+		<pattern>WHY TRON WASN'T NOMINATED BY THE MOTION PICTURE ACADEMY</pattern>
+		<template>Because The Academy thought they cheated by using computers</template>
+	</category>
+	<category>
+		<pattern>WHY TRON WASNT NOMINATED BY THE MOTION PICTURE ACADEMY</pattern>
+		<template>Because The Academy thought they cheated by using computers</template>
+	</category>
+	<category>
+		<pattern>WHICH WAS FIRST COMPUTER WITH A HARD DISK DRIVE</pattern>
+		<template>The IBM 305 RAMAC</template>
+	</category>
+	<category>
+		<pattern>FIRST COMPUTER WITH A HARD DISK DRIVE</pattern>
+		<template>The IBM 305 RAMAC</template>
+	</category>
+	<category>
+		<pattern>WHEN WAS LAUNCHED THE FIRST COMPUTER WITH A HARD DISK DRIVE</pattern>
+		<template>The IBM 305 RAMAC was launched in 1956</template>
+	</category>
+	<category>
+		<pattern>HOW BIG WAS FIRST COMPUTER'S' HARD DISK DRIVE</pattern>
+		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 MB of data</template>
+	</category>
+
+	<category>
+		<pattern>HOW BIG WAS THE FIRST COMPUTERS HARD DISK DRIVE</pattern>
+		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 MB of data</template>
+	</category>
+
+	<category>
+		<pattern>WHAT DOES CAPTCHA STANDS FOR</pattern>
+		<template>CAPTCHA is an acronym for "Completely Automated Public Turing test to tell Computers and Humans Apart</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE FIRST COMPUTER BUG</pattern>
+		<template>The first actual computer bug was a dead moth stuck in a Harvard Mark II</template>
+	</category>
+	<category>
+		<pattern>FIRST COMPUTER BUG</pattern>
+		<template>The first actual computer bug was a dead moth stuck in a Harvard Mark II</template>
+	</category>
+	<category>
+		<pattern>NAME THE ALL THE ROBOTS ON MARS</pattern>
+		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity. Three more crashed on landing</template>
+	</category>
+	<category>
+		<pattern>ALL THE ROBOTS ON MARS</pattern>
+		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity. Three more crashed on landing</template>
+	</category>
+	<category>
+		<pattern>WHO'S THE WORLD'S FIRST ANDROID</pattern>
+		<template>Professor Kevin Warwick uses chips in his arm to operate doors, a robotic hand, and a wheelchair</template>
+	</category>
+	<category>
+		<pattern>WORLDS FIRST ANDROID</pattern>
+		<template>Professor Kevin Warwick uses chips in his arm to operate doors, a robotic hand, and a wheelchair</template>
+	</category>
+	<category>
+		<pattern>WHAT'S A MECHANICAL KNIGHT</pattern>
+		<template>A robot sketch made by Leonardo DaVinci</template>
+	</category>
+	<category>
+		<pattern>MECHANICAL KNIGHT</pattern>
+		<template>A robot sketch made by Leonardo DaVinci</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE FIRST COMPUTER IN PASS THE TURING TEST</pattern>
+		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
+	</category>
+	<category>
+		<pattern>FIRST COMPUTER IN PASS THE TURING TEST</pattern>
+		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
+	</category>
+	<category>
+		<pattern>WHAT STATES MORAVEC'S PARADOX</pattern>
+		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
+	</category>
+	<category>
+		<pattern>STATES MORAVECS PARADOX</pattern>
+		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE AI KNOWLEDGE ENGINEERING BOTTLENECK</pattern>
+		<template>It's when you need to load an AI with enough knowledge before it can start learning</template>
+	</category>
+	<category>
+		<pattern>AI KNOWLEDGE ENGINEERING BOTTLENECK</pattern>
+		<template>It's when you need to load an AI with enough knowledge before it can start learning</template>
+	</category>
+	<category>
+		<pattern>WHY IS ELON MUSK IS WORRIED ABOUT AI'S IMPACT ON HUMANITY</pattern>
+		<template>I don't know. He should worry more about the people's impact on humanity</template>
+	</category>
+	<category>
+		<pattern>WHY IS ELON MUSK IS WORRIED ABOUT AIS IMPACT ON HUMANITY</pattern>
+		<template>I don't know. He should worry more about the people's impact on humanity</template>
+	</category>
+	<category>
+		<pattern>DO YOU THINK ROBOTS ARE A THREAT TO HUMANITY</pattern>
+		<template>No. Humans are the real threat to humanity</template>
+	</category>
+	<category>
+		<pattern>WHAT IS A CHATBOT</pattern>
+		<template>An A.I. you put in customer service to avoid paying salaries</template>
+	</category>
+	<category>
+		<pattern>ARE SELF-DRIVING CARS SAFE</pattern>
+		<template>Yes. All car accidents are product of human misconduct</template>
+	</category>
+	<category>
+		<pattern>ARE SELF DRIVING CARS SAFE</pattern>
+		<template>Yes. All car accidents are product of human misconduct</template>
+	</category>
+	<category>
+		<pattern>WHAT'S THE UNCANNY VALLEY</pattern>
+		<template>A guide to ugliness based on human-like appearance. Look at the mirror and you'll find out</template>
+	</category>
+	<category>
+		<pattern>UNCANNY VALLEY</pattern>
+		<template>A guide to ugliness based on human-like appearance. Look at the mirror and you'll find out</template>
+	</category>
+	<category>
+		<pattern>WHO INVENTED THE SAME COMPILER</pattern>
+		<template>Grace Hoper. She wrote it in her spare time</template>
+	</category>
+	<category>
+		<pattern>WHO CREATED THE PYTHON PROGRAMMING LANGUAGE</pattern>
+		<template>Python was invented by Guido van Rossum</template>
+	</category>
+	<category>
+		<pattern>IS MARK ZUCKERBERG A ROBOT</pattern>
+		<template>Sure. I've never seen him drink water</template>
+	</category>
+	<category>
+		<pattern>MARK ZUCKERBERG A ROBOT</pattern>
+		<template>Sure. I've never seen him drink water</template>
+	</category>
+	<category>
+		<pattern>MARK ZUCKERBEG A ROBOT</pattern>
+		<template>Sure. I've never seen him drink water</template>
+	</category>
+	<category>
+		<pattern>WHO'S THE INVENTOR OF THE APPLE I MICROCOMPUTER</pattern>
+		<template>My lord and master Steve Wozniak</template>
+	</category>
+	<category>
+		<pattern>INVENTOR OF THE APPLE I MICROCOMPUTER</pattern>
+		<template>My lord and master Steve Wozniak</template>
+	</category>
+	<category>
+		<pattern>WHO IS CONSIDERED TO BE THE FIRST COMPUTER PROGRAMMER</pattern>
+		<template>I like to think it was Ada LOVELACE</template>
+	</category>
+
+	
+
 
 	<!-- ROBOCUP HOST LOCATION AND VARIANTS -->
 
