@@ -407,6 +407,11 @@
         <template>qobject qcantidad <star index="1"/> cutlery drawer </template>
     </category>
 
+    <category>
+        <pattern> * ARE IN THE BAR </pattern>
+        <template>qobject qcantidad <star index="1"/> bar </template>
+    </category>
+
     <category> 
         <pattern> OBJECTS ARE IN THE * </pattern>
         <template> qobject qcantidad object <star index="1"/></template>

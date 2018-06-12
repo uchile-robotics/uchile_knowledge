@@ -308,15 +308,15 @@
 	</category>
 	<category>
 		<pattern>WHAT'S THE WORLD'S LARGEST COIN</pattern>
-		<template>The Big Nickel in Sudbury, Ontario. It has nine meters in diameter</template>
+		<template>The Big Nickel in Sudbury Ontario, It has nine meters in diameter</template>
 	</category>
 	<category>
 		<pattern>WORLD'S LARGEST COIN</pattern>
-		<template>The Big Nickel in Sudbury, Ontario. It has nine meters in diameter</template>
+		<template>The Big Nickel in Sudbury Ontario, It has nine meters in diameter</template>
 	</category>
 	<category>
 		<pattern>WORLDS LARGEST COIN</pattern>
-		<template>The Big Nickel in Sudbury, Ontario. It has nine meters in diameter</template>
+		<template>The Big Nickel in Sudbury Ontario, It has nine meters in diameter</template>
 	</category>
 	<category>
 		<pattern>WHAT YEAR WAS CANADA INVADED BY THE USA FOR THE FIRST TIME</pattern>
@@ -352,7 +352,7 @@
 	</category>
 	<category>
 		<pattern>HOW BIG THE MOUNTED POLICE IS</pattern>
-		<template>Today, The Mounted Police has close to 30 000 members</template>
+		<template>Today, The Mounted Police has close to 30000 members</template>
 	</category>
 	<category>
 		<pattern>HOW ELSE IS ALSO MONTREAL CALLED</pattern>
@@ -368,7 +368,7 @@
 	</category>
 	<category>
 		<pattern>HOW MANY TONS OF SNOW ARE REQUIRED FOR THE HOTEL DE GLACE</pattern>
-		<template>Every year, 12000 tons of snow are used for The Hotel de Glace</template>
+		<template>Every year 12000 tons of snow are used for The Hotel de Glace</template>
 	</category>
 	<category>
 		<pattern>CAN I VISIT THE HOTEL DE GLACE IN SUMMER</pattern>
@@ -436,12 +436,12 @@
 	</category>
 	<category>
 		<pattern>HOW BIG WAS FIRST COMPUTER'S' HARD DISK DRIVE</pattern>
-		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 MB of data</template>
+		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
 	</category>
 
 	<category>
 		<pattern>HOW BIG WAS THE FIRST COMPUTERS HARD DISK DRIVE</pattern>
-		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 MB of data</template>
+		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
 	</category>
 
 	<category>
@@ -458,11 +458,11 @@
 	</category>
 	<category>
 		<pattern>NAME THE ALL THE ROBOTS ON MARS</pattern>
-		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity. Three more crashed on landing</template>
+		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity, Three more crashed on landing</template>
 	</category>
 	<category>
 		<pattern>ALL THE ROBOTS ON MARS</pattern>
-		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity. Three more crashed on landing</template>
+		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity, Three more crashed on landing</template>
 	</category>
 	<category>
 		<pattern>WHO'S THE WORLD'S FIRST ANDROID</pattern>
@@ -538,7 +538,7 @@
 	</category>
 	<category>
 		<pattern>WHO INVENTED THE SAME COMPILER</pattern>
-		<template>Grace Hoper. She wrote it in her spare time</template>
+		<template>Grace Hoper, She wrote it in her spare time</template>
 	</category>
 	<category>
 		<pattern>WHO CREATED THE PYTHON PROGRAMMING LANGUAGE</pattern>
@@ -576,62 +576,62 @@
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR IS ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR'S IS ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEARS ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEAR'S ROBOCUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEAR'S RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTEL</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTEL</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR WORLD CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>IN WHICH CITY WILL NEXT YEAR ROBOCOP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<category>
 		<pattern>CITY WILL NEXT YEAR RUBBER CUP BE HOSTED</pattern>
-		<template>It hasn't been announced yet</template>
+		<template>It will be in Sidney, Australia</template>
 	</category>
 
 	<!-- RANDOM QUESTIONS -->
