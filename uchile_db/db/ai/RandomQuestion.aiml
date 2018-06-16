@@ -283,6 +283,10 @@
 		<template>Canada spans, 9984670 square km, and comprises 6 time zones</template>
 	</category>
 	<category>
+		<pattern>HOW MANY TIME ZONES ARE THERE IN CANADA</pattern>
+		<template>Canada spans, 9984670 square km, and comprises 6 time zones</template>
+	</category>
+	<category>
 		<pattern>WHAT'S THE LONGEST STREET IN THE WORLD</pattern>
 		<template>The Yonge Street in Ontario</template>
 	</category>
@@ -292,7 +296,11 @@
 	</category>
 	<category>
 		<pattern>HOW LONG IS THE YONGE STREET IN ONTARIO</pattern>
-		<template>Almost 2,000 km, starting in Lake Ontario and running north	to the Minnesota border</template>
+		<template>Almost 2,000 km, starting in Lake Ontario and running north to the Minnesota border</template>
+	</category>
+	<category>
+		<pattern>HOW LONG IS YONGE STREET IN ONTARIO</pattern>
+		<template>Almost 2,000 km, starting in Lake Ontario and running north to the Minnesota border</template>
 	</category>
 	<category>
 		<pattern>WHAT'S THE NAME OF THE BEAR CUB EXPORTED FROM CANADA TO THE LONDON ZOO IN 1915</pattern>
@@ -304,6 +312,10 @@
 	</category>
 	<category>
 		<pattern>WHERE WAS DEVELOPED THE BLACKBERRY SMARTPHONE</pattern>
+		<template>It was developed in Ontario, at Research In Motion's Waterloo offices</template>
+	</category>
+	<category>
+		<pattern>WHERE WAS THE BLACKBERRY SMARTPHONE DEVELOPED</pattern>
 		<template>It was developed in Ontario, at Research In Motion's Waterloo offices</template>
 	</category>
 	<category>
@@ -338,8 +350,8 @@
 		<pattern>WHY IS CANADA NAMED LIKE THAT</pattern>
 		<template>French explorers misunderstood the local native word "Kanata", which means village</template>
 	</category>
-		<category>
-		<pattern>WHY IS CANADA NAMED LIKED THAT</pattern>
+	<category>
+		<pattern>WHY IS CANADA NAMED CANADA</pattern>
 		<template>French explorers misunderstood the local native word "Kanata", which means village</template>
 	</category>
 	<category>
@@ -355,7 +367,15 @@
 		<template>Today, The Mounted Police has close to 30000 members</template>
 	</category>
 	<category>
+		<pattern>HOW BIG IS THE RCMP</pattern>
+		<template>Today, The Mounted Police has close to 30000 members</template>
+	</category>
+	<category>
 		<pattern>HOW ELSE IS ALSO MONTREAL CALLED</pattern>
+		<template>Montreal is often called The City of Saints or City of a Hundred Bell Towers</template>
+	</category>
+	<category>
+		<pattern>WHAT ELSE IS MONTREAL CALLED</pattern>
 		<template>Montreal is often called The City of Saints or City of a Hundred Bell Towers</template>
 	</category>
 	<category>
@@ -363,11 +383,15 @@
 		<template>The Hotel de Glace is in Quebec</template>
 	</category>
 	<category>
-		<pattern>HOW MANY TONS OF ICE ARE REQUIRED FOR THE HOTEL DE GLACE</pattern>
+		<pattern>WHERE IS THE HOTEL DE GLACE LOCATED</pattern>
+		<template>The Hotel de Glace is in Quebec</template>
+	</category>
+	<category>
+		<pattern>HOW MANY TONS OF ICE ARE REQUIRED TO BUILD THE HOTEL DE GLACE</pattern>
 		<template>The Hotel de Glace requires about 400 tons of ice</template>
 	</category>
 	<category>
-		<pattern>HOW MANY TONS OF SNOW ARE REQUIRED FOR THE HOTEL DE GLACE</pattern>
+		<pattern>HOW MANY TONS OF SNOW ARE REQUIRED TO BUILD THE HOTEL DE GLACE</pattern>
 		<template>Every year 12000 tons of snow are used for The Hotel de Glace</template>
 	</category>
 	<category>
@@ -375,7 +399,7 @@
 		<template>No, Every summer it melts away, only to be rebuilt the following winter</template>
 	</category>
 	<category>
-		<pattern>WHAT'S CANADA'S ONLY DESERT</pattern>
+		<pattern>WHERE IS CANADA'S ONLY DESERT</pattern>
 		<template>Canada's only desert is British Columbia</template>
 	</category>
 	<category>
@@ -415,11 +439,23 @@
 		<template>A nanobot can be less than one-thousandth of a millimeter</template>
 	</category>
 	<category>
-		<pattern>WHY TRON WASN'T NOMINATED BY THE MOTION PICTURE ACADEMY</pattern>
+		<pattern>HOW SMALL CAN A NANOBOT BE</pattern>
+		<template>A nanobot can be less than one-thousandth of a millimeter</template>
+	</category>
+	<category>
+		<pattern>WHY TRON WASN'T NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
 		<template>Because The Academy thought they cheated by using computers</template>
 	</category>
 	<category>
-		<pattern>WHY TRON WASNT NOMINATED BY THE MOTION PICTURE ACADEMY</pattern>
+		<pattern>WHY WASN'T TRON NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
+		<template>Because The Academy thought they cheated by using computers</template>
+	</category>
+	<category>
+		<pattern>WHY TRON WASNT NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
+		<template>Because The Academy thought they cheated by using computers</template>
+	</category>
+	<category>
+		<pattern>WHY WASNT TRON NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
 		<template>Because The Academy thought they cheated by using computers</template>
 	</category>
 	<category>
@@ -435,21 +471,27 @@
 		<template>The IBM 305 RAMAC was launched in 1956</template>
 	</category>
 	<category>
-		<pattern>HOW BIG WAS FIRST COMPUTER'S' HARD DISK DRIVE</pattern>
+		<pattern>WHEN WAS THE FIRST COMPUTER WITH A HARD DISK DRIVE LAUNCHED</pattern>
+		<template>The IBM 305 RAMAC was launched in 1956</template>
+	</category>
+	<category>
+		<pattern>HOW BIG WAS FIRST HARD DISK DRIVE</pattern>
 		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
 	</category>
-
 	<category>
 		<pattern>HOW BIG WAS THE FIRST COMPUTERS HARD DISK DRIVE</pattern>
 		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
 	</category>
-
 	<category>
 		<pattern>WHAT DOES CAPTCHA STANDS FOR</pattern>
 		<template>CAPTCHA is an acronym for "Completely Automated Public Turing test to tell Computers and Humans Apart</template>
 	</category>
 	<category>
-		<pattern>WHAT'S THE FIRST COMPUTER BUG</pattern>
+		<pattern>WHAT WAS THE FIRST COMPUTER BUG</pattern>
+		<template>The first actual computer bug was a dead moth stuck in a Harvard Mark II</template>
+	</category>
+	<category>
+		<pattern>WAS FIRST COMPUTER BUG</pattern>
 		<template>The first actual computer bug was a dead moth stuck in a Harvard Mark II</template>
 	</category>
 	<category>
@@ -457,11 +499,11 @@
 		<template>The first actual computer bug was a dead moth stuck in a Harvard Mark II</template>
 	</category>
 	<category>
-		<pattern>NAME THE ALL THE ROBOTS ON MARS</pattern>
+		<pattern>NAME THE ALL OF THE ROBOTS ON MARS</pattern>
 		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity, Three more crashed on landing</template>
 	</category>
 	<category>
-		<pattern>ALL THE ROBOTS ON MARS</pattern>
+		<pattern>ALL OF THE ROBOTS ON MARS</pattern>
 		<template>There are four robots on Mars: Sojourner, Spirit, Opportunity, and Curiosity, Three more crashed on landing</template>
 	</category>
 	<category>
@@ -481,11 +523,15 @@
 		<template>A robot sketch made by Leonardo DaVinci</template>
 	</category>
 	<category>
-		<pattern>WHAT'S THE FIRST COMPUTER IN PASS THE TURING TEST</pattern>
+		<pattern>WHAT WAS THE FIRST COMPUTER IN PASS THE TURING TEST</pattern>
 		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
 	</category>
 	<category>
 		<pattern>FIRST COMPUTER IN PASS THE TURING TEST</pattern>
+		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
+	</category>
+	<category>
+		<pattern>WAS FIRST COMPUTER IN PASS THE TURING TEST</pattern>
 		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
 	</category>
 	<category>
@@ -494,6 +540,18 @@
 	</category>
 	<category>
 		<pattern>STATES MORAVECS PARADOX</pattern>
+		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
+	</category>
+	<category>
+		<pattern>WHAT DOES MORAVECS PARADOX STATE</pattern>
+		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
+	</category>
+	<category>
+		<pattern>MORAVECS PARADOX STATE</pattern>
+		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
+	</category>
+	<category>
+		<pattern>DOES MORAVECS PARADOX STATE</pattern>
 		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
 	</category>
 	<category>
@@ -537,7 +595,7 @@
 		<template>A guide to ugliness based on human-like appearance, Look at the mirror and you'll find out</template>
 	</category>
 	<category>
-		<pattern>WHO INVENTED THE SAME COMPILER</pattern>
+		<pattern>WHO INVENTED THE COMPILER</pattern>
 		<template>Grace Hoper, She wrote it in her spare time</template>
 	</category>
 	<category>
@@ -553,10 +611,6 @@
 		<template>Sure, I've never seen him drink water</template>
 	</category>
 	<category>
-		<pattern>MARK ZUCKERBEG A ROBOT</pattern>
-		<template>Sure, I've never seen him drink water</template>
-	</category>
-	<category>
 		<pattern>WHO'S THE INVENTOR OF THE APPLE I MICROCOMPUTER</pattern>
 		<template>My lord and master Steve Wozniak</template>
 	</category>
@@ -567,6 +621,14 @@
 	<category>
 		<pattern>WHO IS CONSIDERED TO BE THE FIRST COMPUTER PROGRAMMER</pattern>
 		<template>I like to think it was Ada LOVELACE</template>
+	</category>
+	<category>
+		<pattern>WHICH PROGRAM DO JEDI USE TO OPEN PDF FILES</pattern>
+		<template>ADOBE WAN KENOBI</template>
+	</category>
+	<category>
+		<pattern>PROGRAM DO JEDI USE TO OPEN PDF FILES</pattern>
+		<template>ADOBE WAN KENOBI</template>
 	</category>
 
 	
