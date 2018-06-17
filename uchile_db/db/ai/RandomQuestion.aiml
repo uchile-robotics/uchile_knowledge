@@ -262,15 +262,6 @@
 	<!-- CANADA SPECIFIC QUESTIONS -->
 
 	<category>
-		<pattern>WHAT IS THE ORIGIN OF THE NAME CANADA</pattern>
-		<template>THE NAME CANADA COMES FROM THE IROQUOIS WORD KANATA, MEANING VILLAGE OR SETTLEMENT</template>
-	</category>
-
-	<category>
-		<pattern>WHAT IS THE NATIONAL ANTHEM OF CANADA</pattern>
-		<template>O CANADA</template>
-	</category>
-	<category>
 		<pattern>WHO'S THE MOST HANDSOME PERSON IN CANADA</pattern>
 		<template>I know that Justin Trudeau is very handsome</template>
 	</category>
@@ -280,27 +271,27 @@
 	</category>
 	<category>
 		<pattern>HOW MANY TIME ZONES HAS CANADA</pattern>
-		<template>Canada spans, 9984670 square km, and comprises 6 time zones</template>
+		<template>Canada spans almost 10 million square kilometers, and comprises 6 time zones</template>
 	</category>
 	<category>
 		<pattern>HOW MANY TIME ZONES ARE THERE IN CANADA</pattern>
-		<template>Canada spans, 9984670 square km, and comprises 6 time zones</template>
+		<template>Canada spans almost 10 million square kilometers, and comprises 6 time zones</template>
 	</category>
 	<category>
 		<pattern>WHAT'S THE LONGEST STREET IN THE WORLD</pattern>
-		<template>The Yonge Street in Ontario</template>
+		<template>Yonge Street in Ontario is the longest Street in the world</template>
 	</category>
 	<category>
 		<pattern>LONGEST STREET IN THE WORLD</pattern>
-		<template>The Yonge Street in Ontario</template>
+		<template>Yonge Street in Ontario is the longest Street in the world</template>
 	</category>
 	<category>
 		<pattern>HOW LONG IS THE YONGE STREET IN ONTARIO</pattern>
-		<template>Almost 2,000 km, starting in Lake Ontario and running north to the Minnesota border</template>
+		<template>Yonge Street is almost 2000 kilometers, starting at Lake Ontario, and running north to the Minnesota border</template>
 	</category>
 	<category>
 		<pattern>HOW LONG IS YONGE STREET IN ONTARIO</pattern>
-		<template>Almost 2,000 km, starting in Lake Ontario and running north to the Minnesota border</template>
+		<template>Yonge Street is almost 2000 kilometers, starting at Lake Ontario, and running north to the Minnesota border</template>
 	</category>
 	<category>
 		<pattern>WHAT'S THE NAME OF THE BEAR CUB EXPORTED FROM CANADA TO THE LONDON ZOO IN 1915</pattern>
@@ -320,15 +311,15 @@
 	</category>
 	<category>
 		<pattern>WHAT'S THE WORLD'S LARGEST COIN</pattern>
-		<template>The Big Nickel in Sudbury Ontario, It has nine meters in diameter</template>
+		<template>The Big Nickel in Sudbury Ontario, It is nine meters in diameter</template>
 	</category>
 	<category>
 		<pattern>WORLD'S LARGEST COIN</pattern>
-		<template>The Big Nickel in Sudbury Ontario, It has nine meters in diameter</template>
+		<template>The Big Nickel in Sudbury Ontario, It is nine meters in diameter</template>
 	</category>
 	<category>
 		<pattern>WORLDS LARGEST COIN</pattern>
-		<template>The Big Nickel in Sudbury Ontario, It has nine meters in diameter</template>
+		<template>The Big Nickel in Sudbury Ontario, It is nine meters in diameter</template>
 	</category>
 	<category>
 		<pattern>WHAT YEAR WAS CANADA INVADED BY THE USA FOR THE FIRST TIME</pattern>
@@ -340,15 +331,11 @@
 	</category>
 	<category>
 		<pattern>WHAT COUNTRY HOLDS THE RECORD FOR THE MOST GOLD MEDALS AT THE WINTER OLYMPICS</pattern>
-		<template>Canada! With 14 Golds at the 2010 Vancouver Winter Olympics</template>
+		<template>Canada does! With 14 Golds at the 2010 Vancouver Winter Olympics</template>
 	</category>
 	<category>
 		<pattern>WHO COINED THE TERM BEATLEMANIA</pattern>
 		<template>Sandy Gardiner, a journalist of the Ottawa Journal</template>
-	</category>
-	<category>
-		<pattern>WHY IS CANADA NAMED LIKE THAT</pattern>
-		<template>French explorers misunderstood the local native word "Kanata", which means village</template>
 	</category>
 	<category>
 		<pattern>WHY IS CANADA NAMED CANADA</pattern>
@@ -363,16 +350,8 @@
 		<template>In 1920, when The Mounted Police merged with the Dominion Police</template>
 	</category>
 	<category>
-		<pattern>HOW BIG THE MOUNTED POLICE IS</pattern>
-		<template>Today, The Mounted Police has close to 30000 members</template>
-	</category>
-	<category>
 		<pattern>HOW BIG IS THE RCMP</pattern>
 		<template>Today, The Mounted Police has close to 30000 members</template>
-	</category>
-	<category>
-		<pattern>HOW ELSE IS ALSO MONTREAL CALLED</pattern>
-		<template>Montreal is often called The City of Saints or City of a Hundred Bell Towers</template>
 	</category>
 	<category>
 		<pattern>WHAT ELSE IS MONTREAL CALLED</pattern>
@@ -392,7 +371,7 @@
 	</category>
 	<category>
 		<pattern>HOW MANY TONS OF SNOW ARE REQUIRED TO BUILD THE HOTEL DE GLACE</pattern>
-		<template>Every year 12000 tons of snow are used for The Hotel de Glace</template>
+		<template>Every year, 12000 tons of snow are used for The Hotel de Glace</template>
 	</category>
 	<category>
 		<pattern>CAN I VISIT THE HOTEL DE GLACE IN SUMMER</pattern>
@@ -443,23 +422,15 @@
 		<template>A nanobot can be less than one-thousandth of a millimeter</template>
 	</category>
 	<category>
-		<pattern>WHY TRON WASN'T NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
-		<template>Because The Academy thought they cheated by using computers</template>
-	</category>
-	<category>
 		<pattern>WHY WASN'T TRON NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
-		<template>Because The Academy thought they cheated by using computers</template>
-	</category>
-	<category>
-		<pattern>WHY TRON WASNT NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
-		<template>Because The Academy thought they cheated by using computers</template>
+		<template>The Academy thought that Tron cheated by using computers</template>
 	</category>
 	<category>
 		<pattern>WHY WASNT TRON NOMINATED FOR AN AWARD BY THE MOTION PICTURE ACADEMY</pattern>
-		<template>Because The Academy thought they cheated by using computers</template>
+		<template>The Academy thought that Tron cheated by using computers</template>
 	</category>
 	<category>
-		<pattern>WHICH WAS FIRST COMPUTER WITH A HARD DISK DRIVE</pattern>
+		<pattern>WHICH WAS THE FIRST COMPUTER WITH A HARD DISK DRIVE</pattern>
 		<template>The IBM 305 RAMAC</template>
 	</category>
 	<category>
@@ -467,19 +438,11 @@
 		<template>The IBM 305 RAMAC</template>
 	</category>
 	<category>
-		<pattern>WHEN WAS LAUNCHED THE FIRST COMPUTER WITH A HARD DISK DRIVE</pattern>
-		<template>The IBM 305 RAMAC was launched in 1956</template>
-	</category>
-	<category>
 		<pattern>WHEN WAS THE FIRST COMPUTER WITH A HARD DISK DRIVE LAUNCHED</pattern>
 		<template>The IBM 305 RAMAC was launched in 1956</template>
 	</category>
 	<category>
 		<pattern>HOW BIG WAS FIRST HARD DISK DRIVE</pattern>
-		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
-	</category>
-	<category>
-		<pattern>HOW BIG WAS THE FIRST COMPUTERS HARD DISK DRIVE</pattern>
 		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
 	</category>
 	<category>
@@ -535,14 +498,6 @@
 		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
 	</category>
 	<category>
-		<pattern>WHAT STATES MORAVEC'S PARADOX</pattern>
-		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
-	</category>
-	<category>
-		<pattern>STATES MORAVECS PARADOX</pattern>
-		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
-	</category>
-	<category>
 		<pattern>WHAT DOES MORAVECS PARADOX STATE</pattern>
 		<template>Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills</template>
 	</category>
@@ -576,24 +531,17 @@
 	</category>
 	<category>
 		<pattern>WHAT IS A CHATBOT</pattern>
-		<template>An A.I. you put in customer service to avoid paying salaries</template>
+		<template>A chatbot is an A.I. you put in customer service to avoid paying salaries</template>
 	</category>
 	<category>
 		<pattern>ARE SELF-DRIVING CARS SAFE</pattern>
-		<template>Yes, All car accidents are product of human misconduct</template>
+		<template>Yes, car accidents are product of human misconduct</template>
 	</category>
 	<category>
 		<pattern>ARE SELF DRIVING CARS SAFE</pattern>
-		<template>Yes, All car accidents are product of human misconduct</template>
+		<template>Yes, car accidents are product of human misconduct</template>
 	</category>
 	<category>
-		<pattern>WHAT'S THE UNCANNY VALLEY</pattern>
-		<template>A guide to ugliness based on human-like appearance, Look at the mirror and you'll find out</template>
-	</category>
-	<category>
-		<pattern>UNCANNY VALLEY</pattern>
-		<template>A guide to ugliness based on human-like appearance, Look at the mirror and you'll find out</template>
-	</category>
 	<category>
 		<pattern>WHO INVENTED THE COMPILER</pattern>
 		<template>Grace Hoper, She wrote it in her spare time</template>
@@ -620,7 +568,7 @@
 	</category>
 	<category>
 		<pattern>WHO IS CONSIDERED TO BE THE FIRST COMPUTER PROGRAMMER</pattern>
-		<template>I like to think it was Ada LOVELACE</template>
+		<template>Ada LOVELACE</template>
 	</category>
 	<category>
 		<pattern>WHICH PROGRAM DO JEDI USE TO OPEN PDF FILES</pattern>
