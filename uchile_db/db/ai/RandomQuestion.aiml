@@ -272,11 +272,11 @@
 	</category>
 	<category>
 		<pattern>WHO'S THE MOST HANDSOME PERSON IN CANADA</pattern>
-		<template>I think he's Justin Trudeau</template>
+		<template>I know that Justin Trudeau is very handsome</template>
 	</category>
 	<category>
 		<pattern>MOST HANDSOME PERSON IN CANADA</pattern>
-		<template>I think he's Justin Trudeau</template>
+		<template>I know that Justin Trudeau is very handsome</template>
 	</category>
 	<category>
 		<pattern>HOW MANY TIME ZONES HAS CANADA</pattern>
@@ -523,15 +523,15 @@
 		<template>A robot sketch made by Leonardo DaVinci</template>
 	</category>
 	<category>
-		<pattern>WHAT WAS THE FIRST COMPUTER IN PASS THE TURING TEST</pattern>
+		<pattern>WHAT WAS THE FIRST COMPUTER TO PASS THE TURING TEST</pattern>
 		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
 	</category>
 	<category>
-		<pattern>FIRST COMPUTER IN PASS THE TURING TEST</pattern>
+		<pattern>FIRST COMPUTER TO PASS THE TURING TEST</pattern>
 		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
 	</category>
 	<category>
-		<pattern>WAS FIRST COMPUTER IN PASS THE TURING TEST</pattern>
+		<pattern>WAS FIRST COMPUTER TO PASS THE TURING TEST</pattern>
 		<template>Some people think it was IBM Watson, but it was Eugene, a computer designed at England's University of Reading</template>
 	</category>
 	<category>
@@ -563,11 +563,11 @@
 		<template>It's when you need to load an AI with enough knowledge before it can start learning</template>
 	</category>
 	<category>
-		<pattern>WHY IS ELON MUSK IS WORRIED ABOUT AI'S IMPACT ON HUMANITY</pattern>
+		<pattern>WHY IS ELON MUSK WORRIED ABOUT AI'S IMPACT ON HUMANITY</pattern>
 		<template>I don't know, He should worry more about the people's impact on humanity</template>
 	</category>
 	<category>
-		<pattern>WHY IS ELON MUSK IS WORRIED ABOUT AIS IMPACT ON HUMANITY</pattern>
+		<pattern>WHY IS ELON MUSK WORRIED ABOUT AIS IMPACT ON HUMANITY</pattern>
 		<template>I don't know, He should worry more about the people's impact on humanity</template>
 	</category>
 	<category>
