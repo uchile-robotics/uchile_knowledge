@@ -445,6 +445,10 @@
 		<pattern>HOW BIG WAS FIRST HARD DISK DRIVE</pattern>
 		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
 	</category>
+		<category>
+		<pattern>HOW BIG WAS THE FIRST HARD DISK DRIVE</pattern>
+		<template>The IBM 305 RAMAC hard disk weighed over a ton and stored 5 megabytes of data</template>
+	</category>
 	<category>
 		<pattern>WHAT DOES CAPTCHA STANDS FOR</pattern>
 		<template>CAPTCHA is an acronym for "Completely Automated Public Turing test to tell Computers and Humans Apart</template>
