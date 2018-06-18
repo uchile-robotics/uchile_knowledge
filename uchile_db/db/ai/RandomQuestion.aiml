@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- QUESTION - ANSWER -->
 
@@ -542,7 +542,6 @@
 		<template>Yes, car accidents are product of human misconduct</template>
 	</category>
 	<category>
-	<category>
 		<pattern>WHO INVENTED THE COMPILER</pattern>
 		<template>Grace Hoper, She wrote it in her spare time</template>
 	</category>
@@ -655,5 +654,6 @@
 		<pattern>DO YOU HAVE DREAMS</pattern>
 		<template>I dream of Electric Sheep.</template>
 	</category>
+
 
 </aiml>
