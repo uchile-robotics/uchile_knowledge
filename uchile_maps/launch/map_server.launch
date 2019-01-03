@@ -1,7 +1,7 @@
 <launch>
 
 	<arg name="map_name" default="map"/>
-	<arg name="robot" default="maqui"/>
+	<arg name="robot" default="$(optenv UCHILE_ROBOT maqui)" />
 
 	<!-- Map Server -->
 	<node pkg="map_server" type="map_server" name="map_server"
