@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- GREETING -->
+    <category>
+        <pattern>LOCATION_DESCRIPTION BETWEEN * * *</pattern>
+        <template>
+	         <random>
+        	    <li> <star index="1"/> is between the <star index="2"/> and the <star index="3"/> </li>
+          </random>
+        </template>
+    </category>
+    <category>
+        <pattern>LOCATION_DESCRIPTION NEAR * * </pattern>
+        <template>
+	         <random>
+        	    <li> <star index="1"/> is next to the <star index="2"/> </li>
+              <li> <star index="1"/> is close to to the <star index="2"/> </li>
+          </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LOCATION_DESCRIPTION NEAR2 * * * </pattern>
+        <template>
+	         <random>
+        	    <li> <star index="1"/> is next to the <star index="2"/> and the <star index="3"/> </li>
+              <li> <star index="1"/> is close to to the <star index="2"/> and the <star index="3"/> </li>
+          </random>
+        </template>
+    </category>
+
+
+</aiml>
