@@ -2,32 +2,30 @@
 <aiml version="2.0">
 <!-- GREETING -->
     <category>
-        <pattern>LOCATION_DESCRIPTION BETWEEN * * *</pattern>
+        <pattern>LOCATIONDESCRIPTION BETWEEN * ALSO * ALSO * </pattern>
         <template>
 	         <random>
-        	    <li> <star index="1"/> is between the <star index="2"/> and the <star index="3"/> </li>
+        	    <li> <star/> is between the <star index="2"/> and the <star index="3"/> </li>
           </random>
         </template>
     </category>
     <category>
-        <pattern>LOCATION_DESCRIPTION NEAR * * </pattern>
+        <pattern>LOCATIONDESCRIPTION NEAR * ALSO * </pattern>
         <template>
 	         <random>
-        	    <li> <star index="1"/> is next to the <star index="2"/> </li>
-              <li> <star index="1"/> is close to to the <star index="2"/> </li>
+        	    <li> <star/> is next to the <star index="2"/> </li>
+              <li> <star/> is close to to the <star index="2"/> </li>
           </random>
         </template>
     </category>
 
     <category>
-        <pattern>LOCATION_DESCRIPTION NEAR2 * * * </pattern>
+        <pattern>LOCATIONDESCRIPTION NEAR2 * ALSO * ALSO * </pattern>
         <template>
 	         <random>
-        	    <li> <star index="1"/> is next to the <star index="2"/> and the <star index="3"/> </li>
-              <li> <star index="1"/> is close to to the <star index="2"/> and the <star index="3"/> </li>
+        	    <li> <star/> is next to the <star index="2"/> and the <star index="3"/> </li>
+              <li> <star/> is close to to the <star index="2"/> and the <star index="3"/> </li>
           </random>
         </template>
     </category>
-
-
 </aiml>
