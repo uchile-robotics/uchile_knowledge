@@ -233,14 +233,15 @@ public:
 
 	bool initialize() {
 
-		ros::NodeHandle priv("~");
+		ros::NodeHandle priv("");
 
+		// std::string ns = ros::this_node::getNamespace();
 		// -- prepare clients --
-		_which_map_client = priv.serviceClient<uchile_srvs::String>("/bender/knowledge/pose_server/which");
-		_set_client = priv.serviceClient<uchile_srvs::SemMap>("/bender/knowledge/pose_server/set");
-		_get_all_client = priv.serviceClient<uchile_srvs::SemMap>("/bender/knowledge/pose_server/get_all");
-		_get_client = priv.serviceClient<uchile_srvs::SemMap>("/bender/knowledge/pose_server/get");
-		_save_client = priv.serviceClient<uchile_srvs::String>("/bender/knowledge/pose_server/save");
+		_which_map_client = priv.serviceClient<uchile_srvs::String>("pose_server/which");
+		_set_client = priv.serviceClient<uchile_srvs::SemMap>("pose_server/set");
+		_get_all_client = priv.serviceClient<uchile_srvs::SemMap>("pose_server/get_all");
+		_get_client = priv.serviceClient<uchile_srvs::SemMap>("pose_server/get");
+		_save_client = priv.serviceClient<uchile_srvs::String>("pose_server/save");
 
 		ROS_INFO("Waiting for services");
 		while ( ros::ok() && !_which_map_client.waitForExistence(ros::Duration(3.0)) );
