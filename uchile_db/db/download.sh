@@ -1,43 +1,45 @@
 #!/bin/sh
 ##ALL
-#https://mega.nz/#F!6gFRCbTJ!hOOIHldRbA0LzjhZoCQrww
+#wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Iy2IyWHwydWvbjUNNH14ggPa0CnPfgkk' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Iy2IyWHwydWvbjUNNH14ggPa0CnPfgkk" -O db.tar.gz && rm -rf /tmp/cookies.txt
+
 
 # Download uchile_db Emotion
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!Tx0zFKIQ!AB-fAXmORZKt2pyXQIe72Y04VdGwCGn1FM38i0DnCms'
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=16TuGiBAys8Qf4rEZxsANdck7Xem6VoYH' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=16TuGiBAys8Qf4rEZxsANdck7Xem6VoYH" -O Emotion.tar.gz && rm -rf /tmp/cookies.txt
 
 # Download uchile_db Face
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!PwU00D7A!vz-tV60YdWJeJu3hzwH75y6TF2b0WKSuZbcfOam5wXI'
+wget --no-check-certificate -nd 'https://docs.google.com/uc?export=download&id=1IqCxpVrRxCVuHV1mIanBWK2IPUXggvk_' -O Face.tar.gz
 
 # Download uchile_db Fun
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!7lkQQKKR!FfSKOCLo0jiFutwg4H5-oOnepmWszlbLDJAQWcmua3o'
+wget --no-check-certificate -nd 'https://docs.google.com/uc?export=download&id=1SoScZznMjiBuGxisg12t7nHcu_IyV0RB' -O Fun.tar.gz
 
 # Download uchile_db Hand Gesture
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!K8tEDRjZ!eONgpZz0XWghyNeB-HfGseU71ZMlYvqLFVFDoPx2fdQ'
+wget --no-check-certificate -nd 'https://docs.google.com/uc?export=download&id=1ZuXD3HZUHyi1nxIrEdwmN5I5kIceSvOi' -O HandGesture.tar.gz
 
 # Download uchile_db Maps
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!uo1T1D5R!PdV1SgMHMnEHRqzjOaHnFaz8UrDYpcPVPIrZCsk5RoE'
+wget --no-check-certificate -nd 'https://docs.google.com/uc?export=download&id=1z4HbL-ZMHd9QJ-U2N4Xg2kYG-vV459qG' -O Maps.tar.gz
 
 # Download uchile_db SIFT Search
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!O09zFCLL!2AHjxXGVx6G6R2MorhIh-83Ww6FJNOd-cN3vBu4XIcE'
+wget --no-check-certificate -nd 'https://docs.google.com/uc?export=download&id=1T6L6HbW-SyPqiVJuEIobjPficY1S3rU4' -O SIFTSearch.tar.gz
 
 # Download uchile_db SIFT
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!i5sARZQI!pf3fCLv_ajP7NsLUdJS1_GboxFPI2TmenVB_Ovlz18E'
+wget --no-check-certificate -nd 'https://docs.google.com/uc?export=download&id=1fFayZ7MF3n9lJ21rG-cfDK-OPMlDYMuC' -O SIFT.tar.gz
 
 # Download uchile_db State
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!O80iVRBY!FJ8e47vlg09d2JSHNYL2rC8bYdKN_MfJD25bUF_wP9M'
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1BGlAdxjlelOk_EKudM6zBRI_S0o20M-K' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1BGlAdxjlelOk_EKudM6zBRI_S0o20M-K" -O State.tar.gz && rm -rf /tmp/cookies.txt
 
 # Download uchile_db VFH
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!nsNXUaIB!xzUfxutRe6J_WGObw8Yd5IDZ8bee3CBIlK6W9TPLMzU'
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1_d-FLSLJwIb8qux6AePxLQogcStiqHem' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1_d-FLSLJwIb8qux6AePxLQogcStiqHem" -O VFH.tar.gz && rm -rf /tmp/cookies.txt
 
 
 ###Deep Codes 
 
 # Download uchile_db face_detector
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!Sh82VaLY!92B99P8G4KKr9Rz6sb4zmj4YLGNWflqs5Ni_Z8IYb48'
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1uM1hZsKTHCIdUmul5EA6YbIEQ2LHQWQy' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1uM1hZsKTHCIdUmul5EA6YbIEQ2LHQWQy" -O face_detector.tar.gz && rm -rf /tmp/cookies.txt
 
 # Download uchile_db face_person_caracteristic
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!Ph1z1YJR!uYCjgY8wpMT1WsE6qxVXuPV84tpBhT_wH-abppQLQl8'
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1fqp3KnqU2pJJeFQxWSR2r65KfMnN-s52' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1fqp3KnqU2pJJeFQxWSR2r65KfMnN-s52" -O face_person_caracteristic.tar.gz && rm -rf /tmp/cookies.txt
 
 # Download uchile_db face_recognition
-"$UCHILE_SYSTEM"/shell/megadown/megadown 'https://mega.nz/#!7l130Q6Q!4zOzDcrODzLX07TmSp4EgjKb0rTFLRps9N9L-FwOfZU'
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1HYZLrosMf2JInY4MlxGfV_Iy16edRTxM' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1HYZLrosMf2JInY4MlxGfV_Iy16edRTxM" -O face_recognition.tar.gz && rm -rf /tmp/cookies.txt
+
 
