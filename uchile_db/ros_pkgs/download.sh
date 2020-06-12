@@ -1,6 +1,6 @@
 #!/bin/sh
 ##ALL
-#https://mega.nz/#F!ntcDTKyT!spl1WcI562tCAToMWUp4sg
+# wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1xyk--DljxfW_3CXeqZpsd_X2XfhIh94i' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1xyk--DljxfW_3CXeqZpsd_X2XfhIh94i" -O ros_pkg.tar.gz && rm -rf /tmp/cookies.txt
 
 #!/bin/bash
 
