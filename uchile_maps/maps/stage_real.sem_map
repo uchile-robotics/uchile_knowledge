@@ -1,37 +1,37 @@
-- id: bedroom
+- id: pieza
   type: map_pose
   frame: map
   position: [3.324876885751481, 3.889264595207356, 0]
   orientation: [0.6828821069420506, 0, 0, 0.7305285949354657]
 
-- id: bookshelf
+- id: repisa
   type: map_pose
   frame: map
   position: [1.920614534691268, 1.999437417201159, 0]
   orientation: [0.8171110972761028, 0, 0, -0.5764802292431574]
 
-- id: fridge
+- id: refrigerador
   type: map_pose
   frame: map
   position: [3.443750079402622, 2.393607512475044, 0]
   orientation: [0.9928453981472239, 0, 0, 0.1194069318669577]
 
-- id: home
+- id: entrada
   type: map_pose
   frame: map
-  position: [0.1899887697872374, -0.02260229442103375, 0]
+  position: [0.3899887697872374, -0.02260229442103375, 0]
   orientation: [0.9997417654364551, 0, 0, 0.02272448991726402]
 
-- id: kitchen
+- id: cocina
   type: map_pose
   frame: map
   position: [3.218304750440947, 1.238154896853295, 0]
   orientation: [0.8166222520813369, 0, 0, 0.577172502295116]
 
-- id: living
+- id: sala
   type: map_pose
   frame: map
-  position: [0.819371501232864, 4.334025902581333, 0]
+  position: [0.619371501232864, 4.334025902581333, 0]
   orientation: [0.363444726666357, 0, 0, 0.9316157634231063]
 
 - id: sofa
@@ -40,7 +40,7 @@
   position: [1.530228086666166, 3.225884318111857, 0]
   orientation: [0.622396197143759, 0, 0, 0.7827023532486579]
 
-- id: tv
+- id: television
   type: map_pose
   frame: map
   position: [0.2331278346369343, 5.013363169039581, 0]
